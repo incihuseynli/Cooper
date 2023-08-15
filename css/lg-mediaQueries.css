@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) {
+  /* --------- Header --------- */
+  /* --- Navbar --- */
+  .navbar {
+    padding-inline: var(--lg-padding) !important;
+  }
+  .navbar .icons {
+    right: 6rem !important;
+  }
+  .lg.nav-menu {
+    position: static;
+    margin-inline: 1rem;
+    margin-top: 0.5rem;
+  }
+  .lg.nav-menu .nav-links {
+    gap: 2rem !important;
+  }
+  /* -x- Navbar -x- */
+  /* --- Hero Slider --- */
+  .hero-info {
+    width: 70% !important;
+    padding: 8rem 6rem 2rem !important;
+  }
+  .header .swiper-pagination {
+    margin-inline: 6rem !important;
+  }
+  /* -x- Hero Slider -x- */
+  /* ----x---- Header ---x---- */
+
+  /* --------- Main --------- */
+  .products,
+  .top-products,
+  .new-products,
+  .suggested-products,
+  .discounted-products,
+  .reviews,
+  .reasonSection {
+    padding-inline: var(--lg-padding) !important;
+  }
+  .product-title {
+    font-size: var(--body5) !important;
+    line-height: 28.92px !important;
+  }
+  /* --- Reasons to choice us --- */
+  .reasons {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+  }
+  /* -x- Reasons to choice us -x- */
+  /* ----x---- Main ---x---- */
+  /* --------- Footer -------- */
+  .footer {
+    padding-inline: var(--lg-padding) !important;
+    flex-direction: row !important;
+    gap: 6rem !important ;
+  }
+  .bottom {
+    gap: 1rem !important;
+  }
+  /* ----x---- Footer ---x---- */
+
+  /* ================== ABOUT PAGE ================== */
+  .clients{
+    flex-direction: row!important;
+  }
+  .clients-more{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.813)), 
+    url("../assets/images/aboutBG.png")!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,133 @@
+/* For tablet type devices */
+
+@media screen and (min-width: 768px) {
+  /* --------- Header -------- */
+
+  /* --- Navbar --- */
+  .navbar {
+    padding-inline: var(--md-padding) !important;
+  }
+  .navbar .icons #heart-icon {
+    display: block !important;
+  }
+  .sm.nav-menu,
+  .navbar #openedMenu {
+    display: none !important;
+  }
+  .lg.nav-menu {
+    display: block !important;
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+  }
+  .lg.nav-menu .nav-links {
+    flex-direction: row;
+    font-weight: 500;
+    font-size: var(--body2);
+    line-height: 15.42px;
+    gap: 2rem !important;
+  }
+  .lg.nav-menu .nav-links li a {
+    color: var(--white-clr);
+  }
+  .lg.nav-menu .nav-links li:hover a {
+    background: -webkit-linear-gradient(
+      25deg,
+      var(--primary-brown),
+      var(--secondary-brown)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* -x- Navbar -x- */
+  /* --- Hero Slider --- */
+  .swiper-slide.hero-card {
+    background-image: url("../assets/images/md-hero-bg.png") !important;
+    background-size: 20rem 40rem !important;
+  }
+  .header .swiper-pagination {
+    margin-inline: 3.6rem !important;
+  }
+  .text {
+    display: block !important;
+    position: absolute;
+    right: 19rem;
+    bottom: 4.6rem;
+    width: 5rem;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 67.41px;
+    font-family: var(--font-headings);
+    z-index: -1;
+  }
+  .hero-info {
+    width: 70% !important;
+    padding: 8rem 4rem 2rem !important;
+  }
+  .hero-title {
+    font-size: var(--md-heading1) !important;
+    line-height: 68.94px !important;
+  }
+  .hero-text {
+    font-size: var(--md-heading2) !important;
+    line-height: 38.52px !important;
+  }
+  .price-container {
+    gap: 4rem !important;
+    line-height: 23.14px !important;
+    font-size: var(--body3) !important;
+  }
+  /* -x- Hero Slider -x- */
+  /* ----x---- Header ---x---- */
+
+  /* --------- Main --------- */
+  .product-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .product-title {
+    font-size: var(--body3) !important;
+    line-height: 19.28px !important;
+  }
+  /* ----x---- Main ---x---- */
+  .products,
+  .top-products,
+  .new-products,
+  .suggested-products,
+  .discounted-products,
+  .reviews,
+  .reasonSection {
+    padding-inline: var(--md-padding) !important;
+  }
+
+  /* --------- Footer -------- */
+  .footer {
+    padding-inline: var(--md-padding) !important;
+  }
+  .bottom {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(1, 1fr) !important;
+    gap: 2rem !important;
+  }
+  /* ----x---- Footer ---x---- */
+
+  /* ========================= ABOUT PAGE ======================== */
+  .clients-more .columns {
+    flex-direction: row !important;
+    gap: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .lg.nav-menu {
+    left: 10rem;
+  }
+  .lg.nav-menu .nav-links {
+    gap: 3rem !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .lg.nav-menu .nav-links {
+    gap: 4rem !important;
+  }
+}
