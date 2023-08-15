@@ -62,13 +62,7 @@ body {
   height: 160vh;
   background: linear-gradient(-60deg, #0b3f37, #cb8d62);
 }
-.header.header2 {
-  background: var(--white-clr);
-  height: 100%;
-}
-.navbar.nav {
-  background: linear-gradient(-60deg, #0b3f37, #cb8d62);
-}
+
 /* --- Navbar --- */
 .navbar {
   padding: var(--sm-padding);
@@ -683,39 +677,27 @@ body {
 }
 /* -----x-------  Footer ------x------  */
 
-/* --------- ABOUT PAGE ------------ */
+/*============================== ABOUT PAGE =================================== */
+/* -------------- Header ----------------- */
+.header.header2 {
+  background: var(--white-clr);
+  height: 100%;
+}
+.navbar.nav {
+  background: linear-gradient(-60deg, #0b3f37, #cb8d62);
+}
+/* ------x------- Header --------x-------- */
 
-.about-main {
+/* -------------- Main ----------------- */
+
+.main.main2 {
   width: 100%;
   height: 100%;
   margin-bottom: var(--sm-margin);
+  margin-top: 0;
 }
-
-.breadcrumb-menu {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.breadcrumb-menu li a {
-  font-size: var(--body2);
-  line-height: 15.42px;
-  color: var(--primary-green);
-}
-
-/* .breadcrumb-menu:first-child{
-  font-weight: 200;
-}
-.breadcrumb-menu:last-child{
-  font-weight: 800;
-} */
-
-.breadcrumb-menu li a[href="index.html"] {
-  font-weight: 200;
-}
-.breadcrumb-menu li a[href="about.html"] {
-  font-weight: 800;
-}
-.about-hero{
+/* --- Hero Section --- */
+.about-hero {
   background-image: url("../assets/images/aboutHeroBG.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -724,16 +706,16 @@ body {
   height: 100%;
   padding: var(--sm-margin) var(--sm-padding);
 }
-.about-main .hero {
+.about-hero .hero {
   width: 100%;
   margin: var(--sm-margin) 0;
 }
-.about-main .hero .text-title {
+.about-hero .hero .text-title {
   width: 20rem;
   text-align: left;
   margin-bottom: var(--sm-margin);
 }
-.about-main .hero .text-title h1 {
+.about-hero .hero .text-title h1 {
   font-size: var(--body6);
   font-weight: 400;
   font-family: var(--font-headings);
@@ -741,7 +723,7 @@ body {
   margin-bottom: 1.5rem;
   color: var(--primary-green);
 }
-.about-main .hero .text-title .line {
+.about-hero .hero .text-title .line {
   width: 100%;
   height: 1px;
   background: var(--primary-green);
@@ -750,7 +732,8 @@ body {
   position: relative;
 }
 .quote-sentence h2 {
-  width: 20rem;
+  display: block;
+  width: 22rem;
   font-weight: 600;
   font-size: var(--body5);
   background: -webkit-linear-gradient(
@@ -800,39 +783,93 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .hero-images {
-  margin: 0 var(--sm-margin);
-  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
-.product1 {
-  width: 50%;
+.md-about-hero1,
+.md-about-hero2 {
+  display: none;
 }
-.product2 {
-  position: absolute;
-  bottom: 1rem;
+.sm-about-hero1,
+.sm-about-hero2 {
+  display: block;
+}
+.product1 img,
+.product2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.clients{
-  margin: var(--sm-margin);
+/* -x- Hero Section -x- */
+
+/* ------x------- Main --------x-------- */
+
+.breadcrumb-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.breadcrumb-menu li a {
+  font-size: var(--body2);
+  line-height: 15.42px;
+  color: var(--primary-green);
+}
+
+/* .breadcrumb-menu:first-child{
+  font-weight: 200;
+}
+.breadcrumb-menu:last-child{
+  font-weight: 800;
+} */
+
+.breadcrumb-menu li a[href="index.html"] {
+  font-weight: 200;
+}
+.breadcrumb-menu li a[href="about.html"] {
+  font-weight: 800;
+}
+/* --- Clients --- */
+.clients {
+  padding: var(--sm-margin) var(--sm-padding);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+  place-items: center;
+}
+.clients .top {
+  width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.clients .sub-info{
   text-align: center;
-  line-height: 19.98px;
-  font-weight: 300;
+}
+.bottom {
+  display: block;
+  text-align: center;
+}
+.clients .top .sub-info {
   font-size: var(--body2);
-  color: var(--primary-green);
-
+  font-weight: 400;
+  line-height: 19.98px;
 }
-.clients .top,
-.clients .bottom{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.clients .bottom h2 {
+  background: -webkit-linear-gradient(
+    25deg,
+    var(--primary-brown),
+    var(--secondary-brown)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: var(--body3);
+  line-height: 18px;
+  padding: 1rem 0;
 }
-
 .numbers h1 {
   font-size: 100px;
   font-weight: 800;
@@ -841,26 +878,11 @@ body {
   background: url("../assets/images/textBG.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: .3rem;
-}
-.clients h2{
-  font-weight: 900;
-  font-size: var(--body3);
-  line-height: 17.35px;
-  text-align: center;
-  margin: 4rem auto 1rem;
-  background: -webkit-linear-gradient(
-    25deg,
-    var(--primary-brown),
-    var(--secondary-brown)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
-.clients-more{
+/* More About Clients */
+.clients-more {
   background: var(--black-clr);
   color: var(--white-clr);
   padding: var(--sm-margin) var(--sm-padding) var(--sm-padding);
@@ -869,33 +891,38 @@ body {
   align-items: center;
   justify-content: center;
 }
-.clients-more h2{
+.clients-more h2 {
   display: none;
 }
-.clients-more .columns{
+.clients-more .columns {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+.clients-more .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
-.clients-more .col{
+.clients-more p {
   display: block;
-}
-.clients-more p{
   margin-bottom: 2rem;
   text-align: left;
   line-height: 21.18px;
   font-size: var(--body2);
   font-weight: 300;
 }
-.clients-more .title{
+.clients-more .title {
   color: var(--white-clr);
   margin-inline: auto;
 }
 
+/* -x- Clients -x- */
 
 /* --- Priorites --- */
-.priorities{
+.priorities {
   padding: var(--sm-margin) var(--sm-padding);
   margin: 2rem 0;
   display: flex;
@@ -903,26 +930,26 @@ body {
   align-items: center;
   justify-content: center;
 }
-.priorities .title{
+.priorities .title {
   margin-top: var(--sm-margin);
 }
-.priorities p{
+.priorities p {
   text-align: center;
   font-size: var(--body2);
   font-weight: 500;
   line-height: 19.98px;
 }
-.priorities-image{
+.priorities-image {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.priorities-image img{
+.priorities-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.priorities-image h1{
+.priorities-image h1 {
   display: inline-block;
   position: absolute;
   bottom: -1.4rem;
@@ -932,7 +959,7 @@ body {
   font-weight: 500;
   text-align: right;
 }
-.priorities .specialities{
+.priorities .specialities {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -940,19 +967,18 @@ body {
   margin: var(--sm-margin) 0;
   gap: 2rem;
 }
-.priorities .specialities .speciality{
+.priorities .specialities .speciality {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-.priorities .specialities .speciality h4{
+.priorities .specialities .speciality h4 {
   font-size: var(--body2);
   font-weight: 600;
   line-height: 15.42px;
   color: var(--primary-green);
 }
 /* -x- Priorites -x- */
-
 
 /* ----x---- ABOUT PAGE -----x------ */

@@ -89,7 +89,7 @@
     font-size: var(--body3) !important;
     line-height: 19.28px !important;
   }
-  /* ----x---- Main ---x---- */
+
   .products,
   .top-products,
   .new-products,
@@ -99,7 +99,7 @@
   .reasonSection {
     padding-inline: var(--md-padding) !important;
   }
-
+  /* ----x---- Main ---x---- */
   /* --------- Footer -------- */
   .footer {
     padding-inline: var(--md-padding) !important;
@@ -112,12 +112,118 @@
   /* ----x---- Footer ---x---- */
 
   /* ========================= ABOUT PAGE ======================== */
+
+  /* -------------- Header -------------- */
+  .header.header2 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .navbar.nav {
+    width: 100%;
+    height: 8rem !important;
+  }
+  .navbar.nav .logo {
+    margin-bottom: 2rem !important;
+  }
+
+  /* -----x-------- Header -------x------ */
+
+  /* -------------- Main -------------- */
+  /* --- Hero Section --- */
+  .about-hero {
+    padding-inline: var(--md-padding) !important;
+  }
+  .about-hero .hero {
+    margin: 5rem 0 0 !important;
+    /* position: relative; */
+  }
+  .about-hero .hero .text-title {
+    width: 36rem !important;
+  }
+  .about-hero .hero .text-title h1 {
+    font-size: var(--md-heading1) !important;
+    line-height: 44.94px !important;
+  }
+  .quote-sentence {
+    margin: 4rem 10rem 0 0 !important;
+  }
+  .quote-sentence h2 {
+    width: 30rem !important;
+    font-size: var(--body6) !important;
+    line-height: 32.37px !important;
+  }
+  .sign-container{
+    position: relative;
+    top: 4rem;
+  }
+  .sign-container h4 {
+    width: 6rem!important;
+    font-size: var(--body4)!important;
+    line-height: 17.35px!important;
+  }
+  .hero-images {
+    position: relative;
+    top: -3rem;
+    justify-content: flex-end !important;
+    margin:  0 0 !important;
+  }
+  .md-about-hero1,
+  .md-about-hero2 {
+    display: block !important;
+  }
+  .sm-about-hero1,
+  .sm-about-hero2 {
+    display: none !important;
+  }
+  /* -x- Hero Section -x- */
+
+
+  /* --- Clients --- */
+  .clients{
+    padding: var(--md-margin) var(--md-padding)!important;
+  }
+  .clients .top{
+    width: 30rem !important;
+  }
+  .clients .top .title{
+    font-size: var(--md-heading3);
+    line-height: 29.96px;
+  }
+  .clients .top .sub-info{
+    font-size: var(--body4) !important;
+    line-height: 24.98px !important;
+  }
+  .clients .bottom h2{
+    font-size: var(--body6) !important;
+    line-height:  28.92px !important;
+  }
+  .clients .bottom .numbers h1{
+    font-size: 200px !important;
+    line-height: 241px !important;
+  }
+
+  .clients-more{
+    padding: var(--md-margin) var(--md-padding) var(--md-padding) !important;
+  }
+  .clients-more .columns {
+    grid-template-columns: repeat(2,1fr) !important;
+  }
+  /* -x- Clients -x- */
+
+
+
+
+  /* -----x-------- Main -------x------ */
+
+  /* -------------- Footer -------------- */
+  /* -----x-------- Footer -------x------ */
   .clients-more .columns {
     flex-direction: row !important;
     gap: 1rem !important;
   }
 }
 
+/* ========================================================== */
 @media screen and (min-width: 800px) {
   .lg.nav-menu {
     left: 10rem;

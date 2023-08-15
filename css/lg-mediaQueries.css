@@ -1,3 +1,4 @@
+/* For devices resolutions are between 1024px and 1320px */
 @media screen and (min-width: 1024px) {
   /* --------- Header --------- */
   /* --- Navbar --- */
@@ -61,14 +62,41 @@
   /* ----x---- Footer ---x---- */
 
   /* ================== ABOUT PAGE ================== */
-  .clients{
-    flex-direction: row!important;
+  .clients {
+    padding: var(--lg-margin) var(--lg-padding) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: space-evenly !important;
+    justify-items: center !important;
+    align-content: space-evenly !important;
+    align-items: center !important;
+    gap: 2rem;
   }
-  .clients-more{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.813)), 
-    url("../assets/images/aboutBG.png")!important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  .clients .bottom .numbers h1 {
+    font-size: 140px !important;
+    line-height: 120px !important;
   }
+  .clients .bottom {
+    text-align: left !important;
+  }
+  .clients .top .title{
+    font-size: var(--lg-heading2) !important;
+    text-align: left !important;
+  }
+  .clients .bottom h2{
+    font-size: var(--lg-heading2) !important;
+    line-height:  48.2px !important;
+  }
+  .clients-more {
+    padding: var(--lg-margin) !important;
+  }
+  .clients-more .columns{
+    width: 860px;
+    gap: 2rem !important;
+  }
+
+
+
+
 }
+
+
