@@ -152,20 +152,20 @@
     font-size: var(--body6) !important;
     line-height: 32.37px !important;
   }
-  .sign-container{
+  .sign-container {
     position: relative;
     top: 4rem;
   }
   .sign-container h4 {
-    width: 6rem!important;
-    font-size: var(--body4)!important;
-    line-height: 17.35px!important;
+    width: 6rem !important;
+    font-size: var(--body4) !important;
+    line-height: 17.35px !important;
   }
   .hero-images {
     position: relative;
     top: -3rem;
     justify-content: flex-end !important;
-    margin:  0 0 !important;
+    margin: 0 0 !important;
   }
   .md-about-hero1,
   .md-about-hero2 {
@@ -177,41 +177,65 @@
   }
   /* -x- Hero Section -x- */
 
-
   /* --- Clients --- */
-  .clients{
-    padding: var(--md-margin) var(--md-padding)!important;
+  .clients {
+    padding: var(--md-margin) var(--md-padding) !important;
   }
-  .clients .top{
+  .clients .top {
     width: 30rem !important;
   }
-  .clients .top .title{
+  .clients .top .title {
     font-size: var(--md-heading3);
     line-height: 29.96px;
   }
-  .clients .top .sub-info{
+  .clients .top .sub-info {
     font-size: var(--body4) !important;
     line-height: 24.98px !important;
   }
-  .clients .bottom h2{
+  .clients .bottom h2 {
     font-size: var(--body6) !important;
-    line-height:  28.92px !important;
+    line-height: 28.92px !important;
   }
-  .clients .bottom .numbers h1{
+  .clients .bottom .numbers h1 {
     font-size: 200px !important;
     line-height: 241px !important;
   }
 
-  .clients-more{
+  .clients-more {
     padding: var(--md-margin) var(--md-padding) var(--md-padding) !important;
   }
   .clients-more .columns {
-    grid-template-columns: repeat(2,1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
   /* -x- Clients -x- */
-
-
-
+  /* --- Priorites --- */
+  .priorities {
+    padding: var(--md-margin) var(--md-padding) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+  }
+  .priorities-text {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  .priorities-text .title {
+    margin-top: 0 !important;
+    font-size: var(--md-heading3) !important;
+    line-height: 42.36px !important;
+  }
+  .priorities-image {
+    width: 22.5rem !important;
+    height: 20rem !important;
+    margin-bottom: 6rem !important;
+  }
+  .priorities p {
+    text-align: left !important;
+    font-size: var(--body2) !important;
+    line-height: 19.98px !important;
+  }
+  .priorities .specialities {
+    margin-top: 3rem !important;
+  }
 
   /* -----x-------- Main -------x------ */
 
@@ -221,6 +245,31 @@
     flex-direction: row !important;
     gap: 1rem !important;
   }
+
+  /* ============x============ ABOUT PAGE ===========x============ */
+  /* ========================= CATALOG PAGE ======================== */
+
+
+  /* --- Catalog Header --- */
+
+.catalog-header {
+  padding: var(--md-margin) var(--md-padding) !important;
+}
+.catalog-title .title {
+  font-size: var(--md-heading1) !important;
+  line-height: 44.94px !important;
+}
+.catalog-card {
+  width: 20rem !important;
+  /* height: 10rem; */
+}
+.catalog-card h4{
+  font-size: var(--body4) !important;
+  line-height: 19.28px !important;
+}
+  /* -x- Catalog Header -x- */
+
+  /* ===========x============= CATALOG PAGE ============x=========== */
 }
 
 /* ========================================================== */

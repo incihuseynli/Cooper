@@ -78,25 +78,75 @@
   .clients .bottom {
     text-align: left !important;
   }
-  .clients .top .title{
+  .clients .top .title {
     font-size: var(--lg-heading2) !important;
     text-align: left !important;
   }
-  .clients .bottom h2{
+  .clients .bottom h2 {
     font-size: var(--lg-heading2) !important;
-    line-height:  48.2px !important;
+    line-height: 48.2px !important;
   }
   .clients-more {
     padding: var(--lg-margin) !important;
   }
-  .clients-more .columns{
-    width: 860px;
+  .clients-more .columns {
     gap: 2rem !important;
   }
+  .clients-more .columns .col {
+    width: 33rem;
+  }
+
+  /* --- Priorities --- */
+  .priorities {
+    padding: var(--lg-margin) var(--lg-padding) !important;
+  }
+  .priorities-image {
+    width: 28rem !important;
+    height: 34rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  .priorities-text .title {
+    font-size: var(--lg-heading2) !important;
+    line-height: 52.95px !important;
+  }
+
+  .priorities p {
+    font-size: var(--body4) !important;
+    line-height: 24.98px !important;
+  }
+  .priorities .specialities .speciality h4 {
+    font-size: var(--body5) !important;
+    line-height: 24.1px !important;
+  }
+
+  /* -x- Priorities -x- */
+
+
+/*  ============x======================= ABOUT PAGE ========x========================= */
+/*  =================================== CATALOG PAGE ================================= */
+.catalog-cards {
+  grid-template-columns: repeat(4, 1fr) !important;
+  grid-template-rows: repeat(1, 1fr) !important;
+}
+.catalog-card {
+  width: 14rem !important;
+  height: 14rem !important;
+}
+
+/*  ============x======================= CATALOG PAGE ========x========================= */
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 }
-
-
