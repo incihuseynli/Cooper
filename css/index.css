@@ -1061,6 +1061,7 @@ body {
   font-weight: 500;
   line-height: 19.28px;
   color: var(--primary-green);
+  text-transform: uppercase;
 }
 /* -x- Products Catalog -x- */
 
