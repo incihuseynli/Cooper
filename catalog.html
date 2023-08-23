@@ -23,52 +23,58 @@
     <title>COOPER - Kataloq</title>
   </head>
   <body>
-    <!-- --------- Header --------- -->
-    <header class="header header2">
-      <!-- --- Navbar --- -->
-      <div class="navbar nav">
-        <div class="logo">
-          <img src="./assets/images/logo.png" alt="COOPER LOGO" />
-        </div>
-        <div class="icons">
+      <!-- --------- Header --------- -->
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          </div>
+          <div class="navbar-sm">
+            <div class="navbar-sm__icons">
+              <img src="./assets/icons/heart.svg" id="heart-icon" />
+              <img src="./assets/icons/profile.svg" id="profile-icon" />
+              <img src="./assets/icons/cart.svg" id="cart-icon" />
+            </div>
+            <img src="./assets/icons/close-menu.svg" id="closedMenu" />
+            <ul class="nav-menu">
+              <li><a href="catalog.html">Katoloq</a></li>
+              <li><a href="news.html">Xəbərlər</a></li>
+              <li><a href="#">Çatdırılma</a></li>
+              <li><a href="about.html">Haqqımızda</a></li>
+              <li><a href="#">Əlaqə</a></li>
+            </ul>
+          </div>
+          <div class="navbar-md">
+            <ul class="nav-menu">
+              <li><a href="catalog.html">Katoloq</a></li>
+              <li><a href="news.html">Xəbərlər</a></li>
+              <li><a href="#">Çatdırılma</a></li>
+              <li><a href="about.html">Haqqımızda</a></li>
+              <li><a href="#">Əlaqə</a></li>
+            </ul>
+          </div>
+          <div class="navbar-lg">
+            <ul class="nav-menu">
+              <li><a href="catalog.html">Katoloq</a></li>
+              <li><a href="news.html">Xəbərlər</a></li>
+              <li><a href="#">Çatdırılma</a></li>
+              <li><a href="about.html">Haqqımızda</a></li>
+              <li><a href="#">Əlaqə</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header__icons">
           <img src="./assets/icons/heart.svg" id="heart-icon" />
           <img src="./assets/icons/profile.svg" id="profile-icon" />
           <img src="./assets/icons/cart.svg" id="cart-icon" />
         </div>
         <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
-        <div class="sm nav-menu">
-          <div class="icons">
-            <img src="./assets/icons/heart.svg" id="heart-icon" />
-            <img src="./assets/icons/profile.svg" id="profile-icon" />
-            <img src="./assets/icons/cart.svg" id="cart-icon" />
-          </div>
-          <img src="./assets/icons/close-menu.svg" id="closedMenu" />
-          <ul class="nav-links">
-            <li><a href="catalog.html">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
-            <li><a href="#">Çatdırılma</a></li>
-            <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
-          </ul>
-        </div>
-        <div class="lg nav-menu">
-          <ul class="nav-links">
-            <li><a href="catalog.html">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
-            <li><a href="#">Çatdırılma</a></li>
-            <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- -x- Navbar -x- -->
-    <!-- ---x----- Header ----x---- -->
+      </header>
+      <!-- ----x---- Header ----x---- -->
     <!-- --------- Main --------- -->
 
-    <main class="main main2">
+    <main class="main">
       <!-- --- Catalog Header --- -->
-      <section class="catalog-header">
         <div class="breadcrumbs">
           <ul class="breadcrumb-menu">
             <li><a href="index.html">Ana səhifə</a></li>
@@ -76,39 +82,40 @@
             <li><a href="catalog.html">Kataloq</a></li>
           </ul>
         </div>
-        <div class="catalog-title">
+        <div class="heading">
           <h1 class="title">Kataloq</h1>
         </div>
-        <div class="catalog-cards">
-          <div class="catalog-card">
-            <img src="./assets/images/products/image_1.jpg" alt="product1" />
-            <h4>Efir yağları üçün</h4>
-          </div>
-          <div class="catalog-card">
-            <img src="./assets/images/products/image_2.jpg" alt="product2" />
-
-            <h4>Efir yağları üçün</h4>
-          </div>
-          <div class="catalog-card">
-            <img src="./assets/images/products/image_3.jpg" alt="product3" />
-
-            <h4>Efir yağları üçün</h4>
-          </div>
-          <div class="catalog-card">
-            <img src="./assets/images/products/image_4.jpg" alt="product4" />
-
-            <h4>Efir yağları üçün</h4>
-          </div>
-        </div>
-        <div class="line"></div>
-      </section>
       <!-- -x- Catalog Header -x- -->
+        <!-- --- Products Section --- -->
+        <section class="products">
+          <div class="products-container catalog">
+            <div class="product">
+              <img src="./assets/images/products/image_1.jpg" alt="product1" />
+              <h6 class="product-title">Efir yağları üçün</h6>
+            </div>
+            <div class="product">
+              <img src="./assets/images/products/image_2.jpg" alt="product2" />
+              <h6 class="product-title">Efir yağları üçün</h6>
+            </div>
+            <div class="product">
+              <img src="./assets/images/products/image_3.jpg" alt="product3" />
+              <h6 class="product-title">Efir yağları üçün</h6>
+            </div>
+            <div class="product">
+              <img src="./assets/images/products/image_4.jpg" alt="product4" />
+              <h6 class="product-title">Efir yağları üçün</h6>
+            </div>
+          </div>
+          <div class="line"></div>
+        </section>
+        <!-- -x- Products Section -x- -->
       <!-- ---  Products Catalog--- -->
 
       <section class="catalog-products">
+        <!-- Filters for products -->
         <div class="catalog-filters">
           <div class="search">
-            <input type="text" placeholder="Axtar" />
+            <input type="text" placeholder="Axtar" class="searchInput" />
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <div class="filter">
@@ -116,11 +123,158 @@
               <h4>Çeşidləmə:</h4>
             </div>
             <div class="byPrice">
-              <h4>Qiymətə görə</h4>
+              <h4>qiymətə görə</h4>
+              <i class="fa-solid fa-angle-down"></i>
             </div>
           </div>
         </div>
+        <!-- Show Products -->
+        <div class="products-list">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <img src="./assets/icons/heart.svg" alt="" class="heart-icon" />
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+        </div>
+        
       </section>
+      <!-- --- Pagination --- -->
+      <div class="paginations">
+        <a href="#" class="prevBtn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+        <div class="page-numbers">
+          <a href="#" class="page-number active">1</a>
+          <a href="#" class="page-number">2</a>
+          <a href="#" class="page-number">3</a>
+          <a href="#" class="page-number">4</a>
+        </div>
+        <a href="#"  class="nextBtn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </div>
+      <!-- -x- Pagination -x- -->
       <!-- -x-  Products Catalog -x- -->
     </main>
     <!-- ----x---- Main ----x---- -->
@@ -165,6 +319,9 @@
           <li><a href="#">Fərdi sifariş</a></li>
           <li><a href="#">Endirimlər və təkliflər</a></li>
         </ul>
+        <div class="toTop" id="toTop" onclick="pageUp()">
+          <h5>Yuxarı</h5>
+        </div>
       </div>
     </footer>
     <!-- ----x---- Footer ----x---- -->

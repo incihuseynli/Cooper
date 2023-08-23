@@ -29,161 +29,156 @@
   </head>
   <body>
     <!-- --------- Header --------- -->
-    <header class="header">
-      <!-- --- Navbar --- -->
-      <div class="navbar">
+    <header>
+      <nav class="navbar">
         <div class="logo">
           <img src="./assets/images/logo.png" alt="COOPER LOGO" />
         </div>
-        <div class="icons">
-          <img src="./assets/icons/heart.svg" id="heart-icon" />
-          <img src="./assets/icons/profile.svg" id="profile-icon" />
-          <img src="./assets/icons/cart.svg" id="cart-icon" />
-        </div>
-        <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
-        <div class="sm nav-menu">
-          <div class="icons">
+        <div class="navbar-sm">
+          <div class="navbar-sm__icons">
             <img src="./assets/icons/heart.svg" id="heart-icon" />
             <img src="./assets/icons/profile.svg" id="profile-icon" />
             <img src="./assets/icons/cart.svg" id="cart-icon" />
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
-          <ul class="nav-links">
-            <li><a href="#">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
             <li><a href="#">Əlaqə</a></li>
           </ul>
         </div>
-        <div class="lg nav-menu">
-          <ul class="nav-links">
-            <li><a href="#">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
+        <div class="navbar-md">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
             <li><a href="#">Əlaqə</a></li>
           </ul>
         </div>
-      </div>
-      <!-- -x- Navbar -x- -->
-      <!-- --- Hero Slider --- -->
-      <!-- Swiper -->
-      <div class="swiper heroSwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide hero-card">
-            <div class="hero-info">
-              <h1 class="hero-title">Bestseller</h1>
-              <span class="line"></span>
-              <p class="hero-text">Efir yağları üçün distillə</p>
-              <div class="price-container">
-                <span class="price">Qiymət</span>
-                <span class="price-tag">4 906 грн</span>
-              </div>
-              <button class="btn">Satın al</button>
-            </div>
-            <div class="hero-image">
-              <img src="./assets/images/hero-product.png" />
-            </div>
-            <div class="text">
-              <h1>COPPER PRO</h1>
-            </div>
-          </div>
-          <div class="swiper-slide hero-card">
-            <div class="hero-info">
-              <h1 class="hero-title">Bestseller</h1>
-              <span class="line"></span>
-              <p class="hero-text">Efir yağları üçün distillə</p>
-              <div class="price-container">
-                <span class="price">Qiymət</span>
-                <span class="price-tag">4 906 грн</span>
-              </div>
-              <button class="btn">Satın al</button>
-            </div>
-            <div class="hero-image">
-              <img src="./assets/images/hero-product.png" />
-            </div>
-            <div class="text">
-              <h1>COPPER PRO</h1>
-            </div>
-          </div>
-          <div class="swiper-slide hero-card">
-            <div class="hero-info">
-              <h1 class="hero-title">Bestseller</h1>
-              <span class="line"></span>
-              <p class="hero-text">Efir yağları üçün distillə</p>
-              <div class="price-container">
-                <span class="price">Qiymət</span>
-                <span class="price-tag">4 906 грн</span>
-              </div>
-              <button class="btn">Satın al</button>
-            </div>
-            <div class="hero-image">
-              <img src="./assets/images/hero-product.png" />
-            </div>
-            <div class="text">
-              <h1>COPPER PRO</h1>
-            </div>
-          </div>
+        <div class="navbar-lg">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
+            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="#">Əlaqə</a></li>
+          </ul>
         </div>
-        <div class="swiper-pagination"></div>
+      </nav>
+      <div class="header__icons">
+        <img src="./assets/icons/heart.svg" id="heart-icon" />
+        <img src="./assets/icons/profile.svg" id="profile-icon" />
+        <img src="./assets/icons/cart.svg" id="cart-icon" />
       </div>
-
-      <!-- -x- Hero Slider -x- -->
+      <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
     </header>
     <!-- ----x---- Header ----x---- -->
-    <!-- --------- Main --------- -->
+
+    <!-- ------------------ Main ------------------ -->
     <main class="main">
       <!-- --- Products Section --- -->
       <section class="products">
         <h1 class="title">Məhsullarımız</h1>
-        <div class="product-container">
+        <div class="products-container">
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_1.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_1.jpg" alt="product1" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_2.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_2.jpg" alt="product2" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_3.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_3.jpg" alt="product3" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_4.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_4.jpg" alt="product4" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_1.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_1.jpg" alt="product1" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
           <div class="product">
-            <div class="image">
-              <img src="./assets/images/products/image_3.jpg" alt="product1" />
-            </div>
+            <img src="./assets/images/products/image_2.jpg" alt="product2" />
             <h6 class="product-title">Efir yağları üçün</h6>
           </div>
+        
         </div>
       </section>
       <!-- -x- Products Section -x- -->
-      <!-- --- Most sold --- -->
-      <section class="top-products">
+
+      <!-- --- Top Products --- -->
+      <section class="products-slider bg-pattern">
         <h1 class="title">Ən çox satılanlar</h1>
 
         <!-- Swiper -->
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/images/products/image_1.jpg"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="heart-icon"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3>Çini saplı mis çaydan</h3>
+                  <span>1 953 грн</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/images/products/image_1.jpg"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="heart-icon"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3>Çini saplı mis çaydan</h3>
+                  <span>1 953 грн</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/images/products/image_1.jpg"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="heart-icon"
+                  />
+                </div>
+                <div class="card-info">
+                  <h3>Çini saplı mis çaydan</h3>
+                  <span>1 953 грн</span>
+                </div>
+              </div>
+            </div>
             <div class="swiper-slide">
               <div class="card">
                 <div class="card-image">
@@ -310,11 +305,10 @@
 
         <button class="btn">Kataloqa daxil olun</button>
       </section>
+      <!-- -x- Top Products -x- -->
 
-      <!-- -x- Most sold -x- -->
-
-      <!-- --- New products --- -->
-      <section class="new-products">
+      <!-- --- New Products --- -->
+      <section class="products-slider">
         <h1 class="title">Yeniliklər</h1>
 
         <!-- Swiper -->
@@ -473,32 +467,15 @@
 
         <button class="btn">Kataloqa daxil olun</button>
       </section>
-      <!-- -x- New products -x- -->
+      <!-- -x- New Products -x- -->
 
       <!-- --- Banner --- -->
-      <section class="banner">
-        <div class="banner-info">
-          <h1>1 + 1 = 3</h1>
-          <p>
-            İki məhsulu sifariş edin, üçüncünü pulsuz əldə edin!
-          </p>
-          <button class="btn">Kataloqa daxil olun</button>
-        </div>
-        <div class="bannerBG">
-          <img src="./assets/images/banner-flower.png" alt="">
-          <div class="banner-image">
-            <img src="./assets/images/baner-product.png" alt="">
-          </div>
-          <h1 class="logoName">Cooper Pro</h1>
-        </div>
-        
-      </section>
+     
       <!-- -x- Banner -x- -->
+      
 
-
-
-      <!-- --- Suggestions --- -->
-      <section class="suggested-products">
+      <!-- --- Suggested Products --- -->
+      <section class="products-slider">
         <h1 class="title">tövsiyələr</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
@@ -629,10 +606,10 @@
 
         <button class="btn">Kataloqa daxil olun</button>
       </section>
-      <!-- -x- Suggestions -x- -->
+      <!-- -x- Suggested Products -x- -->
 
       <!-- --- Discounted products --- -->
-      <section class="discounted-products">
+      <section class="products-slider bg-pattern">
         <h1 class="title">Endirimlər</h1>
 
         <!-- Swiper -->
@@ -794,7 +771,7 @@
       <!-- -x- Discounted products -x- -->
 
       <!-- --- Reviews --- -->
-      <section class="reviews">
+      <section class="products-slider reviews">
         <h1 class="title">Haqqımızda deyilənlər</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
@@ -875,6 +852,45 @@
                 </div>
               </div>
             </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="review-image">
+                  <img src="./assets/images/person.png" />
+                </div>
+                <img src="./assets/icons/quote-icon.svg" class="quote" />
+                <div class="review">
+                  <h4 class="username">Ivan Ivanov</h4>
+                  <p class="content">
+                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
+                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
+                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
+                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
+                    tapırıq.
+                  </p>
+                  <span class="date">20.10.21</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="review-image">
+                  <img src="./assets/images/person.png" />
+                </div>
+                <img src="./assets/icons/quote-icon.svg" class="quote" />
+                <div class="review">
+                  <h4 class="username">Ivan Ivanov</h4>
+                  <p class="content">
+                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
+                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
+                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
+                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
+                    tapırıq.
+                  </p>
+                  <span class="date">20.10.21</span>
+                </div>
+              </div>
+            </div>
+           
           </div>
 
           <div class="swiper-pagination"></div>
@@ -1003,7 +1019,7 @@
       <!-- -x- Reasons to choose us -x- -->
     </main>
 
-    <!-- ----x---- Main ----x---- -->
+    <!-- ----x--------------- Main ---------------x---- -->
 
     <!-- --------- Footer --------- -->
     <footer class="footer">
@@ -1044,8 +1060,10 @@
           <li><a href="#">Fərdi sifariş</a></li>
           <li><a href="#">Endirimlər və təkliflər</a></li>
         </ul>
+        <div class="toTop" id="toTop" onclick="pageUp()">
+          <h5>Yuxarı</h5>
+        </div>
       </div>
-     
     </footer>
     <!-- ----x---- Footer ----x---- -->
 
@@ -1054,26 +1072,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
       // Swiper Js codes
-      var swiper = new Swiper(".heroSwiper", {
-        spaceBetween: 20,
-        grabCursor: true,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          600: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 1,
-          },
-          1024: {
-            slidesPerView: 1,
-          },
-        },
-      });
+     
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 20,
         grabCursor: true,

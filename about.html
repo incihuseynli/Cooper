@@ -24,58 +24,65 @@
   </head>
   <body>
     <!-- --------- Header --------- -->
-    <header class="header header2">
-      <!-- --- Navbar --- -->
-      <div class="navbar nav">
+    <header>
+      <nav class="navbar">
         <div class="logo">
           <img src="./assets/images/logo.png" alt="COOPER LOGO" />
         </div>
-        <div class="icons">
-          <img src="./assets/icons/heart.svg" id="heart-icon" />
-          <img src="./assets/icons/profile.svg" id="profile-icon" />
-          <img src="./assets/icons/cart.svg" id="cart-icon" />
-        </div>
-        <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
-        <div class="sm nav-menu">
-          <div class="icons">
+        <div class="navbar-sm">
+          <div class="navbar-sm__icons">
             <img src="./assets/icons/heart.svg" id="heart-icon" />
             <img src="./assets/icons/profile.svg" id="profile-icon" />
             <img src="./assets/icons/cart.svg" id="cart-icon" />
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
-          <ul class="nav-links">
-            <li><a href="#">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
             <li><a href="#">Əlaqə</a></li>
           </ul>
         </div>
-        <div class="lg nav-menu">
-          <ul class="nav-links">
-            <li><a href="#">Katoloq</a></li>
-            <li><a href="#">Xəbərlər</a></li>
+        <div class="navbar-md">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
             <li><a href="#">Əlaqə</a></li>
           </ul>
         </div>
+        <div class="navbar-lg">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
+            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="#">Əlaqə</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__icons">
+        <img src="./assets/icons/heart.svg" id="heart-icon" />
+        <img src="./assets/icons/profile.svg" id="profile-icon" />
+        <img src="./assets/icons/cart.svg" id="cart-icon" />
       </div>
+      <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
     </header>
-    <!-- -x- Navbar -x- -->
-    <!-- ---x----- Header ----x---- -->
+    <!-- ----x---- Header ----x---- -->
     <!-- --------- Main --------- -->
 
-    <main class="main main2">
+    <main class="main">
+      <div class="breadcrumbs">
+        <ul class="breadcrumb-menu">
+          <li><a href="index.html">Ana səhifə</a></li>
+          <li><a>/</a></li>
+          <li><a href="about.html">Haqqımızda</a></li>
+        </ul>
+      </div>
       <!-- --- Hero --- -->
-      <section class="about-hero">
-        <div class="breadcrumbs">
-          <ul class="breadcrumb-menu">
-            <li><a href="index.html">Ana səhifə</a></li>
-            <li><a>/</a></li>
-            <li><a href="about.html">Haqqımızda</a></li>
-          </ul>
-        </div>
+      <!-- <section class="about-hero">
         <div class="hero">
           <div class="text-title">
             <h1>Bizim haqqımızda</h1>
@@ -109,12 +116,13 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- -x- Hero -x- -->
+
       <!-- --- Clients --- -->
       <section class="clients">
         <div class="top">
-          <h1 class="title">müştərilərimiz</h1>
+          <h1 class="title">Bizim müştərilər</h1>
           <p class="sub-info">
             Müştərilərimiz üçün hər günü daha yaxşı etmək və onların hər biri
             üçün ən yaxşı həllər tapmaq üçün özümüzdən tələb edirik.
@@ -209,7 +217,7 @@
       </section>
       <!-- -x- Priorities -x- -->
       <!-- --- Reasons to choose us --- -->
-      <section class="reasonSection">
+      <section class="reasonSection bg-pattern">
         <h1 class="title">Niyə bizi seçməlisiniz?</h1>
         <div class="reasons">
           <div class="reason">

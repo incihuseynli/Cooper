@@ -1,216 +1,102 @@
 /* For tablet type devices */
 
 @media screen and (min-width: 768px) {
-  /* --------- Header -------- */
+  header,
+  section,
+  footer{
+    padding: 0 var(--md-padding) !important;
+  }
+  /* ----------------- Header ---------------- */
 
-  /* --- Navbar --- */
-  .navbar {
-    padding-inline: var(--md-padding) !important;
-  }
-  .navbar .icons #heart-icon {
-    display: block !important;
-  }
-  .sm.nav-menu,
-  .navbar #openedMenu {
+  #openedMenu {
     display: none !important;
   }
-  .lg.nav-menu {
-    display: block !important;
-    position: absolute;
-    top: 6rem;
-    left: 8rem;
+  .navbar-sm,
+  .navbar-lg {
+    display: none !important;
   }
-  .lg.nav-menu .nav-links {
-    flex-direction: row;
-    font-weight: 500;
-    font-size: var(--body2);
-    line-height: 15.42px;
+  .logo,
+  .navbar-md {
+    display: block !important;
+  }
+  .navbar-md {
+    margin: 2rem 0 1rem !important;
+  }
+  .nav-menu {
+    flex-direction: row !important;
+    font-weight: 500 !important;
+    font-size: var(--body2) !important;
     gap: 2rem !important;
   }
-  .lg.nav-menu .nav-links li a {
-    color: var(--white-clr);
+  .nav-menu li a {
+    color: var(--white-clr) !important;
   }
-  .lg.nav-menu .nav-links li:hover a {
+  .nav-menu li:hover a {
     background: -webkit-linear-gradient(
       25deg,
       var(--primary-brown),
       var(--secondary-brown)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    ) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
   }
+  /* -----------------x---- Header ----------------x---- */
 
-  /* -x- Navbar -x- */
-  /* --- Hero Slider --- */
-  .swiper-slide.hero-card {
-    background-image: url("../assets/images/md-hero-bg.png") !important;
-    background-size: 20rem 40rem !important;
-  }
-  .header .swiper-pagination {
-    margin-inline: 3.6rem !important;
-  }
-  .text {
-    display: block !important;
-    position: absolute;
-    right: 19rem;
-    bottom: 4.6rem;
-    width: 5rem;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 67.41px;
-    font-family: var(--font-headings);
-    z-index: -1;
-  }
-  .hero-info {
-    width: 70% !important;
-    padding: 8rem 4rem 2rem !important;
-  }
-  .hero-title {
-    font-size: var(--md-heading1) !important;
-    line-height: 68.94px !important;
-  }
-  .hero-text {
-    font-size: var(--md-heading2) !important;
-    line-height: 38.52px !important;
-  }
-  .price-container {
-    gap: 4rem !important;
-    line-height: 23.14px !important;
-    font-size: var(--body3) !important;
-  }
-  /* -x- Hero Slider -x- */
-  /* ----x---- Header ---x---- */
+  /* ------------------- Main ------------------- */
 
-  /* --------- Main --------- */
-  .product-container {
+  section{
+    margin-bottom: 2rem;
+  }
+  .products-container {
     grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
   }
   .product-title {
     font-size: var(--body3) !important;
-    line-height: 19.28px !important;
   }
 
-  .products,
-  .top-products,
-  .new-products,
-  .suggested-products,
-  .discounted-products,
-  .reviews,
-  .reasonSection {
-    padding-inline: var(--md-padding) !important;
-  }
-  /* ----x---- Main ---x---- */
-  /* --------- Footer -------- */
-  .footer {
-    padding-inline: var(--md-padding) !important;
-  }
-  .bottom {
+  /* --------------------x---- Main -------------------x---- */
+
+  /* ----------------------- Footer ---------------------- */
+
+  .footer .bottom {
     grid-template-columns: repeat(3, 1fr) !important;
     grid-template-rows: repeat(1, 1fr) !important;
     gap: 2rem !important;
   }
-  /* ----x---- Footer ---x---- */
+  /* ----x------------------ Footer -----------------x---- */
 
   /* ========================= ABOUT PAGE ======================== */
 
-  /* -------------- Header -------------- */
-  .header.header2 {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .navbar.nav {
-    width: 100%;
-    height: 8rem !important;
-  }
-  .navbar.nav .logo {
-    margin-bottom: 2rem !important;
-  }
-
-  /* -----x-------- Header -------x------ */
-
   /* -------------- Main -------------- */
-  /* --- Hero Section --- */
-  .about-hero {
-    padding-inline: var(--md-padding) !important;
-  }
-  .about-hero .hero {
-    margin: 5rem 0 0 !important;
-    /* position: relative; */
-  }
-  .about-hero .hero .text-title {
-    width: 36rem !important;
-  }
-  .about-hero .hero .text-title h1 {
-    font-size: var(--md-heading1) !important;
-    line-height: 44.94px !important;
-  }
-  .quote-sentence {
-    margin: 4rem 10rem 0 0 !important;
-  }
-  .quote-sentence h2 {
-    width: 30rem !important;
-    font-size: var(--body6) !important;
-    line-height: 32.37px !important;
-  }
-  .sign-container {
-    position: relative;
-    top: 4rem;
-  }
-  .sign-container h4 {
-    width: 6rem !important;
-    font-size: var(--body4) !important;
-    line-height: 17.35px !important;
-  }
-  .hero-images {
-    position: relative;
-    top: -3rem;
-    justify-content: flex-end !important;
-    margin: 0 0 !important;
-  }
-  .md-about-hero1,
-  .md-about-hero2 {
-    display: block !important;
-  }
-  .sm-about-hero1,
-  .sm-about-hero2 {
-    display: none !important;
-  }
-  /* -x- Hero Section -x- */
 
-  /* --- Clients --- */
-  .clients {
-    padding: var(--md-margin) var(--md-padding) !important;
+  .breadcrumb-menu {
+    padding: var(--md-padding) !important;
   }
+  /* --- Clients --- */
+
   .clients .top {
     width: 30rem !important;
   }
   .clients .top .title {
     font-size: var(--md-heading3);
-    line-height: 29.96px;
   }
   .clients .top .sub-info {
     font-size: var(--body4) !important;
-    line-height: 24.98px !important;
   }
   .clients .bottom h2 {
     font-size: var(--body6) !important;
-    line-height: 28.92px !important;
   }
   .clients .bottom .numbers h1 {
     font-size: 200px !important;
-    line-height: 241px !important;
   }
 
-  .clients-more {
-    padding: var(--md-margin) var(--md-padding) var(--md-padding) !important;
-  }
   .clients-more .columns {
     grid-template-columns: repeat(2, 1fr) !important;
   }
   /* -x- Clients -x- */
   /* --- Priorites --- */
   .priorities {
-    padding: var(--md-margin) var(--md-padding) !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 2rem !important;
   }
@@ -221,7 +107,6 @@
   .priorities-text .title {
     margin-top: 0 !important;
     font-size: var(--md-heading3) !important;
-    line-height: 42.36px !important;
   }
   .priorities-image {
     width: 22.5rem !important;
@@ -231,7 +116,6 @@
   .priorities p {
     text-align: left !important;
     font-size: var(--body2) !important;
-    line-height: 19.98px !important;
   }
   .priorities .specialities {
     margin-top: 3rem !important;
@@ -249,27 +133,218 @@
   /* ============x============ ABOUT PAGE ===========x============ */
   /* ========================= CATALOG PAGE ======================== */
 
-
   /* --- Catalog Header --- */
 
-.catalog-header {
-  padding: var(--md-margin) var(--md-padding) !important;
-}
-.catalog-title .title {
-  font-size: var(--md-heading1) !important;
-  line-height: 44.94px !important;
-}
-.catalog-card {
-  width: 20rem !important;
-  /* height: 10rem; */
-}
-.catalog-card h4{
-  font-size: var(--body4) !important;
-  line-height: 19.28px !important;
-}
+  .products-container.catalog{
+    grid-template-rows: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .heading{
+    padding-inline: var(--md-padding) !important;
+
+  }
+  .heading .title {
+    font-size: var(--md-heading1) !important;
+  }
+  
   /* -x- Catalog Header -x- */
+  /* --- Products Catalog --- */
+  .catalog-products {
+    padding: var(--md-margin) var(--md-padding) !important;
+  }
+  .catalog-filters {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .search {
+    width: 15rem !important;
+  }
+  .filter {
+    width: 20rem !important;
+  }
+  .catalog-filters .bySort {
+    margin-right: 1rem !important;
+  }
+
+  .catalog-filters .bySort h4 {
+    font-weight: 400 !important;
+  }
+
+  .catalog-filters .filter h4 {
+    font-size: var(--body4) !important;
+  }
+
+  .products-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
+  }
+
+  /* -x- Products Catalog -x- */
 
   /* ===========x============= CATALOG PAGE ============x=========== */
+
+  /* =============================== News PAGE ===============================- */
+
+  .news .card-info {
+    display: block;
+    width: 100%;
+    padding-right: 0.5rem;
+  }
+  .news .card-info p {
+    font-size: var(--body2) !important;
+  }
+  .news .card-image h5 {
+    font-size: var(--body4) !important;
+    text-align: left !important;
+    bottom: 2rem !important;
+  }
+
+  
+/* ===============x================ News PAGE ==================x=============- */
+  
+/* =============================== News Post PAGE ===============================- */
+
+.heading.post .title{
+  width: 70% !important;
+  font-size: var(--md-heading2) !important;
+}
+.heading.post{
+  flex-direction: row !important;
+  justify-content: space-between !important;
+align-items: flex-end !important;
+}
+.heading.post .share{
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0 !important;
+  margin-bottom: var(--sm-margin) !important;
+}
+.heading.post .share h4{
+  font-size: var(--body4) !important;
+}
+.heading.post .share .socials{
+  gap: 1.5rem !important;
+}
+
+
+.post-pagination{
+  /* width: 100%; */
+  justify-content: space-between;
+  border-top: 1px solid var(--secondary-gray);
+  border-bottom: none !important;
+}
+
+.post-pagination .left,
+.post-pagination .right{
+  gap: 1rem;
+  padding: 1rem;
+}
+.post-pagination .left h5,
+.post-pagination .right h5{
+  font-size: var(--body2) !important;
+  width: 12rem !important;
+}
+.post-pagination .line{
+  display: none !important;
+}
+
+.post-bottom .share{
+  margin: 1rem 0 !important;
+  justify-content: center !important;
+  gap: 4rem !important;
+}
+
+/* ===============x================ News Post PAGE ==================x=============- */
+/* ===============x================ Order Thanks PAGE ==================x=============- */
+.header-order,
+.footer-order{
+  padding: 2rem 0 !important;
+}
+
+/* ===============x================ Order Thanks PAGE ==================x=============- */
+
+
+/* ===============================  Login PAGE ===============================- */
+.main{
+  position: relative !important;
+}
+
+.back-to-home{
+  width: 20rem !important;
+  position: absolute !important;
+  left: 2rem !important;
+  top: 2rem !important;
+}
+.login,
+.register{
+  margin: 10rem auto 3rem !important;
+  width: 27rem !important;
+}
+
+
+/* ===============x================  Login PAGE ==================x=============- */
+
+
+/* ===============================  Product Order PAGE ==============================- */
+.product-image .card-image {
+  width: 34rem !important;
+  height: 38rem !important;
+}
+.small-image {
+  width: 8rem !important;
+  height: 8rem !important;
+}
+.product-detail .title {
+  font-size: var(--md-heading3) !important;
+}
+
+.priceBox-bottom .product-count{
+  flex: 0 !important;
+}
+.priceBox-bottom .product-count i:first-child{
+  margin-right: 1rem !important;
+}
+.priceBox-bottom .product-count i:last-child{
+  margin-left: 1rem !important;
+}
+.priceBox-bottom .btn{
+  flex: 1;
+  margin-left: 2rem !important;
+}
+
+.product-detail .share{
+  justify-content: flex-start !important;
+  gap: 4rem ;
+}
+.product-header{
+  flex-direction: row !important;
+}
+.product-header .title{
+  flex: 1;
+  text-align: left !important;
+}
+.product-header .btn{
+  flex: 1;
+}
+
+/* ===============x================  Product Order PAGE ==================x=============- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* ========================================================== */
