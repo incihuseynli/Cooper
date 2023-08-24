@@ -185,15 +185,15 @@
 
   /* =============================== News PAGE ===============================- */
 
-  .news .card-info {
+  .news .newsList .card-info {
     display: block;
     width: 100%;
     padding-right: 0.5rem;
   }
-  .news .card-info p {
+  .news.newsList .card-info p {
     font-size: var(--body2) !important;
   }
-  .news .card-image h5 {
+  .news.newsList .card-image h5 {
     font-size: var(--body4) !important;
     text-align: left !important;
     bottom: 2rem !important;
