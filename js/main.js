@@ -30,29 +30,6 @@ function pageUp() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// Searching Products in Catalog
 
-const searchProducts = () => {
-  const searchProduct = document
-    .querySelector("#searchInput")
-    .value.toUpperCase();
-  const products = document.querySelector(".products-list");
-  const product = document.querySelectorAll(".card");
-  const productName = products.getElementsByTagName("h3");
-
-  for (let i = 0; i < productName.length; i++) {
-    let checkMatch = product[i].getElementsByTagName("h3")[0];
-
-    if (checkMatch) {
-      let condition = checkMatch.textContent || checkMatch.innerHTML;
-      if (condition.toUpperCase().indexOf(searchProduct) > -1) {
-        product[i].style.display = "";
-        // console.log(product[i]);
-      } else {
-        product[i].style.display = "none";
-      }
-    }
-  }
-};
 
 // Products Filter by Product Price

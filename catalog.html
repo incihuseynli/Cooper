@@ -420,80 +420,8 @@
     <!-- ----x---- Footer ----x---- -->
 
     <!-- =====================JAVASCRIPT================================================================ -->
-    <script>
-      // Pagination
-      let currentPage = 1;
-      let limitProducts = 6;
-      let productsList = document.querySelectorAll(".products-list .card");
-
-      function showProducts() {
-        // Starting value
-        let start = limitProducts * (currentPage - 1);
-        // Ending value
-        let end = limitProducts * currentPage - 1;
-        productsList.forEach((item, num) => {
-          if (num >= start && num <= end) {
-            item.style.display = "block";
-            console.log(item);
-          } else {
-            item.style.display = "none";
-          }
-        });
-        getProductPages();
-      }
-      showProducts();
-
-      function getProductPages() {
-        let count = Math.ceil(productsList.length / limitProducts);
-        document.querySelector(".page-numbers").innerHTML = "";
-        if (currentPage != 1) {
-          let prev = document.createElement("li");
-          prev.classList.add("prevBtn");
-          prev.setAttribute(
-            "onclick",
-            "changeProductsPage(" + (currentPage - 1) + ")"
-          );
-          document.querySelector(".page-numbers").appendChild(prev);
-        } else {
-          let prev = document.createElement("li");
-          prev.classList.add("prevBtn");
-          prev.setAttribute("disabled", "");
-          document.querySelector(".page-numbers").appendChild(prev);
-          prev.style.cursor = "not-allowed";
-        }
-        for (i = 1; i <= count; i++) {
-          let newPage = document.createElement("li");
-          newPage.classList.add("page-number");
-          newPage.innerText = i;
-          if (i == currentPage) {
-            newPage.classList.add("active");
-          }
-          newPage.setAttribute("onclick", "changeProductsPage(" + i + ")");
-          document.querySelector(".page-numbers").appendChild(newPage);
-        }
-        if (currentPage != count) {
-          let next = document.createElement("li");
-          next.classList.add("nextBtn");
-          next.setAttribute(
-            "onclick",
-            "changeProductsPage(" + (currentPage + 1) + ")"
-          );
-          document.querySelector(".page-numbers").appendChild(next);
-        } else {
-          let next = document.createElement("li");
-          next.classList.add("nextBtn");
-          next.setAttribute("disabled", "");
-          document.querySelector(".page-numbers").appendChild(next);
-          next.style.cursor = "not-allowed";
-        }
-      }
-
-      function changeProductsPage(i) {
-        currentPage = i;
-        showProducts();
-      }
-    </script>
     <!-- Main JavaScript File -->
     <script src="./js/main.js"></script>
+    <script src="./js/catalog.js"></script>
   </body>
 </html>
