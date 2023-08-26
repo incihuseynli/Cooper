@@ -381,7 +381,24 @@
   .nav-btn{
     width: 14rem !important;
   }
+ 
+
+  .profile .informations .header .right .greetings {
+    font-size: var(--body4) !important;
+  }
   
+  .profile .informations .header .right .username {
+    font-size: var(--body5) !important;
+  }
+
+  .profile .informations .details .form .col .nav-btn{
+    width: 100% !important;
+    height: 3rem !important;
+  }
+
+
+
+
   /* =================x============= Profile PAGE ===============x==============- */
 
 

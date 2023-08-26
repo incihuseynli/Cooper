@@ -74,32 +74,103 @@
 
     <!-- ------------------ Main ------------------ -->
     <main>
-        <section class="profile">
-            <h1 class="title">Şəxsi kabinet</h1>
-            <div class="profile-details">
-                <div class="navigations">
-                    <a href="profile.html" class="nav-btn active">
-                        <i class="fa-regular fa-user"></i>
-                        <h5>Profil məlumatları</h5>
-                    </a>
-                    <a href="order_page.html" class="nav-btn">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <h5>Sifarişlər</h5>
-                    </a>
-                    <a href="wishlist.html" class="nav-btn">
-                        <i class="fa-solid fa-heart"></i>
-                        <h5>istək siyahısı</h5>
-                    </a>
-                    <a href="logout.html" class="nav-btn text">
-                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                        <h5>Çıxış</h5>
-                    </a>
+      <section class="profile">
+        <h1 class="title">Şəxsi kabinet</h1>
+        <div class="profile-details">
+          <div class="navigations">
+            <a href="profile.html" class="nav-btn active">
+              <i class="fa-regular fa-user"></i>
+              <h5>Profil məlumatları</h5>
+            </a>
+            <a href="order_page.html" class="nav-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h5>Sifarişlər</h5>
+            </a>
+            <a href="wishlist.html" class="nav-btn">
+              <i class="fa-solid fa-heart"></i>
+              <h5>istək siyahısı</h5>
+            </a>
+            <a href="logout.html" class="nav-btn text">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <h5>Çıxış</h5>
+            </a>
+          </div>
+          <div class="informations">
+            <div class="header">
+              <div class="left">
+                <img src="./assets/images/person.png" alt="" />
+              </div>
+              <div class="right">
+                <h4 class="greetings">Günortanız Xeyir!</h4>
+                <h4 class="username">Ivan Ivanov</h4>
+                <div class="img-upload">
+                  <i class="fa-solid fa-download"></i>
+                  <span>Şəkil əlavə edin </span>
+                  <span class="format">(jpeg, png)</span>
                 </div>
-                <div class="informations">
-
-                </div>
+              </div>
             </div>
-        </section>
+            <div class="details">
+              <form class="form">
+                <div class="col">
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="Əlaqə nömrəniz"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail ünvanınız"
+                  />
+                  <input
+                    type="text"
+                    name="country"
+                    id="country"
+                    placeholder="Ölkə"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    placeholder="Şəhər"
+                  />
+                  <input
+                    type="text"
+                    name="street"
+                    id="street"
+                    placeholder="St. Şevçenko"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="details">
+                <h1 class="sub-title">Şifrə</h1>
+              <form class="form">
+                <div class="col">
+                  <div class="password">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="*************"
+                    />
+                    <i class="fa-regular fa-eye password-eye open"></i>
+                    <i class="fa-regular fa-eye-slash password-eye close"></i>
+                  </div>
+                </div>
+                <div class="col">
+                  <a href="#" class="nav-btn">Parolu dəyişdirin</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- ----x--------------- Main ---------------x---- -->
 
