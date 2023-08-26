@@ -1852,3 +1852,42 @@ input[type="number"] {
   width: 100%;
 }
 /* ===============x================ Product Order PAGE ==================x=============- */
+
+
+/* =============================== Profile PAGE ===============================- */
+.profile .title{
+  font-size: var(--body5);
+  text-align: left;
+}
+
+.navigations{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+.nav-btn{
+  width: 100%;
+  background-color: #cb8d62;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1rem;
+  color: var(--white-clr);
+  font-size: var(--body3);
+  font-weight: 800;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+
+}
+.nav-btn.active{
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+.nav-btn.text{
+  background: none;
+  color: var(--primary-green);
+  padding: 0;
+}
+
+/* ===============x================ Profile PAGE ==================x=============- */

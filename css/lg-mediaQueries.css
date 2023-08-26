@@ -223,6 +223,20 @@
 }
 
 /* ===============x================ Product Order PAGE ==================x=============- */
+ /* ============================== Profile PAGE =============================- */
+  .profile .title{
+    font-size: var(--lg-heading2) !important;
+  }
+ .navigations{
+  flex-direction: column !important;
+  gap: 1rem !important;
+}
+.nav-btn{
+  width: 16rem !important;
+}
+
+/* =================x============= Profile PAGE ===============x==============- */
+
 
 
 

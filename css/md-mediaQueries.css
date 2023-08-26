@@ -366,10 +366,32 @@
     margin: auto;
   }
 
-
-
-
   /* =================x============= Product Order PAGE ===============x==============- */
+  
+  
+  
+  /* ============================== Profile PAGE =============================- */
+  .profile .title{
+    font-size: var(--md-heading1) !important;
+  }
+  .navigations{
+    flex-direction: row !important;
+    gap: 2rem !important;
+  }
+  .nav-btn{
+    width: 14rem !important;
+  }
+  
+  /* =================x============= Profile PAGE ===============x==============- */
+
+
+
+
+
+
+
+
+
 }
 
 /* ========================================================== */
