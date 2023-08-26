@@ -11,7 +11,7 @@ function showProducts() {
   productsList.forEach((item, num) => {
     if (num >= start && num <= end) {
       item.style.display = "block";
-      console.log(item);
+      // console.log(item);
     } else {
       item.style.display = "none";
     }

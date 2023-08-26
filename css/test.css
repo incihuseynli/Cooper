@@ -1,0 +1,233 @@
+@import url("reset.css");
+/* -------------------- Header -------------------- */
+header {
+    width: 100%;
+    background: linear-gradient(-60deg, #0b3f37, #cb8d62);
+    padding: var(--sm-padding);
+    position: relative;
+  }
+  .logo {
+    display: block;
+  }
+  .header__icons {
+    position: absolute;
+    top: 0;
+    right: 4rem;
+  }
+  #openedMenu {
+    position: absolute;
+    top: 1.6rem;
+    right: 0;
+    cursor: pointer;
+  }
+  #closedMenu {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  .navbar-md,
+  .navbar-lg {
+    display: none;
+  }
+  .navbar-sm__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .navbar-sm {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      -90deg,
+      var(--primary-brown),
+      var(--secondary-brown)
+    );
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateY(-200%);
+    transition: 0.6s;
+  }
+  .navbar-sm .nav-menu {
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .navbar-sm .nav-menu li a {
+    font-size: var(--body6);
+    font-weight: 500;
+  }
+  .nav-menu a {
+    color: var(--white-clr);
+  }
+  .nav-menu li:hover a {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+  
+  /* -----x-------------- Header ---------------x---- */
+.hero-slider {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-60deg, #0b3f37, #cb8d62);
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-info {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+.hero-info h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.hero-info .line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.116));
+}
+.hero-info p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.hero-price{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 16px;
+}
+.hero-price h5{
+    font-weight: 400;
+}
+.hero-price span{
+    font-weight: 800;
+}
+.hero-images {
+  width: 30rem;
+  height: 30rem;
+}
+.hero-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lg-hero-img,
+.md-hero-img {
+  display: none;
+}
+.sm-hero-img {
+  display: block;
+}
+.heroSwiper{
+    position: relative;
+}
+.swiper-pagination{
+    display: flex;
+    /* position: absolute; */
+    bottom: 4rem !important;
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.btn {
+    width: 14rem;
+    height: 2.5rem;
+    text-align: center;
+    color: var(--white-clr);
+    background: linear-gradient(
+      90deg,
+      #5e3928,
+     #cb8d62
+    );
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    border-radius: 0%;
+    background: white;
+    opacity: 1;
+  }
+   .swiper-pagination-bullet-active {
+    background: linear-gradient(
+      90deg,
+      #5e3928,
+     #cb8d62
+    );
+  }
+
+
+@media (min-width: 420px) and (max-width: 500px) {
+  .hero-images {
+    width: 20rem;
+  }
+  .hero-info {
+    width: 14rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .hero-images {
+    width: 16rem;
+  }
+  .hero-info {
+    width: 18rem;
+  }
+}
+@media (min-width: 1040px) {
+  .hero-images {
+    width: 44rem;
+    height: 32rem;
+  }
+  .lg-hero-img {
+    display: block;
+  }
+  .md-hero-img,
+  .sm-hero-img {
+    display: none;
+  }
+  .hero-info {
+    width: 22rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1040px) {
+  .hero-images {
+    width: 27rem;
+    height: 36rem;
+  }
+  .lg-hero-img,
+  .sm-hero-img {
+    display: none;
+  }
+  .md-hero-img {
+    display: block;
+  }
+  .hero-info {
+    width: 22rem;
+  }
+}

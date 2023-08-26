@@ -181,4 +181,74 @@
     margin-top: 2rem !important;
   }
   /*  ============x======================= Product Detail PAGE ========x========================= */
+
+
+/* =============================== Product Order PAGE ==============================- */
+
+.order-header{
+  flex-direction: row !important;
+  gap: 4rem;
+}
+.order-header .back-to-home{
+  position: static !important;
+  margin: 0 !important;
+}
+.order-header .title{
+  font-size: var(--md-heading3) !important;
+}
+
+.account-box {
+  background-position: right 3rem !important;
+}
+
+.account-box .btns .btn {
+  width: 12rem !important;
+}
+.account-box i {
+  width: 5rem !important;
+  height: 5rem !important;
+  padding-top: 1.2rem !important;
+  font-size: 2rem !important;
+}
+
+.details .form{
+  width: 76% !important;
+}
+.order-body{
+  grid-template-columns: repeat(2,1fr) !important;
+}
+.total{
+  margin-top: -2rem !important;
+  width: 27rem !important;
+}
+
+/* ===============x================ Product Order PAGE ==================x=============- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
