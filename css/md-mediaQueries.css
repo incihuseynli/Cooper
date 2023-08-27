@@ -107,6 +107,35 @@
     font-size: var(--body3) !important;
   }
 
+
+  /* --- Banner Section --- */
+.banner{
+  height: 28rem !important;
+}
+  .banner-image{
+    height: 100% !important;
+    bottom: 0rem !important;
+    right: -2rem !important;
+    background-image: url('../assets/images/banner-md.png') !important;
+   }
+
+   .banner-title{
+    font-size: var(--lg-heading1) !important;
+  }
+  .banner-header p{
+    font-size: var(--body4) !important;
+    width: 18rem !important;
+  }
+  .banner-header .btn{
+    width: 22rem !important;
+  }
+
+
+
+
+
+  /* -x- Banner Section -x- */
+
   /* --------------------x---- Main -------------------x---- */
 
   /* ----------------------- Footer ---------------------- */
@@ -128,6 +157,28 @@
   .breadcrumb-menu li a {
     font-size: var(--body3) !important;
   }
+/* --- Hero Section --- */
+.about-hero{
+  margin-top: -1rem !important;
+}
+  .about-heroImages{
+    height: 26rem !important;
+    background-image: url('../assets/images/aboutHero-md.png') !important;
+    background-position: right bottom !important;
+  }
+
+  .about-hero .top{
+    width: 26rem !important;
+    margin-right: 2rem !important;
+  }
+  .quote-sentence h2{
+    font-size: 32px !important;
+    }
+    .about-hero .top .title{
+      width: 100% !important;
+    }
+
+/* -x- Hero Section -x- */
   /* --- Clients --- */
 
   .clients .top {

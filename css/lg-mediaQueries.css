@@ -2,14 +2,13 @@
 @media screen and (min-width: 1024px) {
   header,
   section,
-  footer{
+  footer {
     padding-inline: var(--lg-padding) !important;
   }
   /* --------- Header --------- */
-  header{
+  header {
     padding-top: var(--sm-padding) !important;
     padding-bottom: var(--sm-padding) !important;
-
   }
   .navbar-sm,
   .navbar-md {
@@ -43,15 +42,15 @@
     width: 22rem !important;
     padding-left: var(--lg-padding) !important;
   }
-  .hero-slider .heroSwiper .swiper-pagination{
+  .hero-slider .heroSwiper .swiper-pagination {
     margin-left: 5rem !important;
     bottom: 4rem !important;
-}
+  }
   /* --x- Hero Slider -x-- */
   /* ----x---- Header ---x---- */
 
   /* --------- Main --------- */
-  .title{
+  .title {
     font-size: var(--lg-heading2) !important;
   }
 
@@ -61,7 +60,6 @@
     bottom: 4rem !important;
   }
 
-  
   .fly-numbers span:nth-child(1) {
     font-size: var(--md-heading3) !important;
   }
@@ -73,12 +71,30 @@
     font-size: var(--lg-heading1) !important;
   }
 
-
-
-
-
-
   /* -x- Products -x- */
+
+  /* --- Banner Section --- */
+  .banner {
+    height: 14.5rem !important;
+  }
+  .banner-image {
+    height: 15.5rem !important;
+    bottom: 0.5rem !important;
+    right: -4rem !important;
+    background-image: url("../assets/images/banner-lg.png") !important;
+  }
+
+  .banner-title {
+    font-size: var(--lg-heading2) !important;
+  }
+  .banner-header {
+    gap: 1rem !important;
+    margin: 0 !important;
+  }
+  .banner-header p {
+    font-size: var(--body2) !important;
+  }
+  /* -x- Banner Section -x- */
 
   /* --- Reasons to choice us --- */
   .reasons {
@@ -102,6 +118,22 @@
   .breadcrumb-menu {
     padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
+  /* --- Hero Section --- */
+  .about-heroImages {
+    height: 30rem !important;
+    background-image: url("../assets/images/aboutHero-lg.png") !important;
+    background-position: top right !important;
+  }
+  .about-hero .top {
+    width: 36rem !important;
+  }
+  .quote-sentence h2 {
+    font-size: 50px !important;
+    line-height: 1 !important;
+  }
+
+  /* -x- Hero Section -x- */
+
   .clients {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 2rem;
@@ -160,15 +192,14 @@
 
   /*  ============x======================= ABOUT PAGE ========x========================= */
   /*  =================================== CATALOG PAGE ================================= */
-  .products-container.catalog{
+  .products-container.catalog {
     grid-template-rows: repeat(1, 1fr) !important;
     grid-template-columns: repeat(4, 1fr) !important;
   }
-  .heading{
+  .heading {
     padding-inline: var(--lg-padding) !important;
-
   }
-  
+
   /* --- Products Catalog --- */
   .catalog-products {
     padding: var(--lg-margin) var(--lg-padding) !important;
@@ -188,8 +219,8 @@
 
   /*  ============x======================= NEWS PAGE ========x========================= */
   /*  =================================== NEWS Post PAGE ================================= */
- 
-  .heading.post .title{
+
+  .heading.post .title {
     width: 50% !important;
     font-size: var(--md-heading3) !important;
   }
@@ -197,131 +228,100 @@
     margin-bottom: 2rem;
   }
 
-  .post-bottom .share{
+  .post-bottom .share {
     margin-top: -3rem !important;
   }
- 
+
   /*  ============x======================= NEWS Post PAGE ========x========================= */
-  
-  
+
   /*  =================================== Product Detail PAGE ================================= */
-  .product-details{
-    grid-template-columns: repeat(2,1fr) !important;
+  .product-details {
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 1rem;
   }
   .product-image .card-image {
     width: 100% !important;
   }
-  .product-detail .title{
+  .product-detail .title {
     padding: 0 0 2rem !important;
   }
-  .product-detail .product-desc{
+  .product-detail .product-desc {
     margin-top: 2rem !important;
   }
 
-  .section.product-desc{
+  .section.product-desc {
     padding-bottom: 2rem !important;
   }
-  .product-header{
+  .product-header {
     margin-top: 2rem !important;
   }
   /*  ============x======================= Product Detail PAGE ========x========================= */
 
+  /* =============================== Product Order PAGE ==============================- */
 
-/* =============================== Product Order PAGE ==============================- */
+  .order-header {
+    flex-direction: row !important;
+    gap: 4rem;
+  }
+  .order-header .back-to-home {
+    position: static !important;
+    margin: 0 !important;
+  }
+  .order-header .title {
+    font-size: var(--md-heading3) !important;
+  }
 
-.order-header{
-  flex-direction: row !important;
-  gap: 4rem;
-}
-.order-header .back-to-home{
-  position: static !important;
-  margin: 0 !important;
-}
-.order-header .title{
-  font-size: var(--md-heading3) !important;
-}
+  .account-box {
+    background-position: right 3rem !important;
+  }
 
-.account-box {
-  background-position: right 3rem !important;
-}
+  .account-box .btns .btn {
+    width: 12rem !important;
+  }
+  .account-box i {
+    width: 5rem !important;
+    height: 5rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 2rem !important;
+  }
 
-.account-box .btns .btn {
-  width: 12rem !important;
-}
-.account-box i {
-  width: 5rem !important;
-  height: 5rem !important;
-  padding-top: 1.2rem !important;
-  font-size: 2rem !important;
-}
+  .details .form {
+    width: 76% !important;
+  }
+  .order-body {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .total {
+    margin-top: -2rem !important;
+    width: 27rem !important;
+  }
 
-.details .form{
-  width: 76% !important;
-}
-.order-body{
-  grid-template-columns: repeat(2,1fr) !important;
-}
-.total{
-  margin-top: -2rem !important;
-  width: 27rem !important;
-}
+  /* ===============x================ Product Order PAGE ==================x=============- */
+  /* ============================== Profile PAGE =============================- */
+  .profile-details {
+    grid-template-columns: 18rem 100% !important;
+    /* gap: 4rem !important; */
+  }
 
-/* ===============x================ Product Order PAGE ==================x=============- */
- /* ============================== Profile PAGE =============================- */
- .profile-details{
-  grid-template-columns: 18rem 100% !important;
-  /* gap: 4rem !important; */
-}
- 
- .profile .title{
+  .profile .title {
     font-size: var(--lg-heading2) !important;
   }
- .navigations{
-  width: 18rem !important;
-  flex-direction: column !important;
-  gap: 1rem !important;
-}
-.nav-btn{
-  width: 16rem !important;
-}
-.profile .informations{
-  width: 42rem !important;
-}
-.profile .informations .details .form .col input{
-  width: 20.5rem !important;
-}
-.profile .informations .details .form .col .nav-btn{
-  width: 20.5rem !important;
-}
-/* =================x============= Profile PAGE ===============x==============- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .navigations {
+    width: 18rem !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .nav-btn {
+    width: 16rem !important;
+  }
+  .profile .informations {
+    width: 42rem !important;
+  }
+  .profile .informations .details .form .col input {
+    width: 20.5rem !important;
+  }
+  .profile .informations .details .form .col .nav-btn {
+    width: 20.5rem !important;
+  }
+  /* =================x============= Profile PAGE ===============x==============- */
 }

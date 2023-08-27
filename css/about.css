@@ -1,6 +1,93 @@
 /*============================== ABOUT PAGE =================================== */
 /* -------------- Main ----------------- */
 
+/* --- Hero Section --- */
+
+.about-hero {
+  width: 100%;
+  height: 45rem;
+  background-image: url("../assets/images/aboutHeroBG.png");
+  position: relative;
+  z-index: 38;
+}
+.about-hero .breadcrumb-menu {
+  padding-inline: 0 !important;
+}
+.about-heroImages {
+  width: 100%;
+  height: 18rem;
+  background-image: url("../assets/images/aboutHero-sm.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+}
+
+.about-hero .top {
+  width: 100%;
+}
+.quote-sentence h2 {
+  font-weight: 600;
+  font-size: var(--body4);
+  text-align: center;
+  display: inline-flex;
+  align-self: center;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 1rem;
+  background: -webkit-linear-gradient(
+    25deg,
+    var(--primary-brown),
+    var(--secondary-brown)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
+  text-decoration-color: var(--primary-brown) !important;
+}
+.quote-sentence {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quote-right {
+  display: flex;
+  align-self: flex-end;
+}
+.sign-container {
+  display: flex;
+  align-items: center;
+  width: 11rem;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.sign-container h4 {
+  background: -webkit-linear-gradient(
+    25deg,
+    var(--primary-brown),
+    var(--secondary-brown)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
+  text-decoration-color: var(--primary-brown) !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: var(--body2);
+}
+
+.about-hero .top .title {
+  width: 12rem;
+  text-align: left;
+  border-bottom: 1px solid var(--primary-green);
+  padding-bottom: 1rem;
+  margin: 2rem 0;
+}
+
+/* -x- Hero Section -x- */
 /* --- Clients --- */
 .clients {
   display: grid;
@@ -149,4 +236,11 @@
 }
 /* -x- Priorites -x- */
 /* ------x------- Main --------x-------- */
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .about-heroImages {
+    height: 20rem !important;
+  }
+}
+
 /* ===============x================ ABOUT PAGE ==================x=============- */

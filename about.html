@@ -82,20 +82,20 @@
     <!-- --------- Main --------- -->
 
     <main class="main">
-      <div class="breadcrumbs">
-        <ul class="breadcrumb-menu">
-          <li><a href="index.html">Ana səhifə</a></li>
-          <li><a>/</a></li>
-          <li><a href="about.html">Haqqımızda</a></li>
-        </ul>
-      </div>
       <!-- --- Hero --- -->
-      <!-- <section class="about-hero">
-        <div class="hero">
-          <div class="text-title">
-            <h1>Bizim haqqımızda</h1>
-            <span class="line"></span>
-          </div>
+      <section class="about-hero">
+        <!-- --- About Header --- -->
+        <div class="breadcrumbs">
+          <ul class="breadcrumb-menu">
+            <li><a href="index.html">Ana səhifə</a></li>
+            <li><a>/</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+          </ul>
+        </div>
+  
+        <!-- -x- About Header -x- -->
+        <div class="top">
+          <h1 class="title">Haqqımızda</h1>
           <div class="quote-sentence">
             <img src="./assets/icons/quote-icon-2.svg" class="quote-left" />
             <h2>Biz misdən hazırlanmış hər şeyi sevirik</h2>
@@ -107,24 +107,9 @@
               <img src="./assets/images/Sign.png" />
             </div>
           </div>
-          <div class="hero-images">
-            <div class="product1">
-              <img src="./assets/images/product-1.png" class="sm-about-hero1" />
-              <img
-                src="./assets/images/md-about-hero.png"
-                class="md-about-hero1"
-              />
-            </div>
-            <div class="product2">
-              <img src="./assets/images/product-2.png" class="sm-about-hero2" />
-              <img
-                src="./assets/images/md-about-hero2.png"
-                class="md-about-hero2"
-              />
-            </div>
-          </div>
         </div>
-      </section> -->
+        <div class="about-heroImages"></div>
+      </section>
       <!-- -x- Hero -x- -->
 
       <!-- --- Clients --- -->
@@ -384,6 +369,9 @@
           <li><a href="#">Fərdi sifariş</a></li>
           <li><a href="#">Endirimlər və təkliflər</a></li>
         </ul>
+        <div class="toTop" id="toTop" onclick="pageUp()">
+          <h5>Yuxarı</h5>
+        </div>
       </div>
     </footer>
     <!-- ----x---- Footer ----x---- -->
