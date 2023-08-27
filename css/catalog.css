@@ -1,0 +1,95 @@
+/* =============================== Catalog PAGE ===============================- */
+
+/* --- Catalog Header --- */
+.products-container.catalog {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .products .line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-gray);
+    margin: 2rem 0 0;
+  }
+  /* -x- Catalog Header -x- */
+  
+  /* --- Products Catalog --- */
+  
+  .catalog-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalog-filters .byPrice,
+  .search,
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search,
+  .filter {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .search {
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--primary-green);
+  }
+  .search .searchInput {
+    font-size: var(--body2);
+    padding-inline: 0.5rem;
+  }
+  .search .searchInput::placeholder {
+    font-size: var(--body4);
+    font-weight: 500;
+    color: var(--primary-green) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    opacity: 1;
+  }
+  /* Chrome/Opera/Safari */
+  .search .searchInput::-webkit-input-placeholder {
+    color: var(--primary-green) !important;
+  }
+  /* Firefox 19+ */
+  .search .searchInput::-moz-placeholder {
+    color: var(--primary-green) !important;
+  }
+  /* IE 10+ */
+  .search .searchInput:-ms-input-placeholder {
+    color: var(--primary-green) !important;
+  }
+  /* Firefox 18- */
+  .search .searchInput:-moz-placeholder {
+    color: var(--primary-green) !important;
+  }
+  .search i {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .catalog-filters .filter h4 {
+    font-size: var(--body2);
+    font-weight: 600;
+  }
+  .catalog-filters .filter h4::first-letter {
+    text-transform: capitalize;
+  }
+  
+  .catalog-filters .byPrice {
+    gap: 1rem;
+  }
+  .catalog-filters .byPrice i {
+    padding: 0.1rem 0;
+  }
+  
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  /* -x- Products Catalog -x- */
+  
+  /* ===============x================ Catalog PAGE ==================x=============- */
+  

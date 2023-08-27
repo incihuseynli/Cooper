@@ -23,16 +23,61 @@
   .navbar-lg {
     display: block !important;
   }
-
+  /* ---- Hero Slider ---- */
+  .hero-slider .navbar {
+    padding-inline: var(--lg-padding) !important;
+  }
+  .hero-slider .hero-images {
+    width: 46rem !important;
+    height: 34rem !important;
+  }
+  .hero-slider .lg-hero-img {
+    display: block !important;
+  }
+  .hero-slider .md-hero-img,
+  .hero-slider .sm-hero-img {
+    display: none !important;
+  }
+  .hero-slider .hero-info {
+    margin-top: 4rem !important;
+    width: 22rem !important;
+    padding-left: var(--lg-padding) !important;
+  }
+  .hero-slider .heroSwiper .swiper-pagination{
+    margin-left: 5rem !important;
+    bottom: 4rem !important;
+}
+  /* --x- Hero Slider -x-- */
   /* ----x---- Header ---x---- */
 
   /* --------- Main --------- */
-
+  .title{
+    font-size: var(--lg-heading2) !important;
+  }
 
   /* --- Products --- */
   .product-title {
     font-size: var(--body5) !important;
+    bottom: 4rem !important;
   }
+
+  
+  .fly-numbers span:nth-child(1) {
+    font-size: var(--md-heading3) !important;
+  }
+  .fly-numbers span:nth-child(2) {
+    font-size: var(--md-heading1) !important;
+  }
+  .fly-numbers span:nth-child(3) {
+    top: 12rem !important;
+    font-size: var(--lg-heading1) !important;
+  }
+
+
+
+
+
+
   /* -x- Products -x- */
 
   /* --- Reasons to choice us --- */
@@ -55,7 +100,7 @@
 
   /* ================== ABOUT PAGE ================== */
   .breadcrumb-menu {
-    padding: var(--lg-padding) !important;
+    padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
   .clients {
     grid-template-columns: repeat(2, 1fr) !important;

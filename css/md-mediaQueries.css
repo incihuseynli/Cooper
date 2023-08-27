@@ -21,6 +21,7 @@
   }
   .navbar-md {
     margin: 2rem 0 1rem !important;
+    padding-bottom: var(--md-margin) !important;
   }
   .nav-menu {
     flex-direction: row !important;
@@ -39,13 +40,64 @@
     ) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+    color: transparent;
+    text-decoration-color: var(--primary-brown) !important;
   }
+  
+  /* ---------- Hero Slider ---------- */
+  .hero-slider {
+    padding: 0 !important;
+  }
+  .hero-slider .navbar {
+    padding: var(--sm-padding) var(--md-padding) !important;
+  }
+  .hero-slider  .hero-images {
+    width: 27rem !important;
+    height: 36rem !important;
+  }
+  .hero-slider  .lg-hero-img,
+  .hero-slider  .sm-hero-img {
+    display: none !important;
+  }
+  .hero-slider  .md-hero-img {
+    display: block !important;
+  }
+  .hero-slider  .hero-info {
+    width: 22rem !important;
+    padding-left: var(--md-padding) !important;
+  }
+  .hero-slider  .hero-info h1 {
+    font-size: var(--md-heading1) !important;
+  }
+  .hero-slider  .hero-info p {
+    width: 100% !important;
+    font-size: var(--body6) !important;
+  }
+  .hero-slider  .hero-info .btn {
+    width: 100% !important;
+  }
+  .hero-slider  .hero-info .line {
+    width: 24rem !important;
+  }
+  .hero-slider  .hero-price {
+    width: 100% !important;
+    justify-content: space-between !important;
+    font-size: var(--body5) !important;
+  }
+  .hero-slider  .heroSwiper .swiper-pagination{
+    margin-left: 3rem !important;
+}
+
+  /* ----x----- Hero Slider -----x---- */
   /* -----------------x---- Header ----------------x---- */
 
   /* ------------------- Main ------------------- */
 
   section {
     margin-bottom: 2rem;
+  }
+  .title{
+    font-size: var(--md-heading3) !important;
   }
   .products-container {
     grid-template-columns: repeat(3, 1fr) !important;
@@ -71,7 +123,10 @@
   /* -------------- Main -------------- */
 
   .breadcrumb-menu {
-    padding: var(--md-padding) !important;
+    padding: var(--md-padding) var(--md-padding) 0 !important;
+  }
+  .breadcrumb-menu li a {
+    font-size: var(--body3) !important;
   }
   /* --- Clients --- */
 
@@ -336,30 +391,28 @@
     flex-direction: row !important;
     background-position: right 2rem !important;
   }
-  .account-box .texts{
+  .account-box .texts {
     text-align: left !important;
     align-items: flex-start !important;
-    
   }
   .account-box .texts h5,
-  .account-box .texts span{
+  .account-box .texts span {
     font-size: var(--body3) !important;
   }
-  .info .header h4{
+  .info .header h4 {
     font-size: var(--body6) !important;
   }
-  .details .form{
+  .details .form {
     flex-direction: row !important;
   }
-  .choice p{
+  .choice p {
     font-size: var(--body2) !important;
   }
-  .choices{
-    width:34rem !important;
+  .choices {
+    width: 34rem !important;
   }
 
-
-  .total{
+  .total {
     width: 34rem !important;
     align-items: center !important;
     justify-content: center !important;
@@ -367,48 +420,33 @@
   }
 
   /* =================x============= Product Order PAGE ===============x==============- */
-  
-  
-  
+
   /* ============================== Profile PAGE =============================- */
-  .profile .title{
+  .profile .title {
     font-size: var(--md-heading1) !important;
   }
-  .navigations{
+  .navigations {
     flex-direction: row !important;
     gap: 2rem !important;
   }
-  .nav-btn{
+  .nav-btn {
     width: 14rem !important;
   }
- 
 
   .profile .informations .header .right .greetings {
     font-size: var(--body4) !important;
   }
-  
+
   .profile .informations .header .right .username {
     font-size: var(--body5) !important;
   }
 
-  .profile .informations .details .form .col .nav-btn{
+  .profile .informations .details .form .col .nav-btn {
     width: 100% !important;
     height: 3rem !important;
   }
 
-
-
-
   /* =================x============= Profile PAGE ===============x==============- */
-
-
-
-
-
-
-
-
-
 }
 
 /* ========================================================== */

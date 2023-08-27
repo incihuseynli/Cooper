@@ -1,4 +1,5 @@
-// Responsive Mobile Menu
+
+// ================= Responsive Mobile Menu ======================
 
 const openedMenu = document.querySelector("#openedMenu");
 const closedMenu = document.querySelector("#closedMenu");
@@ -11,7 +12,9 @@ closedMenu.addEventListener("click", () => {
   smNavMenu.style.transform = "translateY(-200%)";
 });
 
-// Page Up Button
+
+
+// =============== Page Up Button ==============================
 const toTop = document.getElementById("toTop");
 
 window.onscroll = function () {
