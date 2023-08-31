@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/news.css" />
     <!-- Main CSS File -->
     <link rel="stylesheet" href="./css/index.css" />
     <!-- Font Awesome CDN -->
@@ -22,18 +25,26 @@
     />
     <title>COOPER - Xəbərlər</title>
   </head>
-  <body>    
+  <body>
     <!-- --------- Header --------- -->
     <header>
       <nav class="navbar">
         <div class="logo">
-          <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          <a href="index.html">
+            <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          </a>
         </div>
         <div class="navbar-sm">
           <div class="navbar-sm__icons">
-            <img src="./assets/icons/heart.svg" id="heart-icon" />
-            <img src="./assets/icons/profile.svg" id="profile-icon" />
-            <img src="./assets/icons/cart.svg" id="cart-icon" />
+            <a href="wishlist.html">
+              <img src="./assets/icons/heart.svg" id="heart-icon" />
+            </a>
+            <a href="login.html">
+              <img src="./assets/icons/profile.svg" id="profile-icon" />
+            </a>
+            <a href="products-basket.html">
+              <img src="./assets/icons/cart.svg" id="cart-icon" />
+            </a>
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
           <ul class="nav-menu">
@@ -41,7 +52,7 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-md">
@@ -50,7 +61,7 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-lg">
@@ -59,14 +70,20 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
       </nav>
       <div class="header__icons">
-        <img src="./assets/icons/heart.svg" id="heart-icon" />
-        <img src="./assets/icons/profile.svg" id="profile-icon" />
-        <img src="./assets/icons/cart.svg" id="cart-icon" />
+        <a href="wishlist.html">
+          <img src="./assets/icons/heart.svg" id="heart-icon" />
+        </a>
+        <a href="login.html">
+          <img src="./assets/icons/profile.svg" id="profile-icon" />
+        </a>
+        <a href="products-basket.html">
+          <img src="./assets/icons/cart.svg" id="cart-icon" />
+        </a>
       </div>
       <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
     </header>
@@ -76,267 +93,31 @@
     <main class="main">
       <!-- --- News Header --- -->
 
-        <div class="breadcrumbs">
-          <ul class="breadcrumb-menu">
-            <li><a href="index.html">Ana səhifə</a></li>
-            <li><a>/</a></li>
-            <li><a href="news.html">Xəbərlər</a></li>
-          </ul>
-        </div>
-        <div class="heading">
-          <h1 class="title">Xəbərlər</h1>
-        </div>
+      <div class="breadcrumbs">
+        <ul class="breadcrumb-menu">
+          <li><a href="index.html">Ana səhifə</a></li>
+          <li><a>/</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
+        </ul>
+      </div>
+      <div class="heading">
+        <h1 class="title">Xəbərlər</h1>
+      </div>
 
       <!-- -x- News Header -x- -->
       <!-- ---  News--- -->
 
       <section class="news-list">
         <!-- --- News Cards --- -->
-        <div class="news">
-           <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
+        <div class="news"></div>
+        <!-- -x- News Cards -x- -->
+        <!-- --- Pagination --- -->
+        <div class="pagination-news">
+          <div class="page-numbers"></div>
         </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="newsList card">
-          <div class="card-image">
-            <img src="./assets/images/news-img.png" alt="post1" class="img" />
-            <h5>Yuxunu yaxşılaşdırmaq üçün efir yağları</h5>
-            <div class="date-of-post">
-              <p>27.10.21</p>
-            </div>
-          </div>
-          <div class="card-info">
-            <p>
-              Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar, şübhəsiz
-              ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında
-              danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi
-              riayət etmək lazımdır ....
-            </p>
-            <div class="read-more">
-              <a href="#">Daha ətraflı oxuyun</a>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
-        </div>
-         <!-- -x- News Cards -x- -->
-       <!-- --- Pagination --- -->
-      <div class="paginations">
-        <div class="page-numbers news-list">
-        </div>
-      </div>
-      <!-- -x- Pagination -x- -->
-
-       
+        <!-- -x- Pagination -x- -->
       </section>
       <!-- -x-  News -x- -->
-      
     </main>
     <!-- ----x---- Main ----x---- -->
     <!-- --------- Footer --------- -->
@@ -354,15 +135,15 @@
         <ul class="footer-menu">
           <h4>Menyular</h4>
           <li><a href="catalog.html">Katoloq</a></li>
-          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
           <li><a href="#">Çatdırılma</a></li>
           <li><a href="about.html">Haqqımızda</a></li>
-          <li><a href="#">Əlaqə</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
         </ul>
         <ul class="footer-menu">
           <h4>Əlaqə</h4>
           <li><a href="#"> Бажана 8-Б, Киев, 02132 Украина </a></li>
-          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
           <li><a href="#">+38 (096) 990 67 56</a></li>
           <li><a href="#">a.alambik@gmail.com</a></li>
           <li class="socials">
@@ -387,9 +168,12 @@
     </footer>
     <!-- ----x---- Footer ----x---- -->
 
-  
+    <!-- ================ JS CODES ===================================================== -->
+
+    <!-- Custom Javascript File -->
+    <script src="./js/news.js"></script>
+
     <!-- Main JavaScript File -->
     <script src="./js/main.js"></script>
-    <script src="./js/news.js"></script>
   </body>
 </html>

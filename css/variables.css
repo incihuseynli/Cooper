@@ -2,7 +2,7 @@
     /* Margins and Paddings */
     --sm-padding: 1rem;
     --md-padding: 2rem;
-    --lg-padding: 4rem;
+    --lg-padding: 3rem;
   
     --sm-margin: 1rem;
     --md-margin: 2rem;
@@ -13,6 +13,8 @@
     --white-clr: #fdfdfd;
     --black-clr: #272727;
     --red-clr: #9b0000;
+    --blue-clr: #025E92;
+    --yellow-clr: #7E9202;
   
     --primary-brown: #5e3928;
     --secondary-brown: #e4a16f;

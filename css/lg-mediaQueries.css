@@ -5,10 +5,15 @@
   footer {
     padding-inline: var(--lg-padding) !important;
   }
+  section {
+    padding-bottom: var(--md-margin) !important;
+    margin-bottom: 4rem !important;
+  }
   /* --------- Header --------- */
   header {
     padding-top: var(--sm-padding) !important;
     padding-bottom: var(--sm-padding) !important;
+    z-index: 10000;
   }
   .navbar-sm,
   .navbar-md {
@@ -23,6 +28,9 @@
     display: block !important;
   }
   /* ---- Hero Slider ---- */
+  .hero-slider {
+    overflow-x: hidden;
+  }
   .hero-slider .navbar {
     padding-inline: var(--lg-padding) !important;
   }
@@ -75,12 +83,13 @@
 
   /* --- Banner Section --- */
   .banner {
-    height: 14.5rem !important;
+    height: 15rem !important;
+    padding-left: var(--lg-padding) !important;
   }
   .banner-image {
     height: 15.5rem !important;
-    bottom: 0.5rem !important;
-    right: -4rem !important;
+    bottom: 0 !important;
+    right: -3rem !important;
     background-image: url("../assets/images/banner-lg.png") !important;
   }
 
@@ -89,6 +98,7 @@
   }
   .banner-header {
     gap: 1rem !important;
+    left: 4rem !important;
     margin: 0 !important;
   }
   .banner-header p {
@@ -114,87 +124,19 @@
   }
   /* ----x---- Footer ---x---- */
 
-  /* ================== ABOUT PAGE ================== */
+
   .breadcrumb-menu {
     padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
-  /* --- Hero Section --- */
-  .about-heroImages {
-    height: 30rem !important;
-    background-image: url("../assets/images/aboutHero-lg.png") !important;
-    background-position: top right !important;
-  }
-  .about-hero .top {
-    width: 36rem !important;
-  }
-  .quote-sentence h2 {
-    font-size: 50px !important;
-    line-height: 1 !important;
-  }
 
-  /* -x- Hero Section -x- */
-
-  .clients {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 2rem;
-    place-items: unset !important;
-  }
-  .clients .bottom .numbers h1 {
-    font-size: 140px !important;
-    margin-top: 1rem;
-    text-align: left !important;
-  }
-  .clients .bottom {
-    text-align: left !important;
-  }
-  .clients .top {
-    gap: 1rem !important;
-  }
-  .clients .top .sub-info {
-    text-align: left !important;
-  }
-  .clients .top .title {
-    font-size: var(--lg-heading2) !important;
-    text-align: left !important;
-  }
-  .clients .bottom h2 {
-    font-size: var(--lg-heading2) !important;
-  }
-
-  .clients-more .columns {
-    gap: 1rem !important;
-  }
-  .clients-more .columns .col {
-    width: 100%;
-    padding-inline: 1rem;
-  }
-
-  /* --- Priorities --- */
-
-  .priorities-image {
-    width: 28rem !important;
-    height: 34rem !important;
-    margin-bottom: 0 !important;
-  }
-
-  .priorities-text .title {
-    font-size: var(--lg-heading2) !important;
-  }
-
-  .priorities p {
-    font-size: var(--body4) !important;
-  }
-  .priorities .specialities .speciality h4 {
-    font-size: var(--body5) !important;
-  }
-
-  /* -x- Priorities -x- */
-
-  /*  ============x======================= ABOUT PAGE ========x========================= */
+ 
   /*  =================================== CATALOG PAGE ================================= */
   .products-container.catalog {
     grid-template-rows: repeat(1, 1fr) !important;
     grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .product {
+    height: 24rem !important;
   }
   .heading {
     padding-inline: var(--lg-padding) !important;
@@ -211,51 +153,6 @@
   /* -x- Products Catalog -x- */
 
   /*  ============x======================= CATALOG PAGE ========x========================= */
-
-  /*  =================================== NEWS PAGE ================================= */
-  .news {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-
-  /*  ============x======================= NEWS PAGE ========x========================= */
-  /*  =================================== NEWS Post PAGE ================================= */
-
-  .heading.post .title {
-    width: 50% !important;
-    font-size: var(--md-heading3) !important;
-  }
-  .post-bottom {
-    margin-bottom: 2rem;
-  }
-
-  .post-bottom .share {
-    margin-top: -3rem !important;
-  }
-
-  /*  ============x======================= NEWS Post PAGE ========x========================= */
-
-  /*  =================================== Product Detail PAGE ================================= */
-  .product-details {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1rem;
-  }
-  .product-image .card-image {
-    width: 100% !important;
-  }
-  .product-detail .title {
-    padding: 0 0 2rem !important;
-  }
-  .product-detail .product-desc {
-    margin-top: 2rem !important;
-  }
-
-  .section.product-desc {
-    padding-bottom: 2rem !important;
-  }
-  .product-header {
-    margin-top: 2rem !important;
-  }
-  /*  ============x======================= Product Detail PAGE ========x========================= */
 
   /* =============================== Product Order PAGE ==============================- */
 
@@ -298,11 +195,21 @@
 
   /* ===============x================ Product Order PAGE ==================x=============- */
   /* ============================== Profile PAGE =============================- */
-  .profile-details {
+
+  .section-details {
     grid-template-columns: 18rem 100% !important;
     /* gap: 4rem !important; */
   }
+  .section-details .informations .details {
+    width: fit-content !important;
+  }
+  .profile .section-details .informations .details .form .col input {
+    width: 16rem !important;
+  }
 
+  .profile .informations .details .form .col .nav-btn {
+    width: 16rem !important;
+  }
   .profile .title {
     font-size: var(--lg-heading2) !important;
   }
@@ -320,8 +227,33 @@
   .profile .informations .details .form .col input {
     width: 20.5rem !important;
   }
-  .profile .informations .details .form .col .nav-btn {
-    width: 20.5rem !important;
-  }
+
   /* =================x============= Profile PAGE ===============x==============- */
+
+  /* ================================ Wish List PAGE ===================================== */
+
+  .wish-list {
+    margin-bottom: 0 !important;
+  }
+  .wish-list .section-details {
+    grid-template-columns: 18rem 44rem;
+    gap: 0 !important;
+  }
+  .section-details .catalog-products {
+    padding: 0 !important;
+    width: 44rem;
+  }
+  .wish-list .section-details .catalog-products .products-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .wish-list .section-details .paginations,
+  .page-numbers {
+    align-items: unset !important;
+    height: 5rem !important;
+  }
+  .wish-list .section-details .card-info h3 {
+    width: 12rem !important;
+  }
+  /* ================x=============== Wish List PAGE ===================x================= */
 }
+

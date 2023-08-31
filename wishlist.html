@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>COOPER - Kataloq</title>
+  </head>
+  <body>
+    <!-- --------- Header --------- -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+        </div>
+        <div class="navbar-sm">
+          <div class="navbar-sm__icons">
+            <a href="wishlist.html"
+              ><img src="./assets/icons/heart.svg" id="heart-icon"
+            /></a>
+            <a href="profile.html"
+              ><img src="./assets/icons/profile.svg" id="profile-icon"
+            /></a>
+            <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+          </div>
+          <img src="./assets/icons/close-menu.svg" id="closedMenu" />
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
+            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="#">Əlaqə</a></li>
+          </ul>
+        </div>
+        <div class="navbar-md">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
+            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="#">Əlaqə</a></li>
+          </ul>
+        </div>
+        <div class="navbar-lg">
+          <ul class="nav-menu">
+            <li><a href="catalog.html">Katoloq</a></li>
+            <li><a href="news.html">Xəbərlər</a></li>
+            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="#">Əlaqə</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__icons">
+        <a href="wishlist.html"
+          ><img src="./assets/icons/heart.svg" id="heart-icon"
+        /></a>
+        <a href="profile.html"
+          ><img src="./assets/icons/profile.svg" id="profile-icon"
+        /></a>
+        <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+      </div>
+      <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
+    </header>
+    <!-- ----x---- Header ----x---- -->
+    <!-- --------- Main --------- -->
+
+    <main class="main">
+      <section class="wish-list">
+        <h1 class="title">istək siyahısı</h1>
+        <div class="section-details">
+          <div class="navigations">
+            <a href="profile.html" class="nav-btn">
+              <i class="fa-regular fa-user"></i>
+              <h5>Profil məlumatları</h5>
+            </a>
+            <a href="order_page.html" class="nav-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h5>Sifarişlər</h5>
+            </a>
+            <a href="wishlist.html" class="nav-btn active">
+              <i class="fa-solid fa-heart"></i>
+              <h5>istək siyahısı</h5>
+            </a>
+            <a href="logout.html" class="nav-btn text">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <h5>Çıxış</h5>
+            </a>
+          </div>
+                <!-- ---  Products Catalog--- -->
+
+      <div class="catalog-products">
+        <!-- Show Products -->
+        <div class="products-list">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan 1</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan 2</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan 3</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini qulplu mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan dörd</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/images/products/image_1.jpg"
+                alt=""
+                class="img"
+              />
+              <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Çini saplı mis çaydan</h3>
+              <span>1 953 грн</span>
+            </div>
+          </div>
+        </div>
+        <!-- --- Pagination --- -->
+        <div class="paginations">
+          <ul class="page-numbers"></ul>
+        </div>
+        <!-- -x- Pagination -x- -->
+      </div>
+
+      <!-- -x-  Products Catalog -x- -->
+        </div>
+      </section>
+
+
+    </main>
+    <!-- ----x---- Main ----x---- -->
+    <!-- --------- Footer --------- -->
+    <footer class="footer">
+      <div class="top">
+        <div class="footer-logo">
+          <a href="index.html"
+            ><img src="./assets/images/logo.png" alt="Logo"
+          /></a>
+        </div>
+        <p class="rights">© 2021 "Copper Pro" Bütün hüquqlar qorunur</p>
+        <p class="privacy"><a href="#">Gizlilik Siyasəti</a></p>
+      </div>
+      <div class="bottom">
+        <ul class="footer-menu">
+          <h4>Menyular</h4>
+          <li><a href="catalog.html">Katoloq</a></li>
+          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="#">Çatdırılma</a></li>
+          <li><a href="about.html">Haqqımızda</a></li>
+          <li><a href="#">Əlaqə</a></li>
+        </ul>
+        <ul class="footer-menu">
+          <h4>Əlaqə</h4>
+          <li><a href="#"> Бажана 8-Б, Киев, 02132 Украина </a></li>
+          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="#">+38 (096) 990 67 56</a></li>
+          <li><a href="#">a.alambik@gmail.com</a></li>
+          <li class="socials">
+            <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          </li>
+        </ul>
+        <ul class="footer-menu">
+          <h4>Katoloq</h4>
+          <li><a href="#">Efir yağları üçün</a></li>
+          <li><a href="#">Hidrolatlar üçün</a></li>
+          <li><a href="#">mis qablar</a></li>
+          <li><a href="#">Mis aksesuarları</a></li>
+          <li><a href="#">Fərdi sifariş</a></li>
+          <li><a href="#">Endirimlər və təkliflər</a></li>
+        </ul>
+        <div class="toTop" id="toTop" onclick="pageUp()">
+          <h5>Yuxarı</h5>
+        </div>
+      </div>
+    </footer>
+    <!-- ----x---- Footer ----x---- -->
+
+    <!-- =====================JAVASCRIPT================================================================ -->
+    <!-- Main JavaScript File -->
+    <script src="./js/main.js"></script>
+    <script src="./js/catalog.js"></script>
+  </body>
+</html>

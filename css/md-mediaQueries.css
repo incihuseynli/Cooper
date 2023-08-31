@@ -103,6 +103,9 @@
     grid-template-columns: repeat(3, 1fr) !important;
     grid-template-rows: repeat(2, 1fr) !important;
   }
+  .product {
+    height: 20rem !important;
+  }
   .product-title {
     font-size: var(--body3) !important;
   }
@@ -157,86 +160,7 @@
   .breadcrumb-menu li a {
     font-size: var(--body3) !important;
   }
-/* --- Hero Section --- */
-.about-hero{
-  margin-top: -1rem !important;
-}
-  .about-heroImages{
-    height: 26rem !important;
-    background-image: url('../assets/images/aboutHero-md.png') !important;
-    background-position: right bottom !important;
-  }
 
-  .about-hero .top{
-    width: 26rem !important;
-    margin-right: 2rem !important;
-  }
-  .quote-sentence h2{
-    font-size: 32px !important;
-    }
-    .about-hero .top .title{
-      width: 100% !important;
-    }
-
-/* -x- Hero Section -x- */
-  /* --- Clients --- */
-
-  .clients .top {
-    width: 30rem !important;
-  }
-  .clients .top .title {
-    font-size: var(--md-heading3);
-  }
-  .clients .top .sub-info {
-    font-size: var(--body4) !important;
-  }
-  .clients .bottom h2 {
-    font-size: var(--body6) !important;
-  }
-  .clients .bottom .numbers h1 {
-    font-size: 200px !important;
-  }
-
-  .clients-more .columns {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-  /* -x- Clients -x- */
-  /* --- Priorites --- */
-  .priorities {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 2rem !important;
-  }
-  .priorities-text {
-    align-items: flex-start !important;
-    text-align: left !important;
-  }
-  .priorities-text .title {
-    margin-top: 0 !important;
-    font-size: var(--md-heading3) !important;
-  }
-  .priorities-image {
-    width: 22.5rem !important;
-    height: 20rem !important;
-    margin-bottom: 6rem !important;
-  }
-  .priorities p {
-    text-align: left !important;
-    font-size: var(--body2) !important;
-  }
-  .priorities .specialities {
-    margin-top: 3rem !important;
-  }
-
-  /* -----x-------- Main -------x------ */
-
-  /* -------------- Footer -------------- */
-  /* -----x-------- Footer -------x------ */
-  .clients-more .columns {
-    flex-direction: row !important;
-    gap: 1rem !important;
-  }
-
-  /* ============x============ ABOUT PAGE ===========x============ */
   /* ========================= CATALOG PAGE ======================== */
 
   /* --- Catalog Header --- */
@@ -288,76 +212,7 @@
 
   /* ===========x============= CATALOG PAGE ============x=========== */
 
-  /* =============================== News PAGE ===============================- */
-
-  .news .newsList .card-info {
-    display: block;
-    width: 100%;
-    padding-right: 0.5rem;
-  }
-  .news.newsList .card-info p {
-    font-size: var(--body2) !important;
-  }
-  .news.newsList .card-image h5 {
-    font-size: var(--body4) !important;
-    text-align: left !important;
-    bottom: 2rem !important;
-  }
-
-  /* ===============x================ News PAGE ==================x=============- */
-
-  /* =============================== News Post PAGE ===============================- */
-
-  .heading.post .title {
-    width: 70% !important;
-    font-size: var(--md-heading2) !important;
-  }
-  .heading.post {
-    flex-direction: row !important;
-    justify-content: space-between !important;
-    align-items: flex-end !important;
-  }
-  .heading.post .share {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 0 !important;
-    margin-bottom: var(--sm-margin) !important;
-  }
-  .heading.post .share h4 {
-    font-size: var(--body4) !important;
-  }
-  .heading.post .share .socials {
-    gap: 1.5rem !important;
-  }
-
-  .post-pagination {
-    /* width: 100%; */
-    justify-content: space-between;
-    border-top: 1px solid var(--secondary-gray);
-    border-bottom: none !important;
-  }
-
-  .post-pagination .left,
-  .post-pagination .right {
-    gap: 1rem;
-    padding: 1rem;
-  }
-  .post-pagination .left h5,
-  .post-pagination .right h5 {
-    font-size: var(--body2) !important;
-    width: 12rem !important;
-  }
-  .post-pagination .line {
-    display: none !important;
-  }
-
-  .post-bottom .share {
-    margin: 1rem 0 !important;
-    justify-content: center !important;
-    gap: 4rem !important;
-  }
-
-  /* ===============x================ News Post PAGE ==================x=============- */
+  
   /* ===============x================ Order Thanks PAGE ==================x=============- */
   .header-order,
   .footer-order {
@@ -375,7 +230,7 @@
     width: 20rem !important;
     position: absolute !important;
     left: 2rem !important;
-    top: 2rem !important;
+    top: -8rem !important;
   }
   .login,
   .register {
@@ -385,49 +240,7 @@
 
   /* ===============x================  Login PAGE ==================x=============- */
 
-  /* ===============================  Product Order PAGE ==============================- */
-  .product-image .card-image {
-    width: 34rem !important;
-    height: 38rem !important;
-  }
-  .small-image {
-    width: 8rem !important;
-    height: 8rem !important;
-  }
-  .product-detail .title {
-    font-size: var(--md-heading3) !important;
-  }
-
-  .priceBox-bottom .product-count {
-    flex: 0 !important;
-  }
-  .priceBox-bottom .product-count i:first-child {
-    margin-right: 1rem !important;
-  }
-  .priceBox-bottom .product-count i:last-child {
-    margin-left: 1rem !important;
-  }
-  .priceBox-bottom .btn {
-    flex: 1;
-    margin-left: 2rem !important;
-  }
-
-  .product-detail .share {
-    justify-content: flex-start !important;
-    gap: 4rem;
-  }
-  .product-header {
-    flex-direction: row !important;
-  }
-  .product-header .title {
-    flex: 1;
-    text-align: left !important;
-  }
-  .product-header .btn {
-    flex: 1;
-  }
-
-  /* ===============x================  Product Order PAGE ==================x=============- */
+ 
   /* =============================== Product Order PAGE ==============================- */
 
   .order-header .back-to-home {
@@ -496,9 +309,25 @@
     width: 100% !important;
     height: 3rem !important;
   }
+  .form.user {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .form.user .col:first-child{
+    flex-direction: row;
+    gap: 1rem !important;
+  }
+  .profile .form .card-back{
+    gap: 1rem !important;
+    justify-content: unset !important;
+  }
 
+  .profile .informations .details .form.user .col .nav-btn{
+    width: 23rem !important;
+  }
   /* =================x============= Profile PAGE ===============x==============- */
 }
+
 
 /* ========================================================== */
 @media screen and (min-width: 800px) {

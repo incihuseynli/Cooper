@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/user_profile.css" />
     <!-- Main CSS File -->
     <link rel="stylesheet" href="./css/index.css" />
     <!-- Font Awesome CDN -->
@@ -76,7 +78,7 @@
     <main>
       <section class="profile">
         <h1 class="title">Şəxsi kabinet</h1>
-        <div class="profile-details">
+        <div class="section-details">
           <div class="navigations">
             <a href="profile.html" class="nav-btn active">
               <i class="fa-regular fa-user"></i>
@@ -148,8 +150,9 @@
                 </div>
               </form>
             </div>
+
             <div class="details">
-                <h1 class="sub-title">Şifrə</h1>
+              <h1 class="sub-title">Şifrə</h1>
               <form class="form">
                 <div class="col">
                   <div class="password">
@@ -165,6 +168,40 @@
                 </div>
                 <div class="col">
                   <a href="#" class="nav-btn">Parolu dəyişdirin</a>
+                </div>
+              </form>
+            </div>
+            <div class="details">
+              <h1 class="sub-title">Ödəniş forması</h1>
+              <form class="form user">
+                <div class="col">
+                  <div class="col card-front">
+                    <input
+                      type="text"
+                      name="credit-card"
+                      id="credit-card"
+                      placeholder="5115 5555 5555 5555"
+                    />
+                    <i class="fa-regular fa-credit-card"></i>
+                  </div>
+
+                  <div class="col card-back">
+                    <input
+                      type="number"
+                      name="date"
+                      id="card-date"
+                      placeholder="07/24"
+                    />
+                    <input
+                      type="number"
+                      name="cvv"
+                      id="cvv"
+                      placeholder="CVV"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <a href="#" class="nav-btn">Yadda saxla</a>
                 </div>
               </form>
             </div>

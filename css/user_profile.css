@@ -1,0 +1,125 @@
+/* =============================== Profile PAGE ===============================- */
+
+.section-details {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+.profile .title {
+  font-size: var(--body5);
+  text-align: left;
+  padding: 1rem 0 2rem;
+}
+
+.section-details .informations .details .sub-title {
+  font-size: var(--body5);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: var(--primary-green);
+}
+.profile .informations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile .informations .header {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+}
+
+.profile .informations .header .left img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.profile .informations .header .right {
+  color: var(--primary-green);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.profile .informations .header .right .greetings {
+  font-size: var(--body3);
+  font-weight: 500;
+}
+
+.profile .informations .header .right .username {
+  font-size: var(--body4);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.profile .informations .header .right .img-upload {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.profile .informations .header .right .img-upload i {
+  background: -webkit-linear-gradient(
+    25deg,
+    var(--primary-brown),
+    var(--secondary-brown)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-right: 0.5rem;
+}
+.profile .informations .header .right .img-upload .format {
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  font-weight: 300;
+  color: var(--secondary-gray);
+}
+.profile .informations .details .form .col .password {
+  width: 100%;
+  position: relative;
+}
+.profile .informations .details .form .col .password-eye {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: var(--primary-green);
+  cursor: pointer;
+}
+.profile .informations .details .form .col .password-eye.open {
+  display: block;
+}
+.profile .informations .details .form .col .password-eye.close {
+  display: none;
+}
+
+.profile .form .card-back {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile .form .card-back input {
+  width: 10rem !important;
+}
+.col.card-front {
+  position: relative;
+}
+.col.card-front .fa-credit-card {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.profile input:focus {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: var(--primary-green);
+  text-transform: uppercase;
+}
+
+/* ===============x================ Profile PAGE ==================x=============- */

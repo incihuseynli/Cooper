@@ -22,13 +22,23 @@
       },
     },
   });
+  
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 20,
     grabCursor: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
+      type: 'bullets',
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active',
+      renderBullet: function (index, className) {
+        if (index < 3) {
+          return `<span class="${className}"></span>`;
+        }
+        return ''; //
+      },
     },
     breakpoints: {
       600: {
@@ -42,6 +52,7 @@
       },
     },
   });
+  
 
 
 

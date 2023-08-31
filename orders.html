@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/user_profile.css" />
     <!-- Main CSS File -->
     <link rel="stylesheet" href="./css/index.css" />
     <!-- Font Awesome CDN -->
@@ -20,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
       rel="stylesheet"
     />
-    <title>COOPER - Kataloq</title>
+    <title>COOPER</title>
   </head>
   <body>
     <!-- --------- Header --------- -->
@@ -31,13 +33,9 @@
         </div>
         <div class="navbar-sm">
           <div class="navbar-sm__icons">
-            <a href="wishlist.html"
-              ><img src="./assets/icons/heart.svg" id="heart-icon"
-            /></a>
-            <a href="profile.html"
-              ><img src="./assets/icons/profile.svg" id="profile-icon"
-            /></a>
-            <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+            <img src="./assets/icons/heart.svg" id="heart-icon" />
+            <img src="./assets/icons/profile.svg" id="profile-icon" />
+            <img src="./assets/icons/cart.svg" id="cart-icon" />
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
           <ul class="nav-menu">
@@ -68,84 +66,72 @@
         </div>
       </nav>
       <div class="header__icons">
-        <a href="wishlist.html"
-          ><img src="./assets/icons/heart.svg" id="heart-icon"
-        /></a>
-        <a href="profile.html"
-          ><img src="./assets/icons/profile.svg" id="profile-icon"
-        /></a>
-        <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+        <img src="./assets/icons/heart.svg" id="heart-icon" />
+        <img src="./assets/icons/profile.svg" id="profile-icon" />
+        <img src="./assets/icons/cart.svg" id="cart-icon" />
       </div>
       <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
     </header>
     <!-- ----x---- Header ----x---- -->
-    <!-- --------- Main --------- -->
 
-    <main class="main">
-      <!-- --- Catalog Header --- -->
-      <div class="breadcrumbs">
-        <ul class="breadcrumb-menu">
-          <li><a href="index.html">Ana səhifə</a></li>
-          <li><a>/</a></li>
-          <li><a href="catalog.html">Kataloq</a></li>
-        </ul>
-      </div>
-      <div class="heading">
-        <h1 class="title">Kataloq</h1>
-      </div>
-      <!-- -x- Catalog Header -x- -->
-      <!-- --- Products Section --- -->
-      <section class="products">
-        <div class="products-container catalog"></div>
-        <div class="line"></div>
-      </section>
-      <!-- -x- Products Section -x- -->
-      <!-- ---  Products Catalog--- -->
-
-      <section class="catalog-products">
-        <!-- Filters for products -->
-        <div class="catalog-filters">
-          <form class="search">
-            <input
-              type="text"
-              placeholder="Axtar"
-              class="searchInput"
-              id="searchInput"
-              onkeyup="searchProducts()"
-            />
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </form>
-          <div class="filter">
-            <div class="bySort">
-              <h4>Çeşidləmə:</h4>
-            </div>
-            <div class="byPrice">
-              <h4>qiymətə görə</h4>
-              <i class="fa-solid fa-angle-down"></i>
+    <!-- ------------------ Main ------------------ -->
+    <main>
+      <section class="orders">
+        <h1 class="title">Sifarişlər</h1>
+        <div class="section-details">
+          <div class="navigations">
+            <a href="profile.html" class="nav-btn active">
+              <i class="fa-regular fa-user"></i>
+              <h5>Profil məlumatları</h5>
+            </a>
+            <a href="order_page.html" class="nav-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h5>Sifarişlər</h5>
+            </a>
+            <a href="wishlist.html" class="nav-btn">
+              <i class="fa-solid fa-heart"></i>
+              <h5>istək siyahısı</h5>
+            </a>
+            <a href="logout.html" class="nav-btn text">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <h5>Çıxış</h5>
+            </a>
+          </div>
+          <div class="product-basket-list">
+            <div class="product-basket">
+              <div class="row">
+                <img src="./assets/images/products/image_1.jpg" alt="" />
+                <h4>Hidrolat 8l almaq üçün distillə</h4>
+              </div>
+              <div class="col bottom">
+                <div class="row">
+                  <span class="time">27.10.21</span>
+                  <span class="state accepted" id="state">Göndərildi</span>
+                </div>
+                <div class="row">
+                  <div class="product-units">
+                    <span>2 </span>
+                    <p>ədəd</p>
+                  </div>
+                  <div class="col">
+                    <span class="prevPrice">1 953 грн</span>
+                    <span class="currentPrice">5 000 грн</span>
+                  </div>
+                </div>
+              </div>
+              <i class="fa-solid fa-trash-can"></i>
             </div>
           </div>
         </div>
-        <!-- Show Products -->
-        <div class="products-list">
-          
-        </div>
-        <!-- --- Pagination --- -->
-        <div class="paginations">
-          <ul class="page-numbers"></ul>
-        </div>
-        <!-- -x- Pagination -x- -->
       </section>
-
-      <!-- -x-  Products Catalog -x- -->
     </main>
-    <!-- ----x---- Main ----x---- -->
+    <!-- ----x--------------- Main ---------------x---- -->
+
     <!-- --------- Footer --------- -->
     <footer class="footer">
       <div class="top">
         <div class="footer-logo">
-          <a href="index.html"
-            ><img src="./assets/images/logo.png" alt="Logo"
-          /></a>
+          <a href="#"><img src="./assets/images/logo.png" alt="Logo" /></a>
         </div>
         <p class="rights">© 2021 "Copper Pro" Bütün hüquqlar qorunur</p>
         <p class="privacy"><a href="#">Gizlilik Siyasəti</a></p>
@@ -153,10 +139,10 @@
       <div class="bottom">
         <ul class="footer-menu">
           <h4>Menyular</h4>
-          <li><a href="catalog.html">Katoloq</a></li>
+          <li><a href="#">Katoloq</a></li>
           <li><a href="#">Xəbərlər</a></li>
           <li><a href="#">Çatdırılma</a></li>
-          <li><a href="about.html">Haqqımızda</a></li>
+          <li><a href="#">Haqqımızda</a></li>
           <li><a href="#">Əlaqə</a></li>
         </ul>
         <ul class="footer-menu">
@@ -187,12 +173,7 @@
     </footer>
     <!-- ----x---- Footer ----x---- -->
 
-    <!-- =====================JAVASCRIPT================================================================ -->
     <!-- Main JavaScript File -->
     <script src="./js/main.js"></script>
-    <script src="./js/catalog.js"></script>
-    <script>
-      fetchAndDisplayProducts(4);
-    </script>
   </body>
 </html>

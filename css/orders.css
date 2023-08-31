@@ -1,0 +1,45 @@
+.orders .title,
+.wish-list .title {
+  font-size: var(--body5);
+  text-align: left;
+  padding: 1rem 0 2rem;
+}
+
+.orders .product-basket{
+    width: 100%;
+}
+.orders .product-basket .col.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+/* DOESN'T WORK ================================================================ */
+.orders .product-basket .col.bottom .row span:nth-child(2){
+    display: inline-flex;
+    align-self: flex-end;
+    gap: 10rem;
+}
+/* ================================================================ */
+.product-basket .col .row .time {
+  font-size: var(--body4);
+  font-weight: 600;
+  color: var(--primary-green);
+}
+.product-basket .col .row .state {
+  font-weight: 800;
+  font-size: var(--body3);
+}
+.product-basket .col .row .state.success {
+  color: var(--blue-clr);
+}
+.product-basket .col .row .state.danger {
+  color: var(--red-clr);
+}
+.product-basket .col .row .state.pending {
+  color: var(--yellow-clr);
+}
+.product-basket .col .row .state.accepted {
+  color: var(--secondary-green);
+}

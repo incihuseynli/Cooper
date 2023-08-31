@@ -18,6 +18,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-undefined"
+      crossorigin="anonymous"
+    />
+
     <!-- Google CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +39,9 @@
     <section class="hero-slider">
       <nav class="navbar">
         <div class="logo">
-          <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          <a href="index.html"
+            ><img src="./assets/images/logo.png" alt="COOPER LOGO"
+          /></a>
         </div>
         <div class="navbar-sm">
           <div class="navbar-sm__icons">
@@ -42,7 +51,9 @@
             <a href="login.html"
               ><img src="./assets/icons/profile.svg" id="profile-icon"
             /></a>
-            <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+            <a href="products-basket.html"
+              ><img src="./assets/icons/cart.svg" id="cart-icon"
+            /></a>
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
           <ul class="nav-menu">
@@ -50,7 +61,7 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-md">
@@ -59,7 +70,7 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-lg">
@@ -68,7 +79,7 @@
             <li><a href="news.html">Xəbərlər</a></li>
             <li><a href="#">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
       </nav>
@@ -79,7 +90,9 @@
         <a href="login.html"
           ><img src="./assets/icons/profile.svg" id="profile-icon"
         /></a>
-        <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+        <a href="products-basket.html"
+          ><img src="./assets/icons/cart.svg" id="cart-icon"
+        /></a>
       </div>
       <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
       <div class="swiper heroSwiper">
@@ -94,7 +107,9 @@
                   <h5>Qiymət:</h5>
                   <span class="price-tag">4 906 грн</span>
                 </div>
-                <button class="btn">Satın al</button>
+                <button class="btn">
+                  <a href="order_page.html">Satın al</a>
+                </button>
               </div>
               <div class="hero-images">
                 <img src="./assets/images/hero2.png" class="lg-hero-img" />
@@ -113,7 +128,9 @@
                   <h5>Qiymət:</h5>
                   <span class="price-tag">4 906 грн</span>
                 </div>
-                <button class="btn">Satın al</button>
+                <button class="btn">
+                  <a href="order_page.html">Satın al</a>
+                </button>
               </div>
               <div class="hero-images">
                 <img src="./assets/images/hero2.png" class="lg-hero-img" />
@@ -132,26 +149,9 @@
                   <h5>Qiymət:</h5>
                   <span class="price-tag">4 906 грн</span>
                 </div>
-                <button class="btn">Satın al</button>
-              </div>
-              <div class="hero-images">
-                <img src="./assets/images/hero2.png" class="lg-hero-img" />
-                <img src="./assets/images/hero3.png" class="md-hero-img" />
-                <img src="./assets/images/hero4.png" class="sm-hero-img" />
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="hero">
-              <div class="hero-info">
-                <h1>Bestseller</h1>
-                <div class="line"></div>
-                <p>Efir yağları üçün distillə</p>
-                <div class="hero-price">
-                  <h5>Qiymət:</h5>
-                  <span class="price-tag">4 906 грн</span>
-                </div>
-                <button class="btn">Satın al</button>
+                <button class="btn">
+                  <a href="catalog.html">Satın al</a>
+                </button>
               </div>
               <div class="hero-images">
                 <img src="./assets/images/hero2.png" class="lg-hero-img" />
@@ -171,42 +171,7 @@
       <!-- --- Products Section --- -->
       <section class="products">
         <h1 class="title">Məhsullarımız</h1>
-        <div class="products-container">
-          <div class="product">
-            <img src="./assets/images/products/image_1.jpg" alt="product1" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-          </div>
-          <div class="product">
-            <img src="./assets/images/products/image_3.jpg" alt="product2" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-          </div>
-          <div class="product">
-            <img src="./assets/images/products/image_2.jpg" alt="product3" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-          </div>
-          <div class="product">
-            <img src="./assets/images/products/image_3.jpg" alt="product4" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-          </div>
-          <div class="product">
-            <img src="./assets/images/products/image_1.jpg" alt="product1" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-          </div>
-          <div class="product">
-            <div class="overlay-image">
-              <!-- <img src="./assets/images/Ellipsee.svg" style="width: 10rem; height: 17rem;">
-              <img src="./assets/images/Ellipsee.svg" style="width: 10rem; height: 18rem;">
-              <img src="./assets/images/Ellipsee.svg" style="width: 8rem; height: 15rem;"> -->
-            </div>
-            <img src="./assets/images/products/image_2.jpg" alt="product2" />
-            <h6 class="product-title">Efir yağları üçün</h6>
-            <div class="fly-numbers">
-              <span>-30%</span>
-              <span>-50%</span>
-              <span>-80%</span>
-            </div>
-          </div>
-        </div>
+        <div class="products-container"></div>
       </section>
       <!-- -x- Products Section -x- -->
 
@@ -216,174 +181,13 @@
 
         <!-- Swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper wrapper"></div>
           <div class="swiper-pagination"></div>
         </div>
 
-        <button class="btn">Kataloqa daxil olun</button>
+        <button class="btn">
+          <a href="catalog.html">Kataloqa daxil olun</a>
+        </button>
       </section>
       <!-- -x- Top Products -x- -->
 
@@ -393,145 +197,13 @@
 
         <!-- Swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper wrapper"></div>
           <div class="swiper-pagination"></div>
         </div>
 
-        <button class="btn">Kataloqa daxil olun</button>
+        <button class="btn">
+          <a href="catalog.html">Kataloqa daxil olun</a>
+        </button>
       </section>
       <!-- -x- New Products -x- -->
 
@@ -555,120 +227,13 @@
         <h1 class="title">tövsiyələr</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper"></div>
           <div class="swiper-pagination"></div>
         </div>
 
-        <button class="btn">Kataloqa daxil olun</button>
+        <button class="btn">
+          <a href="catalog.html">Kataloqa daxil olun</a>
+        </button>
       </section>
       <!-- -x- Suggested Products -x- -->
 
@@ -678,269 +243,22 @@
 
         <!-- Swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="./assets/images/products/image_1.jpg"
-                    alt=""
-                    class="img"
-                  />
-                  <span class="tag">sale</span>
-                  <div class="heart-icon">
-                    <i class="fa-regular fa-heart"></i>
-                  </div>
-                </div>
-                <div class="card-info">
-                  <h3>Çini saplı mis çaydan</h3>
-                  <span>1 953 грн</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper"></div>
           <div class="swiper-pagination"></div>
         </div>
 
-        <button class="btn">Kataloqa daxil olun</button>
+        <button class="btn">
+          <a href="catalog.html">Kataloqa daxil olun</a>
+        </button>
       </section>
       <!-- -x- Discounted products -x- -->
 
       <!-- --- Reviews --- -->
-      <section class="products-slider reviews">
+      <section class="reviews">
         <h1 class="title">Haqqımızda deyilənlər</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="review-image">
-                  <img src="./assets/images/person.png" />
-                </div>
-                <img src="./assets/icons/quote-icon.svg" class="quote" />
-                <div class="review">
-                  <h4 class="username">Ivan Ivanov</h4>
-                  <p class="content">
-                    Avadanlıqlarımız əl işidir. Məhsullarımızın keyfiyyətinə
-                    daim nəzarət edirik. Eyni zamanda, ilk 2 il ərzində daşınma
-                    və ya istismar zamanı nasazlıqlar baş verərsə, biz həmişə
-                    müştəri ilə problemi həll etməyin ən əlverişli yolunu
-                    tapırıq.
-                  </p>
-                  <span class="date">20.10.21</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper"></div>
 
           <div class="swiper-pagination"></div>
         </div>
@@ -1074,7 +392,9 @@
     <footer class="footer">
       <div class="top">
         <div class="footer-logo">
-          <a href="#"><img src="./assets/images/logo.png" alt="Logo" /></a>
+          <a href="index.html"
+            ><img src="./assets/images/logo.png" alt="Logo"
+          /></a>
         </div>
         <p class="rights">© 2021 "Copper Pro" Bütün hüquqlar qorunur</p>
         <p class="privacy"><a href="#">Gizlilik Siyasəti</a></p>
@@ -1082,16 +402,16 @@
       <div class="bottom">
         <ul class="footer-menu">
           <h4>Menyular</h4>
-          <li><a href="#">Katoloq</a></li>
-          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="catalog.html">Katoloq</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
           <li><a href="#">Çatdırılma</a></li>
-          <li><a href="#">Haqqımızda</a></li>
-          <li><a href="#">Əlaqə</a></li>
+          <li><a href="about.html">Haqqımızda</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
         </ul>
-        <ul class="footer-menu">
+        <ul class="footer-menu" id="contact">
           <h4>Əlaqə</h4>
           <li><a href="#"> Бажана 8-Б, Киев, 02132 Украина </a></li>
-          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
           <li><a href="#">+38 (096) 990 67 56</a></li>
           <li><a href="#">a.alambik@gmail.com</a></li>
           <li class="socials">
@@ -1123,5 +443,8 @@
 
     <!-- Main JavaScript File -->
     <script src="./js/main.js"></script>
+    <script>
+      fetchAndDisplayProducts(6);
+    </script>
   </body>
 </html>

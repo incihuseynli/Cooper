@@ -197,8 +197,10 @@
 }
 .priorities-image {
   width: 100%;
+  max-width: 28rem;
   height: 100%;
   position: relative;
+  margin-inline: auto;
   overflow: hidden;
 }
 .priorities-image img {
@@ -206,15 +208,12 @@
   height: 100%;
   object-fit: cover;
 }
-.priorities-image h1 {
+.priorities-image .brand-name {
+  height: 8rem;
   display: inline-block;
   position: absolute;
-  bottom: -1.4rem;
+  bottom: 0;
   right: 0;
-  font-size: 6rem;
-  color: var(--white-clr);
-  font-weight: 500;
-  text-align: right;
 }
 .priorities .specialities {
   display: flex;
@@ -235,12 +234,182 @@
   color: var(--primary-green);
 }
 /* -x- Priorites -x- */
+
 /* ------x------- Main --------x-------- */
 
 @media (min-width: 500px) and (max-width: 768px) {
   .about-heroImages {
-    height: 20rem !important;
+    height: 20rem;
   }
 }
+@media (min-width: 768px) {
+  /* --- Hero Section --- */
+  .about-hero {
+    margin-top: -1rem;
+  }
+  .about-heroImages {
+    height: 26rem;
+    background-image: url("../assets/images/aboutHero-md.png");
+    background-position: right bottom;
+  }
 
+  .about-hero .top {
+    width: 26rem;
+    margin-right: 2rem;
+  }
+  .quote-sentence h2 {
+    font-size: 32px;
+  }
+  .about-hero .top .title {
+    width: 100%;
+  }
+
+  /* -x- Hero Section -x- */
+  /* --- Clients --- */
+
+  .clients .top {
+    width: 30rem;
+  }
+  .clients .top .title {
+    font-size: var(--md-heading3);
+  }
+  .clients .top .sub-info {
+    font-size: var(--body4);
+  }
+  .clients .bottom h2 {
+    font-size: var(--body6);
+  }
+  .clients .bottom .numbers h1 {
+    font-size: 200px;
+  }
+
+  .clients-more .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* -x- Clients -x- */
+  /* --- Priorites --- */
+  .priorities {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .priorities-text {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .priorities-text .title {
+    margin-top: 0;
+    font-size: var(--md-heading3);
+  }
+  .priorities-image {
+    width: 22.5rem;
+    height: 20rem;
+    margin-bottom: 6rem;
+  }
+  .priorities p {
+    text-align: left;
+    font-size: var(--body2);
+  }
+  .priorities .specialities {
+    margin-top: 3rem;
+  }
+
+  /* -----x-------- Main -------x------ */
+
+  /* -------------- Footer -------------- */
+  /* -----x-------- Footer -------x------ */
+  .clients-more .columns {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /* ============x============ ABOUT PAGE ===========x============ */
+}
 /* ===============x================ ABOUT PAGE ==================x=============- */
+
+@media (min-width: 1040px) {
+  /* ================== ABOUT PAGE ================== */
+  /* --- Hero Section --- */
+  .about-heroImages {
+    width: 40rem;
+    /* height: 30rem !important; */
+    background-image: url("../assets/images/aboutHero-lg.png");
+    background-position: top right;
+    right: 0;
+  }
+  .about-hero .top {
+    width: 36rem;
+  }
+  .quote-sentence h2 {
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  /* -x- Hero Section -x- */
+
+  .clients {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    place-items: unset;
+  }
+  .clients .bottom .numbers h1 {
+    font-size: 140px;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  .clients .bottom {
+    text-align: left;
+  }
+  .clients .top {
+    gap: 1rem;
+  }
+  .clients .top .sub-info {
+    text-align: left;
+  }
+  .clients .top .title {
+    font-size: var(--lg-heading2);
+    text-align: left;
+  }
+  .clients .bottom h2 {
+    font-size: var(--lg-heading2) !important;
+  }
+
+  .clients-more {
+    height: 42rem;
+    background-image: url("../assets/images/COPPERPRO-rotated.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 14rem;
+  }
+  .clients-more .columns {
+    gap: 1rem;
+    width: 40rem;
+    margin-left: 4rem;
+  }
+  .clients-more .columns .col {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+
+  /* --- Priorities --- */
+
+  .priorities-image {
+    width: 28rem;
+    height: 34rem;
+    margin-bottom: 0;
+  }
+
+  .priorities-text .title {
+    font-size: var(--lg-heading2);
+  }
+
+  .priorities p {
+    font-size: var(--body4);
+  }
+  .priorities .specialities .speciality h4 {
+    font-size: var(--body5);
+  }
+
+  /* -x- Priorities -x- */
+
+  /*  ============x======================= ABOUT PAGE ========x========================= */
+}
