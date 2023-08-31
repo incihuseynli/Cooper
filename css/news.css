@@ -252,6 +252,9 @@
   .news.newsList .card-info p {
     font-size: var(--body2) !important;
   }
+  .newsList.card .card-image {
+    height: 13rem;
+  }  
   .news.newsList .card-image h5 {
     font-size: var(--body4) !important;
     text-align: left !important;
