@@ -54,6 +54,7 @@
     margin-left: 5rem !important;
     bottom: 4rem !important;
   }
+ 
   /* --x- Hero Slider -x-- */
   /* ----x---- Header ---x---- */
 
@@ -124,12 +125,10 @@
   }
   /* ----x---- Footer ---x---- */
 
-
   .breadcrumb-menu {
     padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
 
- 
   /*  =================================== CATALOG PAGE ================================= */
   .products-container.catalog {
     grid-template-rows: repeat(1, 1fr) !important;
@@ -194,41 +193,6 @@
   }
 
   /* ===============x================ Product Order PAGE ==================x=============- */
-  /* ============================== Profile PAGE =============================- */
-
-  .section-details {
-    grid-template-columns: 18rem 100% !important;
-    /* gap: 4rem !important; */
-  }
-  .section-details .informations .details {
-    width: fit-content !important;
-  }
-  .profile .section-details .informations .details .form .col input {
-    width: 16rem !important;
-  }
-
-  .profile .informations .details .form .col .nav-btn {
-    width: 16rem !important;
-  }
-  .profile .title {
-    font-size: var(--lg-heading2) !important;
-  }
-  .navigations {
-    width: 18rem !important;
-    flex-direction: column !important;
-    gap: 1rem !important;
-  }
-  .nav-btn {
-    width: 16rem !important;
-  }
-  .profile .informations {
-    width: 42rem !important;
-  }
-  .profile .informations .details .form .col input {
-    width: 20.5rem !important;
-  }
-
-  /* =================x============= Profile PAGE ===============x==============- */
 
   /* ================================ Wish List PAGE ===================================== */
 
@@ -256,4 +220,3 @@
   }
   /* ================x=============== Wish List PAGE ===================x================= */
 }
-

@@ -68,7 +68,7 @@ function changeNewsPage(i) {
 // Getting DATAS from db.json
 
 const ALL_NEWS_URL =
-  "https://my-json-server.typicode.com/incihuseynli/json_example/news";
+  "https://my-json-server.typicode.com/incihuseynli/news/news";
 
 const newsContainer = document.querySelector(".news");
 
@@ -90,7 +90,7 @@ fetch(ALL_NEWS_URL)
                 <div class="card-info">
                 <p>${content}</p>
                 <div class="read-more">
-                    <a href="#">Daha ətraflı oxuyun</a>
+                    <a href="news_post.html">Daha ətraflı oxuyun</a>
                     <i class="fa-solid fa-angle-right"></i>
                 </div>
                 </div>

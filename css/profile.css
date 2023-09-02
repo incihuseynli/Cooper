@@ -10,7 +10,16 @@
   text-align: left;
   padding: 1rem 0 2rem;
 }
-
+.alert-image{
+  width: 20rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.alert-image .info{
+  
+}
 .section-details .informations .details .sub-title {
   font-size: var(--body5);
   font-weight: 800;
@@ -79,6 +88,7 @@
   font-weight: 300;
   color: var(--secondary-gray);
 }
+
 .profile .informations .details .form .col .password {
   width: 100%;
   position: relative;
@@ -126,18 +136,20 @@
 
 /* .profile .form .card-back input */
 
-
 @media (min-width: 768px) {
   /* ============================== Profile PAGE =============================- */
+ 
+  
+  
   .profile .title {
     font-size: var(--md-heading1);
   }
   .navigations {
-    flex-direction: row;
+    flex-direction: row !important;
     gap: 2rem;
   }
-  .nav-btn {
-    width: 14rem;
+  .navigations .nav-btn {
+    width: 14rem !important;
   }
 
   .profile .informations .header .right .greetings {
@@ -149,25 +161,49 @@
   }
 
   .profile .informations .details .form .col .nav-btn {
-    width: 100%;
+    width: 100% !important;
     height: 3rem;
   }
   .form.user {
     display: flex;
     flex-direction: column;
   }
-  .form.user .col:first-child{
+  .details .form.user {
+    flex-direction: column !important;
+  }
+  .form.user .col:first-child {
     flex-direction: row;
     gap: 1rem;
   }
-  .profile .form .card-back{
-    justify-content: space-between;
+  .profile .form .card-back {
+    gap: 2rem !important;
+    justify-content: unset;
   }
-  .profile .form .card-back input{
-    width: 11rem;
+  .profile .form .card-back input {
+    width: 12rem !important;
   }
-  .profile .informations .details .form.user .col .nav-btn{
-    width: 23rem;
+  .profile .informations .details .form.user .col .nav-btn {
+    display: block;
+    text-align: center;
+    padding-top: .7rem;
+  }
+
+  /* =================x============= Profile PAGE ===============x==============- */
+}
+
+@media (min-width: 1040px) {
+  /* ============================== Profile PAGE =============================- */
+
+  .section-details {
+    grid-template-columns: 18rem 1fr;
+    gap: 2rem;
+  }
+  .navigations {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+  .section-details .details .form{
+    width: 100% !important;
   }
   /* =================x============= Profile PAGE ===============x==============- */
 }

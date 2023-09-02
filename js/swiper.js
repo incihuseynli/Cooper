@@ -26,7 +26,7 @@
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 20,
     grabCursor: true,
-    loop: true,
+    loop: true, 
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

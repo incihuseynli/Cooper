@@ -20,6 +20,25 @@ body {
   font-size: 100%;
   font-family: var(--font-texts);
 }
+body::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 1rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--primary-green);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-green);
+  border-radius: 5rem;
+}
+body {
+  scrollbar-width: thin;         
+  scrollbar-color: var(--secondary-green) var(--primary-green);   
+}
+
+
+
+
 main img,
 footer img {
   display: block;
@@ -402,6 +421,7 @@ section {
   display: block;
   margin: 2rem auto;
 }
+
 .reviews .swiper-pagination-bullet,
 .products-slider .swiper-pagination-bullet {
   width: 14px;

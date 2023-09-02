@@ -148,7 +148,7 @@
   margin-top: 2rem;
 }
 .news-post p {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 .heading.post .title {
@@ -173,6 +173,10 @@
 }
 .heading.post .share .socials .fa-brands {
   color: rgba(75, 113, 89, 1);
+}
+.news-post .news-card .card-info{
+  align-items: flex-start;
+  flex-direction: column !important;
 }
 .news-post .text-title {
   font-size: var(--body4);
@@ -336,6 +340,9 @@
 
   .post-bottom .share {
     margin-top: -3rem !important;
+  }
+  .news-card .card-image img {
+    height: 20rem;
   }
 
   /*  ============x======================= NEWS Post PAGE ========x========================= */
