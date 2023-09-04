@@ -4,42 +4,50 @@
   text-align: left;
   padding: 1rem 0 2rem;
 }
+.orders .product-basket-list {
+  height: 30rem;
+}
+.orders .product-basket {
+  width: 100%;
+  height: 14rem;
+}
+.orders .product-basket .row:not(:nth-child(1)) {
+  padding-right: 1rem;
+}
+.orders .product-basket .row {
+  justify-content: space-between;
+}
 
-.orders .product-basket{
-    width: 100%;
-}
-.orders .product-basket .col.bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
-    margin: 1rem 0;
-}
-/* DOESN'T WORK ================================================================ */
-.orders .product-basket .col.bottom .row span:nth-child(2){
-    display: inline-flex;
-    align-self: flex-end;
-    gap: 10rem;
-}
-/* ================================================================ */
-.product-basket .col .row .time {
+.product-basket .row .time {
   font-size: var(--body4);
   font-weight: 600;
   color: var(--primary-green);
 }
-.product-basket .col .row .state {
+.product-basket .row .state {
   font-weight: 800;
   font-size: var(--body3);
 }
-.product-basket .col .row .state.success {
+.product-basket .row .state.success {
   color: var(--blue-clr);
 }
-.product-basket .col .row .state.danger {
+.product-basket .row .state.danger {
   color: var(--red-clr);
 }
-.product-basket .col .row .state.pending {
+.product-basket .row .state.pending {
   color: var(--yellow-clr);
 }
-.product-basket .col .row .state.accepted {
+.product-basket .row .state.accepted {
   color: var(--secondary-green);
+}
+
+@media (min-width: 768px) {
+  .orders .product-basket-list {
+    padding-top: 5rem;
+  }
+  .orders .product-basket .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .orders .product-basket .row {
+    margin-right: 0;
+  }
 }

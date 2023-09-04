@@ -1,0 +1,206 @@
+/* =============================== Product Basket PAGE ===============================- */
+.products-basket {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.product-basket-list {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap: 1rem;
+  overflow-y: scroll;
+}
+/* Chrome, Edge, and Safari */
+.product-basket-list::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.product-basket-list::-webkit-scrollbar-track {
+  background: var(--secondary-gray);
+  border-radius: 10px;
+}
+.product-basket-list::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-brown);
+  border-radius: 10px;
+}
+/* Firefox */
+.product-basket-list{
+  scrollbar-color: var(--secondary-brown) var(--secondary-gray);
+  scrollbar-width: auto;
+}
+.product-basket {
+  position: relative;
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--secondary-lightGray);
+  padding-bottom: 4rem;
+}
+.product-basket .row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product-basket .row:nth-child(2){
+  justify-content: space-between;
+
+}
+.product-basket  img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-basket .row h5 {
+  margin-left: 2rem;
+  font-size: var(--body4);
+  font-weight: 800;
+  line-height: 1.5;
+  color: var(--primary-green);
+}
+.product-basket .row .col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+.product-basket .row .quantity {
+  font-size: var(--body4);
+  font-weight: 600;
+  color: var(--primary-green);
+}
+.fa-trash-can {
+  position: absolute;
+  color: var(--secondary-gray);
+  cursor: pointer;
+  top: 0;
+  right: 0;
+}
+.product-basket-total {
+  margin-top: 2rem;
+  width: 100%;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-image: url("../assets/images/shopping_cart.png");
+  background-position: right -27%;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+}
+
+.product-basket-total h4 {
+  font-size: var(--body6);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--primary-green);
+}
+.product-basket-total .basket-total {
+  text-align: left;
+  width: 100%;
+  font-size: var(--md-heading3);
+  font-weight: 900;
+  color: var(--primary-green);
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--secondary-lightGray);
+}
+.product-basket-total .row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.product-basket-total .row h6 {
+  font-size: var(--body2);
+  color: var(--secondary-lightGray);
+}
+.product-basket-total .btn {
+  width: 100%;
+}
+.back-to-home {
+  width: 100% !important;
+  position: static !important;
+}
+
+/* ===============x================ Product Basket PAGE ==================x=============- */
+
+@media (min-width: 768px) {
+  .product-basket {
+    height: 8rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .product-basket .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+  }
+  .product-basket .row:nth-child(2){
+    gap: 2rem;
+    width: 100%;
+  }
+  .product-basket h5 {
+    width: 8rem;
+  }
+
+  .fa-trash-can {
+    position: static;
+  }
+  .product-basket-total {
+    align-items: center;
+  }
+  .product-basket-total .basket-total {
+    text-align: center;
+  }
+  .product-basket-total .btn {
+    width: 24rem;
+  }
+  .back-to-home {
+    width: 26rem !important;
+  }
+}
+
+/* ======================================================================== */
+
+@media (min-width: 1040px) {
+  main {
+    margin-bottom: 8rem;
+  }
+  .products-basket {
+    display: grid;
+    grid-template-columns: 1fr 26rem;
+    gap: 2rem;
+  }
+
+  .product-basket-total {
+    align-items: flex-start !important;
+    padding-inline: 2rem;
+    margin-top: 0;
+  }
+  .product-basket-total .basket-total {
+    text-align: left !important;
+  }
+  .product-basket-total .btn {
+    width: 22rem;
+  }
+  .back-to-home {
+    margin-inline: 2rem !important;
+  }
+}

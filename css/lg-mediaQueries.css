@@ -128,7 +128,9 @@
   .breadcrumb-menu {
     padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
-
+  .form input{
+    padding: 1rem 0 !important;
+  }
   /*  =================================== CATALOG PAGE ================================= */
   .products-container.catalog {
     grid-template-rows: repeat(1, 1fr) !important;
@@ -153,70 +155,7 @@
 
   /*  ============x======================= CATALOG PAGE ========x========================= */
 
-  /* =============================== Product Order PAGE ==============================- */
+  
 
-  .order-header {
-    flex-direction: row !important;
-    gap: 4rem;
-  }
-  .order-header .back-to-home {
-    position: static !important;
-    margin: 0 !important;
-  }
-  .order-header .title {
-    font-size: var(--md-heading3) !important;
-  }
-
-  .account-box {
-    background-position: right 3rem !important;
-  }
-
-  .account-box .btns .btn {
-    width: 12rem !important;
-  }
-  .account-box i {
-    width: 5rem !important;
-    height: 5rem !important;
-    padding-top: 1.2rem !important;
-    font-size: 2rem !important;
-  }
-
-  .details .form {
-    width: 76% !important;
-  }
-  .order-body {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-  .total {
-    margin-top: -2rem !important;
-    width: 27rem !important;
-  }
-
-  /* ===============x================ Product Order PAGE ==================x=============- */
-
-  /* ================================ Wish List PAGE ===================================== */
-
-  .wish-list {
-    margin-bottom: 0 !important;
-  }
-  .wish-list .section-details {
-    grid-template-columns: 18rem 44rem;
-    gap: 0 !important;
-  }
-  .section-details .catalog-products {
-    padding: 0 !important;
-    width: 44rem;
-  }
-  .wish-list .section-details .catalog-products .products-list {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-  .wish-list .section-details .paginations,
-  .page-numbers {
-    align-items: unset !important;
-    height: 5rem !important;
-  }
-  .wish-list .section-details .card-info h3 {
-    width: 12rem !important;
-  }
-  /* ================x=============== Wish List PAGE ===================x================= */
+ 
 }

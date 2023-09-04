@@ -1,5 +1,57 @@
-/* .main {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
-} */
+/* ================================ Wish List PAGE ===================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================== For tablet ... type devices ======================================*/
+@media (min-width: 768px) {
+}
+
+/* ======================== For laptop, desktop ... type devices ======================================*/
+
+@media (min-width: 1040px) {
+  .wish-list {
+    margin-bottom: 0 !important;
+  }
+  .wish-list .section-details {
+    grid-template-columns: 18rem 44rem;
+    gap: 0 !important;
+  }
+  .section-details .catalog-products {
+    padding: 0 !important;
+    width: 44rem;
+  }
+  .wish-list .section-details .catalog-products .products-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .wish-list .section-details .paginations,
+  .page-numbers {
+    align-items: unset !important;
+    height: 5rem !important;
+  }
+  .wish-list .section-details .card-info h3 {
+    width: 12rem !important;
+  }
+}
+
+/* ================x=============== Wish List PAGE ===================x================= */

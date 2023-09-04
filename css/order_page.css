@@ -1,297 +1,393 @@
 /* =============================== Product Order PAGE ==============================- */
-
+.order{
+  margin-bottom: 6rem;
+}
 .order-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-body {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.order-details,
+.total {
+  width: 100%;
+}
+.account-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  background: var(--secondary-lightGray);
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  background-image: url("../assets/images/user-icon.png");
+  background-position: right 14rem;
+  background-repeat: no-repeat;
+  background-size: 8rem;
+}
+.account-box i {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--white-clr);
+  font-size: 1.8rem;
+  color: var(--secondary-green);
+  padding-top: 0.9rem;
+}
+.account-box .user-image {
+  display: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.account-box .texts h5 {
+  font-size: var(--body2);
+  font-weight: 800;
+  color: var(--primary-green);
+}
+.account-box .texts span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-green);
+}
+.account-box .texts,
+.account-box .btns {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.account-box .btns .btn {
+  margin: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+.account-box .btns .btn a {
+  color: var(--white-clr);
+}
+
+.btns .btn.btn-outline {
+  background: transparent;
+  border: 2px solid var(--primary-green);
+}
+.btns .btn.btn-outline a {
+  color: var(--primary-green);
+}
+
+.info .header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.info .header .rank {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  color: var(--white-clr);
+  background: linear-gradient(-60deg, #0b3f37, #cb8d62);
+  font-size: var(--body6);
+  font-weight: 800;
+}
+.info .header h4 {
+  font-size: var(--body3);
+  font-weight: 500;
+  color: var(--primary-green);
+  text-transform: uppercase;
+}
+
+.details {
+  width: 100%;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--secondary-lightGray);
+  padding-bottom: 2rem;
+}
+.details .form,
+.details .form .col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.details .form .col input {
+  width: 100%;
+}
+.details .form .col input::placeholder {
+  font-size: var(--body3);
+  font-weight: 500;
+  letter-spacing: 0.0125rem;
+}
+.details .form .col input:focus {
+  border-color: var(--primary-green);
+}
+.choices,
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.choices {
+  gap: 2rem;
+}
+.choice .radioBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.choice {
+  margin-left: 0.5rem;
+  gap: 1rem;
+}
+.choice .radioBtn label {
+  font-size: var(--body3);
+  font-weight: 600;
+  color: var(--secondary-gray);
+  letter-spacing: 0.0125rem;
+  text-transform: uppercase;
+}
+.choice .radioBtn input:checked ~ label {
+  background: -webkit-linear-gradient(
+    25deg,
+    var(--primary-brown),
+    var(--secondary-brown)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.choice p {
+  padding-right: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 14px;
+}
+.choices .radioBtn input[type="radio"] {
+  transform: scale(1.5);
+}
+.choices .radioBtn input[type="radio"]:checked {
+  accent-color: var(--primary-brown);
+}
+
+.orders-list {
+  width: 100%;
+  height: 20rem;
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2rem 0;
+  overflow-y: scroll;
+}
+/* Chrome, Edge, and Safari */
+.orders-list::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.orders-list::-webkit-scrollbar-track {
+  background: var(--secondary-gray);
+  border-radius: 10px;
+}
+.orders-list::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-brown);
+  border-radius: 10px;
+}
+/* Firefox */
+.orders-list {
+  scrollbar-color: var(--secondary-brown) var(--secondary-gray);
+  scrollbar-width: auto;
+}
+.orders-list .product-basket {
+  justify-content: unset;
+  flex-direction: row;
+}
+.orders-list .product-basket .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.orders-list .product-basket h5 {
+  width: 100%;
+  font-size: var(--body4);
+  font-weight: 800;
+  line-height: 1.5;
+  color: var(--primary-green);
+}
+.orders-list .product-basket .col .row .col {
+  margin-right: 2rem;
+}
+.orders-list .product-basket .fa-trash-can {
+  position: absolute;
+  top: -1rem;
+  right: 2rem;
+}
+
+.total {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+.order-body .product-basket-total {
+  gap: 1rem;
+  height: 26rem;
+  box-shadow: 0px -66px 23px -7px rgba(23, 21, 21, 0.1),
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 2rem 1rem;
+  margin-top: -2rem;
+  background: var(--white-clr);
+}
+.promo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.promo input {
+  flex: 1;
+  border: 2px solid var(--secondary-gray);
+  border-right: none;
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: 14px;
+  color: var(--primary-green);
+  font-weight: 600;
+}
+.promo input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: var(--secondary-gray);
+}
+
+.promo .btn {
+  margin: 0;
+  height: 3rem;
+}
+.order-body .product-basket-total .btn {
+  width: 100%;
+  height: 3rem;
+}
+/* ===============x================ Product Order PAGE ==================x=============- */
+
+@media (min-width: 768px) {
+  /* =============================== Product Order PAGE ==============================- */
+  .orders-list{
+    padding-top: 14rem;
   }
-  .order-body {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  .order-header .back-to-home {
+    width: 28rem !important;
+    position: static !important;
+    margin: 2rem 0 0 !important;
+    padding-inline: 0;
   }
-  .order-details,
-  .total {
-    width: 100%;
+  .order-header .title {
+    font-size: var(--md-heading2) !important;
   }
   .account-box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 1rem;
-    background: var(--secondary-lightGray);
-    padding: 1.5rem 1rem;
-    margin-bottom: 2rem;
-    line-height: 1.5;
-    background-image: url("../assets/images/user-icon.png");
-    background-position: right 14rem;
-    background-repeat: no-repeat;
-    background-size: 8rem;
+    flex-direction: row !important;
+    background-position: right 2rem !important;
   }
-  .account-box i {
-    display: block;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    background: var(--white-clr);
-    font-size: 1.8rem;
-    color: var(--secondary-green);
-    padding-top: 0.9rem;
+  .account-box .texts {
+    text-align: left !important;
+    align-items: flex-start !important;
   }
-  .account-box .user-image {
-    display: none;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-  }
-  .account-box .texts h5 {
-    font-size: var(--body2);
-    font-weight: 800;
-    color: var(--primary-green);
-  }
+  .account-box .texts h5,
   .account-box .texts span {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--primary-green);
-  }
-  .account-box .texts,
-  .account-box .btns {
-    flex: 1;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-  .account-box .btns .btn {
-    margin: 0;
-    width: 100%;
-    height: 3.5rem;
-  }
-  .account-box .btns .btn a {
-    color: var(--white-clr);
-  }
-  
-  .btns .btn.btn-outline {
-    background: transparent;
-    border: 2px solid var(--primary-green);
-  }
-  .btns .btn.btn-outline a {
-    color: var(--primary-green);
-  }
-  
-  .info .header {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 2rem 0;
-  }
-  .info .header .rank {
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-    color: var(--white-clr);
-    background: linear-gradient(-60deg, #0b3f37, #cb8d62);
-    font-size: var(--body6);
-    font-weight: 800;
+    font-size: var(--body3) !important;
   }
   .info .header h4 {
-    font-size: var(--body3);
-    font-weight: 500;
-    color: var(--primary-green);
-    text-transform: uppercase;
+    font-size: var(--body6) !important;
   }
-  
-  .details {
-    width: 100%;
-    margin: 1rem 0;
-    border-bottom: 1px solid var(--secondary-lightGray);
-    padding-bottom: 2rem;
-  }
-  .details .form,
-  .details .form .col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-  .details .form .col input {
-    width: 100%;
-  }
-  .details .form .col input::placeholder {
-    font-size: var(--body3);
-    font-weight: 500;
-    letter-spacing: 0.0125rem;
-  }
-  .details .form .col input:focus {
-    border-color: var(--primary-green);
-  }
-  /* .details .form .col input:valid{
-    border-color: var(--secondary-green);
-  }
-  .details .form .col input:invalid{
-    border-color: var(--red-clr);
-  } */
-  
-  .choices,
-  .choice {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .choices {
-    gap: 2rem;
-  }
-  .choice .radioBtn {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    cursor: pointer;
-  }
-  .choice {
-    margin-left: 0.5rem;
-    gap: 1rem;
-  }
-  .choice .radioBtn label {
-    font-size: var(--body3);
-    font-weight: 600;
-    color: var(--secondary-gray);
-    letter-spacing: 0.0125rem;
-    text-transform: uppercase;
-  }
-  .choice .radioBtn input:checked ~ label {
-    background: -webkit-linear-gradient(
-      25deg,
-      var(--primary-brown),
-      var(--secondary-brown)
-    ) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+  .details .form {
+    flex-direction: row !important;
   }
   .choice p {
-    padding-right: 2rem;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 14px;
+    font-size: var(--body2) !important;
   }
-  .choices .radioBtn input[type="radio"] {
-    transform: scale(1.5);
+  .choices {
+    width: 34rem !important;
   }
-  .choices .radioBtn input[type="radio"]:checked {
-    accent-color: var(--primary-brown);
+
+  .total {
+    width: 34rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto;
   }
-  .orders-list {
-    width: 100%;
-    height: 20rem;
-    padding-top: 18rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    margin: 2rem 0;
-    overflow-y: scroll;
+  .order-body .product-basket-total {
+    gap: 1rem;
+    height: 26rem;}
+
+  /* =================x============= Product Order PAGE ===============x==============- */
+}
+
+@media (min-width: 1040px) {
+  /* =============================== Product Order PAGE ==============================- */
+
+  .order-header {
+    flex-direction: row !important;
+    gap: 4rem;
   }
-  /* Chrome, Edge, and Safari */
-  .orders-list::-webkit-scrollbar {
-    display: block;
-    width: 5px;
-    border-radius: 10px;
+  .order-header .back-to-home {
+    position: static !important;
+    margin: 0 !important;
   }
-  
-  .orders-list::-webkit-scrollbar-track {
-    background: var(--secondary-gray);
-    border-radius: 10px;
+  .order-header .title {
+    font-size: var(--md-heading3) !important;
   }
-  .orders-list::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-brown);
-    border-radius: 10px;
+
+  .account-box {
+    background-position: right 3rem !important;
   }
-  /* Firefox */
-  .orders-list {
-    scrollbar-color: var(--secondary-brown) var(--secondary-gray);
-    scrollbar-width: auto;
+
+  .account-box .btns .btn {
+    width: 12rem !important;
+  }
+  .account-box i {
+    width: 5rem !important;
+    height: 5rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 2rem !important;
+  }
+  .account-box .texts h5,
+  .account-box .texts span {
+    font-size: var(--body2) !important;
+  }
+  .details .form {
+    width: 76% !important;
+  }
+  .order-body {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
   }
   .total {
-    /* width: 34rem; */
-    width: 100%;
-    height: 40rem;
-    display: flex;
-    flex-direction: column;
+    margin-top: -2rem !important;
+    width: 28rem !important;
+    height: 43rem;
   }
-  .basket {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 1rem;
-    box-shadow: 0px -66px 23px -7px rgba(23, 21, 21, 0.1);
-    padding: 2rem 0;
-    margin-top: -2rem;
-    background: var(--white-clr);
+  .order-details {
+    width: 32rem;
   }
-  .promo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  .promo input {
-    flex: 1;
-    border: 2px solid var(--secondary-gray);
-    border-right: none;
-    height: 3rem;
-    padding-left: 1rem;
-    font-size: 14px;
-    color: var(--primary-green);
-    font-weight: 600;
-  }
-  .promo input::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    color: var(--secondary-gray);
-  }
-  .basket .btn,
-  .promo .btn {
-    margin: 0;
-    height: 3rem;
-  }
-  
-  .basket .top {
-    width: 100%;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--secondary-lightGray);
-  }
-  .basket .top .sub-title {
-    font-size: var(--body5);
-    font-weight: 400;
-  }
-  .basket .top .basket-total {
-    font-size: var(--body6);
-    font-weight: 800;
-    margin-top: 1rem;
-  }
-  
-  .basket .bottom {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-  .basket .bottom h4 {
-    color: var(--secondary-gray);
-    font-weight: 400;
-  }
-  .basket .btn {
-    width: 100%;
-  }
+
   /* ===============x================ Product Order PAGE ==================x=============- */
-  
+}

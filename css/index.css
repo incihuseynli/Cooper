@@ -10,6 +10,7 @@
 @import url("orders.css");
 @import url("wishlist.css");
 @import url("order_page.css");
+@import url("products-basket.css");
 
 html {
   scroll-behavior: smooth;
@@ -20,29 +21,28 @@ body {
   font-size: 100%;
   font-family: var(--font-texts);
 }
-body::-webkit-scrollbar {
+html::-webkit-scrollbar {
   height: 0.5rem;
-  width: 1rem;
+  width: 0.5rem;
 }
-body::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
   background: var(--primary-green);
 }
-body::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
   background-color: var(--secondary-green);
-  border-radius: 5rem;
+  border-radius: 0.5rem;
 }
-body {
-  scrollbar-width: thin;         
-  scrollbar-color: var(--secondary-green) var(--primary-green);   
+html {
+  scrollbar-width: none;
 }
-
-
-
 
 main img,
 footer img {
   display: block;
   overflow: hidden;
+}
+.btn a {
+  color: var(--white-clr);
 }
 /* -------------------- Header -------------------- */
 header {
@@ -125,7 +125,7 @@ header {
 
 .btn {
   width: 10rem;
-  height: 2.5rem;
+  height: 3rem;
   text-align: center;
   color: var(--white-clr);
   background: linear-gradient(
@@ -385,7 +385,7 @@ section {
   font-size: var(--body4);
 }
 .card a,
-.card a:visited{
+.card a:visited {
   color: var(--primary-green);
 }
 .card-info h3 {
@@ -410,7 +410,7 @@ section {
   font-size: var(--body4);
   letter-spacing: 0.1rem;
 }
-.reviews .btn{
+.reviews .btn {
   width: 100%;
 }
 .products-slider .btn {
@@ -439,7 +439,7 @@ section {
   );
 }
 
-.products-slider .btn a{
+.products-slider .btn a {
   color: var(--white-clr);
 }
 /* -- -x- Product Slider -x- -- */
@@ -808,7 +808,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem !important
+  margin-bottom: 2rem !important;
 }
 .thanks .title {
   font-size: 1.625rem;
@@ -839,7 +839,7 @@ section {
   font-family: var(--font-texts);
   margin-top: 2rem;
 }
-.thanks .btn a{
+.thanks .btn a {
   color: var(--white-clr);
 }
 .footer-order {
@@ -996,115 +996,6 @@ section {
   color: var(--white-clr);
 }
 /* ===============x================ Login PAGE ==================x=============- */
-
-/* =============================== Product Basket PAGE ===============================- */
-.product-basket-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.product-basket {
-  border-bottom: 1px solid var(--secondary-lightGray);
-  position: relative;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.product-basket .row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-.product-basket .row img {
-  width: 6rem;
-  height: 6rem;
-  object-fit: cover;
-}
-.product-basket .row h4 {
-  font-size: var(--body2);
-  font-weight: 800;
-  color: var(--primary-green);
-}
-.product-basket .col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.product-basket .product-units {
-  font-size: var(--body4);
-  display: flex;
-  color: var(--primary-green);
-}
-.product-basket .product-units span {
-  font-weight: 400;
-  margin-right: 4px;
-}
-.product-basket .product-units p {
-  font-weight: 600;
-}
-.product-basket .currentPrice {
-  font-size: var(--body4);
-}
-.product-basket .prevPrice {
-  font-size: 14px;
-}
-.product-basket i {
-  color: var(--secondary-lightGray);
-  position: absolute;
-  right: 0.5rem;
-  top: -1rem;
-  cursor: pointer;
-}
-
-.product-basket-total {
-  max-width: 20rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto 4rem;
-  position: relative;
-}
-.product-basket-total .top {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-  color: var(--primary-green);
-  border-bottom: 2px solid var(--secondary-lightGray);
-  padding: 1rem 0;
-}
-
-.product-basket-total .top .sub-title {
-  font-size: var(--body5);
-  font-weight: 400;
-}
-.product-basket-total .top .basket-total {
-  font-size: var(--body6);
-  font-weight: 800;
-}
-.product-basket-total .cart-img {
-  position: absolute;
-  top: -1rem;
-  right: 0;
-}
-.product-basket-total .bottom {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-.product-basket-total .bottom h4 {
-  color: var(--secondary-gray);
-  font-weight: 400;
-}
-.product-basket-total .btn {
-  width: 100%;
-}
-/* ===============x================ Product Basket PAGE ==================x=============- */
-
 
 .navigations {
   width: 100%;

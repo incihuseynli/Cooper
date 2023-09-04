@@ -14,11 +14,34 @@
   width: 20rem;
   height: 3.5rem;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
 }
 .alert-image .info{
-  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--white-clr);
+  padding: 1rem 2rem;
+  position: absolute;
+  right: -1rem;
+  top: 4rem;
+  transform: translateX(100%);
+  transition: transform .6s;
+}
+.alert-image .info i{
+  font-size: var(--body4);
+  color: var(--white-clr);
+}
+.alert-image .info.success-image{
+  background: var(--yellow-clr);
+  display: none;
+}
+.alert-image .info.error-image{
+  background: var(--red-clr);
+  display: none;
 }
 .section-details .informations .details .sub-title {
   font-size: var(--body5);
@@ -31,6 +54,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  position: relative;
 }
 .profile .informations .header {
   width: 100%;

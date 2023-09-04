@@ -241,49 +241,6 @@
   /* ===============x================  Login PAGE ==================x=============- */
 
  
-  /* =============================== Product Order PAGE ==============================- */
-
-  .order-header .back-to-home {
-    width: 28rem !important;
-    position: static !important;
-    margin: 2rem 0 0 !important;
-  }
-  .order-header .title {
-    font-size: var(--md-heading2) !important;
-  }
-  .account-box {
-    flex-direction: row !important;
-    background-position: right 2rem !important;
-  }
-  .account-box .texts {
-    text-align: left !important;
-    align-items: flex-start !important;
-  }
-  .account-box .texts h5,
-  .account-box .texts span {
-    font-size: var(--body3) !important;
-  }
-  .info .header h4 {
-    font-size: var(--body6) !important;
-  }
-  .details .form {
-    flex-direction: row !important;
-  }
-  .choice p {
-    font-size: var(--body2) !important;
-  }
-  .choices {
-    width: 34rem !important;
-  }
-
-  .total {
-    width: 34rem !important;
-    align-items: center !important;
-    justify-content: center !important;
-    margin: auto;
-  }
-
-  /* =================x============= Product Order PAGE ===============x==============- */
 
   
 }
