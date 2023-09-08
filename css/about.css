@@ -350,9 +350,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     place-items: unset;
+    align-items: baseline;
+    padding: var(--lg-padding) !important;
   }
   .clients .bottom .numbers h1 {
-    font-size: 140px;
+    font-size: 120px;
     margin-top: 1rem;
     text-align: left;
   }
@@ -368,6 +370,7 @@
   .clients .top .title {
     font-size: var(--lg-heading2);
     text-align: left;
+    padding-bottom: 1rem;
   }
   .clients .bottom h2 {
     font-size: var(--lg-heading2) !important;

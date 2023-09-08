@@ -55,11 +55,11 @@
     width: 27rem !important;
     height: 36rem !important;
   }
-  .hero-slider  .lg-hero-img,
-  .hero-slider  .sm-hero-img {
+  .hero-slider  .lgHeroImg,
+  .hero-slider  .smHeroImg {
     display: none !important;
   }
-  .hero-slider  .md-hero-img {
+  .hero-slider  .mdHeroImg {
     display: block !important;
   }
   .hero-slider  .hero-info {

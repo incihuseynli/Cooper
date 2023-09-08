@@ -133,7 +133,6 @@ header {
     var(--primary-brown),
     var(--secondary-brown)
   );
-  /* margin-top: 4rem; */
   font-size: var(--body3);
   line-height: 17.35px;
   font-weight: 800;
@@ -212,11 +211,11 @@ header {
   height: 100%;
   object-fit: cover;
 }
-.hero-slider .lg-hero-img,
-.hero-slider .md-hero-img {
+.hero-slider .lgHeroImg,
+.hero-slider .mdHeroImg {
   display: none;
 }
-.hero-slider .sm-hero-img {
+.hero-slider .smHeroImg {
   display: block;
 }
 .hero-slider .heroSwiper {
@@ -264,10 +263,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 2rem;
+  margin: 4rem 0 2rem;
 }
 section {
   padding: var(--md-margin) var(--sm-padding);
-  /* margin-bottom: 2rem; */
 }
 /* -- --- Products Section --- -- */
 
@@ -742,7 +741,6 @@ section {
 /* --- Paginations --- */
 .paginations {
   width: 100%;
-  height: 100%;
 }
 .paginations,
 .page-numbers {

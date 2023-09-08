@@ -4,6 +4,46 @@ let limitNewsPosts = 4;
 
 // console.log(newsList)
 
+
+
+// Getting DATAS from db.json
+
+const ALL_NEWS_URL = "http://localhost:3000/news";
+
+const newsContainer = document.querySelector(".news");
+
+fetch(ALL_NEWS_URL)
+  .then((response) => {
+    return response.json();
+  })
+  .then((news) => {
+    news.forEach(({id, title, date, content, image }) => {
+      const data = `
+                <div class="newsList card" id="news-card" data-id="${id}">
+                <div class="card-image">
+                <img src=${image} alt="post1" class="img" />
+                <h5>${title}</h5>
+                <div class="date-of-post">
+                    <p>${date}</p>
+                </div>
+                </div>
+                <div class="card-info">
+                <p>${content}</p>
+                <div class="read-more">
+                    <a href="news_post.html?id=${id}">Daha ətraflı oxuyun</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                </div>
+            </div>
+
+            `;
+            newsContainer.innerHTML += data;
+    });
+  });
+
+
+
+
 function showNews() {
   // Starting value
   let start = limitNewsPosts * (currentPage - 1);
@@ -64,39 +104,3 @@ function changeNewsPage(i) {
   currentPage = i;
   showNews();
 }
-
-// Getting DATAS from db.json
-
-const ALL_NEWS_URL =
-  "https://my-json-server.typicode.com/incihuseynli/news/news";
-
-const newsContainer = document.querySelector(".news");
-
-fetch(ALL_NEWS_URL)
-  .then((response) => {
-    return response.json();
-  })
-  .then((news) => {
-    news.forEach(({ title, date, content, image }) => {
-      const data = `
-                <div class="newsList card">
-                <div class="card-image">
-                <img src=${image} alt="post1" class="img" />
-                <h5>${title}</h5>
-                <div class="date-of-post">
-                    <p>${date}</p>
-                </div>
-                </div>
-                <div class="card-info">
-                <p>${content}</p>
-                <div class="read-more">
-                    <a href="news_post.html">Daha ətraflı oxuyun</a>
-                    <i class="fa-solid fa-angle-right"></i>
-                </div>
-                </div>
-            </div>
-
-            `;
-      newsContainer.innerHTML += data;
-    });
-  });

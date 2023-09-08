@@ -27,54 +27,60 @@
     <header>
       <nav class="navbar">
         <div class="logo">
-          <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          <a href="index.html">
+            <img src="./assets/images/logo.png" alt="COOPER LOGO" />
+          </a>
         </div>
         <div class="navbar-sm">
           <div class="navbar-sm__icons">
-            <a href="wishlist.html"
-              ><img src="./assets/icons/heart.svg" id="heart-icon"
-            /></a>
-            <a href="profile.html"
-              ><img src="./assets/icons/profile.svg" id="profile-icon"
-            /></a>
-            <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+            <a href="wishlist.html">
+              <img src="./assets/icons/heart.svg" id="heart-icon" />
+            </a>
+            <a href="login.html">
+              <img src="./assets/icons/profile.svg" id="profile-icon" />
+            </a>
+            <a href="products-basket.html">
+              <img src="./assets/icons/cart.svg" id="cart-icon" />
+            </a>
           </div>
           <img src="./assets/icons/close-menu.svg" id="closedMenu" />
           <ul class="nav-menu">
             <li><a href="catalog.html">Katoloq</a></li>
             <li><a href="news.html">Xəbərlər</a></li>
-            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="order_page.html">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-md">
           <ul class="nav-menu">
             <li><a href="catalog.html">Katoloq</a></li>
             <li><a href="news.html">Xəbərlər</a></li>
-            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="order_page.html">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
         <div class="navbar-lg">
           <ul class="nav-menu">
             <li><a href="catalog.html">Katoloq</a></li>
             <li><a href="news.html">Xəbərlər</a></li>
-            <li><a href="#">Çatdırılma</a></li>
+            <li><a href="order_page.html">Çatdırılma</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
-            <li><a href="#">Əlaqə</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
           </ul>
         </div>
       </nav>
       <div class="header__icons">
-        <a href="wishlist.html"
-          ><img src="./assets/icons/heart.svg" id="heart-icon"
-        /></a>
-        <a href="profile.html"
-          ><img src="./assets/icons/profile.svg" id="profile-icon"
-        /></a>
-        <a href=""><img src="./assets/icons/cart.svg" id="cart-icon" /></a>
+        <a href="wishlist.html">
+          <img src="./assets/icons/heart.svg" id="heart-icon" />
+        </a>
+        <a href="login.html">
+          <img src="./assets/icons/profile.svg" id="profile-icon" />
+        </a>
+        <a href="products-basket.html">
+          <img src="./assets/icons/cart.svg" id="cart-icon" />
+        </a>
       </div>
       <img src="./assets/icons/hamburger-menu.svg" id="openedMenu" />
     </header>
@@ -126,9 +132,7 @@
           </div>
         </div>
         <!-- Show Products -->
-        <div class="products-list">
-          
-        </div>
+        <div class="products-list"></div>
         <!-- --- Pagination --- -->
         <div class="paginations">
           <ul class="page-numbers"></ul>
@@ -154,15 +158,15 @@
         <ul class="footer-menu">
           <h4>Menyular</h4>
           <li><a href="catalog.html">Katoloq</a></li>
-          <li><a href="#">Xəbərlər</a></li>
-          <li><a href="#">Çatdırılma</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
+          <li><a href="order_page.html">Çatdırılma</a></li>
           <li><a href="about.html">Haqqımızda</a></li>
-          <li><a href="#">Əlaqə</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
         </ul>
-        <ul class="footer-menu">
+        <ul class="footer-menu" id="contact">
           <h4>Əlaqə</h4>
           <li><a href="#"> Бажана 8-Б, Киев, 02132 Украина </a></li>
-          <li><a href="#">Xəbərlər</a></li>
+          <li><a href="news.html">Xəbərlər</a></li>
           <li><a href="#">+38 (096) 990 67 56</a></li>
           <li><a href="#">a.alambik@gmail.com</a></li>
           <li class="socials">
@@ -188,14 +192,13 @@
     <!-- ----x---- Footer ----x---- -->
 
     <!-- =====================JAVASCRIPT================================================================ -->
-   
-   
+
+    <script src="./js/catalog.js"></script>
+
     <!-- Main JavaScript File -->
     <script src="./js/main.js"></script>
-     <script src="./js/catalog.js"></script>
     <script>
       fetchAndDisplayProducts(4);
     </script>
-   
   </body>
 </html>

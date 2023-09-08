@@ -1,0 +1,374 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Çini saplı mis çaydan",
+      "price": "1 953 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 2,
+      "title": "Hidrolatlar üçün",
+      "price": "1 953 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/64/bf/product-Samogonniy-apparat-iz-medi-na-12-litrov-Gerakl-s-deflegmatorom_64bfad974c94da29a5e24f297fd8479e.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 3,
+      "title": "Mis qablar",
+      "price": "5000 грн",
+      "onSale": false,
+      "image": "https://alambik.com.ua/423-large_default/mednyj-chajnik-2l.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 4,
+      "title": "Mis aksesuarları",
+      "price": "2000 грн",
+      "onSale": false,
+      "image": "https://prolitech.com.ua/media/thumb/64/bf/product-Samogonniy-apparat-iz-medi-na-12-litrov-Gerakl-s-deflegmatorom_64bfad974c94da29a5e24f297fd8479e.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 5,
+      "title": "Fərdi sifariş",
+      "price": "1 953 грн",
+      "onSale": false,
+      "image": "https://prolitech.com.ua/media/thumb/52/51/product-Samogonniy-apparat-Alambik-5-l_525191a59a554ba7aa99fcb749fcae9f.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 6,
+      "title": "Efir yağları üçün",
+      "price": "1 953 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 7,
+      "title": "Fərdi sifariş",
+      "price": "5000 грн",
+      "onSale": false,
+      "image": "https://prolitech.com.ua/media/thumb/52/51/product-Samogonniy-apparat-Alambik-5-l_525191a59a554ba7aa99fcb749fcae9f.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 8,
+      "title": "Efir yağları üçün",
+      "price": "2000 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 9,
+      "title": "Çini saplı mis çaydan",
+      "price": "1 953 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 10,
+      "title": "Çini saplı mis çaydan",
+      "price": "1 953 грн",
+      "onSale": true,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 11,
+      "title": "Çini saplı mis çaydan",
+      "price": "5000 грн",
+      "onSale": false,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    },
+    {
+      "id": 12,
+      "title": "Efir yağları üçün",
+      "price": "2000 грн",
+      "onSale": false,
+      "image": "https://prolitech.com.ua/media/thumb/f0/e4/product-Samogonniy-apparat-iz-medi-na-5-litrov-Gerakl-s-deflegmatorom_f0e4085e8bfc66b90e6de08fd5ddf5c7.ipthumb800xprop.jpg",
+      "inStock": true,
+      "elementCode": "CP-0803",
+      "smallImages": "./assets/images/products/image_1.jpg",
+      "subDescription": "Mis distillyatoru Feniks sizin etibarlı köməkçiniz və distillə və gözəllik dünyasına bələdçi olacaq, onunla asanlıqla sevimli hidrolatlarınızı və ya spirtli içkilərinizi əldə edə bilərsiniz.",
+      "prevPrice": "10 953 грн",
+      "currentPrice": "1 953 грн",
+      "fullDescription": " Dadlandırıcı sütunun konteynerlə əlaqəsi hermetik şəkildə bağlanır və davamlıdır. Bu cihazın radiatoru eyni həcmli alkitara nisbətən soyutma üçün 3 dəfə az su sərf edir. Gözəl cihaz uzun illər sizə xidmət edəcək və yüksək keyfiyyətli hidrolat ilə sahibini sevindirəcəkdir. Buxar distilləsinin bütün üstünlüklərindən həzz alın və təbii olduğuna əmin ola biləcəyiniz hidrolatlar əldə edin. Cihaz tam təchiz olunub və işə hazırdır. Distillə kubunun həcmi 8 litrdir. Sütunun həcmi 0,8 litrdir. Cihaz tam hazırdır və istismara hazırdır."
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "date": "27.10.21",
+      "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+    }
+  ],
+  "about": [
+    {
+      "heroTitle": "Haqqımızda",
+      "signOwner": "Ivan Ivanov",
+      "signImage": "./assets/images/Sign.png",
+      "clientsTitle": ["Haqqımızda", "müştərilərimiz", "Dəyərlərimiz"],
+      "subInfo": "Müştərilərimiz üçün hər günü daha yaxşı etmək və onların hər biri üçün ən yaxşı həllər tapmaq üçün özümüzdən tələb edirik.",
+      "subTitle": ["Müştəri sayı", "Bizim müştərilər"],
+      "customerCount": "12 346",
+      "clientContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quis autem soluta eos velit aliquid nam in nobis ipsam vel? Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      "priorities": {
+        "content": "İstehsalımız Ukraynada yerləşir, lakin 50-dən çox ölkədən olan müştərilər mağazamızdan alınan mallardan razıdırlar.",
+        "specialities": [
+          {
+            "efficiency": {
+              "image": "./assets/icons/effiency.svg",
+              "subTitle": "Səmərəlilik"
+            }
+          },
+          {
+            "serves": {
+              "image": "./assets/icons/diamond.svg",
+              "subTitle": "Keyfiyyətli məhsul və xidmət"
+            }
+          },
+          {
+            "flexablity": {
+              "image": "./assets/icons/flex.svg",
+              "subTitle": "Çeviklik"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sliderProducts": [
+    {
+      "id": 1,
+      "tag": "Bestseller",
+      "name": "Efir yağları üçün distillə",
+      "price": "4 906 грн",
+      "lgHeroImg": "./assets/images/hero2.png",
+      "mdHeroImg": "./assets/images/hero3.png",
+      "smHeroImg": "./assets/images/hero4.png"
+    },
+    {
+      "id": 2,
+      "tag": "Bestseller",
+      "name": "Efir yağları üçün distillə",
+      "price": "9 906 грн",
+      "lgHeroImg": "./assets/images/hero2.png",
+      "mdHeroImg": "./assets/images/hero3.png",
+      "smHeroImg": "./assets/images/hero4.png"
+    },
+    {
+      "id": 3,
+      "tag": "Bestseller",
+      "name": "Efir yağları üçün distillə",
+      "price": "5 658 грн",
+      "lgHeroImg": "./assets/images/hero2.png",
+      "mdHeroImg": "./assets/images/hero3.png",
+      "smHeroImg": "./assets/images/hero4.png"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "surname": "Ivanov",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1424&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "surname": "Doe",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    },
+    {
+      "id": 3,
+      "name": "Alexa",
+      "surname": "Drace",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    },
+    {
+      "id": 4,
+      "name": "Ivan",
+      "surname": "Ivanov",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1424&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    },
+    {
+      "id": 5,
+      "name": "John",
+      "surname": "Doe",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    },
+    {
+      "id": 6,
+      "name": "Alexa",
+      "surname": "Drace",
+      "phone": "+38 000 000 00 00",
+      "email": "ivan_ivanov@example.com",
+      "country": "Ukranya",
+      "city": "Dnepr",
+      "address": "st. Шевченка",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis, assumenda deleniti laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis omnis facilis",
+      "reviewDate": "20.10.21"
+    }
+  ]
+}

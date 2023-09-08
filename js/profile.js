@@ -1,4 +1,4 @@
-const USERS_URL = "https://my-json-server.typicode.com/incihuseynli/json_example/users";
+const USERS_URL = "http://localhost:3000/users";
 
 const headerInfo = document.querySelector(".informations .header");
 const form = document.querySelector("#user-details-form");
@@ -59,4 +59,4 @@ fetch(USERS_URL)
                 </div>
           `;
         });
-    });
+ 
