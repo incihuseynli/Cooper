@@ -920,7 +920,9 @@ section {
   border: 2px solid var(--secondary-lightGray);
   padding: 1rem;
   text-align: left;
+  font-weight: 600;
 }
+
 /* .form-container  */
 .form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */

@@ -43,9 +43,9 @@
   padding-top: 0.9rem;
 }
 .account-box .user-image {
-  display: none;
-  width: 4rem;
-  height: 4rem;
+  display: block;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -68,6 +68,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+}
+.account-box .btns{
   gap: 1rem;
 }
 .account-box .btns .btn {

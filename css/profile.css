@@ -124,12 +124,7 @@
   color: var(--primary-green);
   cursor: pointer;
 }
-.profile .informations .details .form .col .password-eye.open {
-  display: block;
-}
-.profile .informations .details .form .col .password-eye.close {
-  display: none;
-}
+
 
 .profile .form .card-back {
   display: flex;

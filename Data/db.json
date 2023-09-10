@@ -175,58 +175,387 @@
       "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg"
+      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 2,
-      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "title": "Yaxşı yuxu üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 3,
-      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "title": "Yuxu keyfiyyətini yüksəltmək üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg"
+      "image": "https://e-w-e.one/wp-content/uploads/2019/06/BeFunky-Collage2-1180x659.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 4,
-      "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
+      "title": "Yuxu keyfiyyətini yüksəltmək üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 5,
       "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 6,
       "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 7,
       "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     },
     {
       "id": 8,
       "title": "Yuxunu yaxşılaşdırmaq üçün efir yağları",
       "date": "27.10.21",
       "content": "Efir yağlarının faydalarını qiymətləndirmək olmaz. Onlar,şübhəsiz ki, insanlar üçün faydalıdır, amma ev heyvanları haqqında danışırıqsa, onda bəzi nüanslar var. Müəyyən qaydalara ciddi riayət etmək lazımdır",
-      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg"
+      "image": "https://as1.ftcdn.net/v2/jpg/05/54/13/62/1000_F_554136251_YISyIKFbbGIHulmwYYTX8BYGKmg8tLrW.jpg",
+      "subContents": [
+        {
+          "id": 1,
+          "title": "lavanda yağı",
+          "content": "Lavanda efir yaratmaq üçün ən çox yayılmış bitkidir. Və bu təəccüblü deyil, həqiqətən sehrli xüsusiyyətlərə malikdir:",
+          "list": [
+            "aqressivlikdən, əsəbilikdən qurtulmağı bacaran",
+            "stressi aradan qaldırır",
+            "mənfi düşüncələrdən və emosiyalardan qurtulmağa kömək edir",
+            "sakitləşməyə kömək edir",
+            "harmoniyaya nail olmağa kömək edir"
+          ],
+          "info": "Lavanda efir yağı sinir və qan dövranı sistemlərinin işini normallaşdırır, serotonin istehsalını stimullaşdırır və hormonal fonu sabitləşdirir. Bu, onun möcüzəvi xüsusiyyətlərini izah edir. Yeri gəlmişkən, bu efirin yuxusuzluqla mübarizədə effektivliyi praktiki tədqiqatlar zamanı sübut edilmişdir."
+        },
+        {
+          "id": 2,
+          "title": "Buxurun efir yağı",
+          "content": "Buxur qoxusu antidepresan təsirə malikdir, lakin bu efirin edə biləcəyi bütün bunlar deyil:",
+          "list": [
+            "buxur yağı bədəni sakitləşdirir",
+            "rahatlamağa kömək edir",
+            "gərginliyi aradan qaldırır",
+            "stressdən qurtulmağa kömək edir."
+          ],
+          "info": "Bu komponent yuxusuzluq və gecə qorxusu ilə mübarizədə sadəcə əvəzolunmazdır."
+        },
+        {
+          "id": 3,
+          "title": "Melissa yağı",
+          "content": "Limon balzamının efir yağı tam istirahət etməkdə çətinlik çəkənlər üçün mükəmməldir. Bədənin bir çox sistemlərinə təsir göstərir:",
+          "list": [
+            "ürək ritmini normallaşdırır",
+            "sinir və ürək-damar sistemlərinin funksiyalarını sabitləşdirir",
+            "beyin fəaliyyətinə müsbət təsir göstərir",
+            "fiziki və emosional stressi aradan qaldırır."
+          ],
+          "info": "Bunlar sağlam yuxuya mane olan amillərdir. Onları tələb etmək yuxusuzluğu unutacaqsınız."
+        }
+      ],
+      "guidesTitle": "Necə istifadə etməli",
+      "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     }
   ],
+  
   "about": [
     {
       "heroTitle": "Haqqımızda",
@@ -298,6 +627,7 @@
       "surname": "Ivanov",
       "phone": "+38 000 000 00 00",
       "email": "ivan_ivanov@example.com",
+      "password" : "ivan123456",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -310,7 +640,8 @@
       "name": "John",
       "surname": "Doe",
       "phone": "+38 000 000 00 00",
-      "email": "ivan_ivanov@example.com",
+      "email": "john@example.com",
+      "password" : "john123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -323,7 +654,8 @@
       "name": "Alexa",
       "surname": "Drace",
       "phone": "+38 000 000 00 00",
-      "email": "ivan_ivanov@example.com",
+      "email": "alexa@example.com",
+      "password" : "alexa123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -333,10 +665,11 @@
     },
     {
       "id": 4,
-      "name": "Ivan",
+      "name": "Iva",
       "surname": "Ivanov",
       "phone": "+38 000 000 00 00",
-      "email": "ivan_ivanov@example.com",
+      "email": "ivaivanov@example.com",
+      "password" : "iva123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -346,10 +679,11 @@
     },
     {
       "id": 5,
-      "name": "John",
+      "name": "Johnny",
       "surname": "Doe",
       "phone": "+38 000 000 00 00",
-      "email": "ivan_ivanov@example.com",
+      "email": "johnny@example.com",
+      "password" : "johnny123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -359,10 +693,11 @@
     },
     {
       "id": 6,
-      "name": "Alexa",
+      "name": "Alexander",
       "surname": "Drace",
       "phone": "+38 000 000 00 00",
-      "email": "ivan_ivanov@example.com",
+      "email": "alexander@example.com",
+      "password" : "alexander123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",

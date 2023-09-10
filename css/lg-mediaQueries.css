@@ -130,9 +130,10 @@
   .breadcrumb-menu {
     padding: var(--lg-padding) var(--lg-padding) 0 !important;
   }
-  .form input{
-    padding: 1rem 0 !important;
+  .col.card-front input:first-child{
+    padding-left: 0 !important;
   }
+
   /*  =================================== CATALOG PAGE ================================= */
   .products-container.catalog {
     grid-template-rows: repeat(1, 1fr) !important;

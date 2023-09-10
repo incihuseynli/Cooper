@@ -10,11 +10,11 @@ function fetchAndDisplayProducts(page) {
     .then((response) => response.json())
     .then((products) => {
       list.innerHTML = ""; // Clear previous products
-      products.forEach(({ image, title, price, onSale }) => {
+      products.forEach(({ id, image, title, price, onSale }) => {
         const tag = onSale ? '<span class="tag">sale</span>' : "";
         list.innerHTML += `
-          <div class="card">
-            <a href="catalog.html">
+          <div class="card" data-id="${id}">
+            <a href="card-product.html?id=${id}">
               <div class="card-image">
                 <img src=${image} alt="" class="img" />
                 ${tag}
@@ -29,6 +29,14 @@ function fetchAndDisplayProducts(page) {
             </a>
           </div>
         `;
+        const productCards = document.querySelectorAll(".card");
+        productCards.forEach((productCard) => {
+          productCard.addEventListener("click", () => {
+            const productId = productCard.getAttribute("data-id");
+
+            const product = products.find((p) => p.id === productId);
+          });
+        });
       });
       getProductPages(page);
     });
