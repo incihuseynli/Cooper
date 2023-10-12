@@ -4,7 +4,8 @@ let productsList = document.querySelectorAll(".products-list .card");
 const list = document.querySelector(".products-list");
 
 function fetchAndDisplayProducts(page) {
-  const URL = `http://localhost:3000/products?_page=${page}&_limit=${limitProducts}`;
+  // const URL = `http://localhost:3000/products?_page=${page}&_limit=${limitProducts}`;
+  const URL = `https://my-json-server.typicode.com/incihuseynli/CooperData2/products?_page=${page}&_limit=${limitProducts}`;
 
   fetch(URL)
     .then((response) => response.json())

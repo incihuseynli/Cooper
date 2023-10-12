@@ -3,7 +3,8 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 
 
-const USERS_URL = "http://localhost:3000/users";
+// const USERS_URL = "http://localhost:3000/users";
+const USERS_URL = "https://my-json-server.typicode.com/incihuseynli/CooperData1/users";
 const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
 
 

@@ -1,5 +1,5 @@
 # Cooper
-To show items: 
+<!-- To show items: 
 >> cd Data
 >> 
->> npx json-server -w db.json -p 3000
+>> npx json-server -w db.json -p 3000 -->

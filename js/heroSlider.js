@@ -2,7 +2,8 @@
  * * Getting datas to Hero Swiper
  */
 
-const SLIDER_URL = "http://localhost:3000/sliderProducts";
+// const SLIDER_URL = "http://localhost:3000/sliderProducts";
+const SLIDER_URL = "https://my-json-server.typicode.com/incihuseynli/CooperData1/sliderProducts";
 
 const swiperWrapper = document.querySelector(".swiper-wrapper");
 

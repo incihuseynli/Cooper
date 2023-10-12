@@ -555,7 +555,6 @@
       "guidesInfo": "Efir yağlarından istifadənin ən məşhur üsulu aromaterapiyadır. İstədiyiniz effekti əldə etmək üçün bir neçə damcı kifayətdir. Eteri hər hansı bir ixtisaslaşmış mağazada ala bilərsiniz və ya özünüz edə bilərsiniz - distillədən istifadə edərək. Evdə hazırlanmış efir heç bir şəkildə satın alınandan aşağı deyil, aroma lampaları, rahatlaşdırıcı vannalar, masajlar və s. Əsas odur ki, sizin üçün uyğun olan efiri tapın və sonra siz aromaterapiyadan zövq almaqla yanaşı, bədəninizi də yaxşılaşdıracaqsınız. Özünüz hazırladığınız efir yağının keyfiyyətinə əmin ola bilərsiniz. Yaratma prosesi çox sadədir və istədiyiniz effekti əldə etməyinizə zəmanət verilir."
     }
   ],
-  
   "about": [
     {
       "heroTitle": "Haqqımızda",
@@ -627,7 +626,7 @@
       "surname": "Ivanov",
       "phone": "+38 000 000 00 00",
       "email": "ivan_ivanov@example.com",
-      "password" : "ivan123456",
+      "password": "ivan123456",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -641,7 +640,7 @@
       "surname": "Doe",
       "phone": "+38 000 000 00 00",
       "email": "john@example.com",
-      "password" : "john123",
+      "password": "john123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -655,7 +654,7 @@
       "surname": "Drace",
       "phone": "+38 000 000 00 00",
       "email": "alexa@example.com",
-      "password" : "alexa123",
+      "password": "alexa123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -669,7 +668,7 @@
       "surname": "Ivanov",
       "phone": "+38 000 000 00 00",
       "email": "ivaivanov@example.com",
-      "password" : "iva123",
+      "password": "iva123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -683,7 +682,7 @@
       "surname": "Doe",
       "phone": "+38 000 000 00 00",
       "email": "johnny@example.com",
-      "password" : "johnny123",
+      "password": "johnny123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",
@@ -697,7 +696,7 @@
       "surname": "Drace",
       "phone": "+38 000 000 00 00",
       "email": "alexander@example.com",
-      "password" : "alexander123",
+      "password": "alexander123",
       "country": "Ukranya",
       "city": "Dnepr",
       "address": "st. Шевченка",

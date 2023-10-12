@@ -32,11 +32,13 @@ function pageUp() {
 
 // ================================Getting Datas=====================================================================
 // ALL PRODUCTS URL
-const ALL_PRODUCTS_URL = "http://localhost:3000/products";
+// const ALL_PRODUCTS_URL = "http://localhost:3000/products";
+const ALL_PRODUCTS_URL = "https://my-json-server.typicode.com/incihuseynli/CooperData2/products";
 
 // Getting Products from JSON data
 function fetchAndDisplayProducts(productLimit) {
-  const PRODUCT_URL = `http://localhost:3000/products?_limit=${productLimit}`;
+  // const PRODUCT_URL = `http://localhost:3000/products?_limit=${productLimit}`;
+  const PRODUCT_URL = `https://my-json-server.typicode.com/incihuseynli/CooperData2/products?_limit=${productLimit}`;
 
   const container = document.querySelector(".products-container");
 
@@ -233,7 +235,8 @@ fetch(ALL_PRODUCTS_URL)
   });
 
 //  FOR REVIEWS SLIDERS
-const ALL_USERS_INFOS = "http://localhost:3000/users";
+// const ALL_USERS_INFOS = "http://localhost:3000/users";
+const ALL_USERS_INFOS = "https://my-json-server.typicode.com/incihuseynli/CooperData1/users";
 const reviewSlider = document.querySelectorAll(".reviews");
 
 fetch(ALL_USERS_INFOS)

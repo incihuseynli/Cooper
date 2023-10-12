@@ -1,15 +1,18 @@
 async function displayNewsDetails() {
-    const NEWS_URL = new URLSearchParams(document.location.search);
-    let id = NEWS_URL.get("id");
-  
-    let res = await fetch(`http://localhost:3000/news/${id}`);
-    let newsPost = await res.json();
-  console.log(newsPost);
-    const newsPosts = document.querySelector(".news-post");
-    const headingPost = document.querySelector('.heading.post');
-    const newsPostTitle = document.querySelector(".newsPostTitle");
-    newsPostTitle.innerHTML= `<a>${newsPost.title}</a>`;
-    headingPost.innerHTML = `
+  const NEWS_URL = new URLSearchParams(document.location.search);
+  let id = NEWS_URL.get("id");
+
+  // let res = await fetch(`http://localhost:3000/news/${id}`);
+  let res = await fetch(
+    `https://my-json-server.typicode.com/incihuseynli/CooperData3/news/${id}`
+  );
+  let newsPost = await res.json();
+  // console.log(newsPost);
+  const newsPosts = document.querySelector(".news-post");
+  const headingPost = document.querySelector(".heading.post");
+  const newsPostTitle = document.querySelector(".newsPostTitle");
+  newsPostTitle.innerHTML = `<a>${newsPost.title}</a>`;
+  headingPost.innerHTML = `
     <h1 class="title">${newsPost.title}</h1>
         <div class="share">
           <h4>Paylaşın</h4>
@@ -20,7 +23,7 @@ async function displayNewsDetails() {
           </div>
         </div>
     `;
-    newsPosts.innerHTML = `
+  newsPosts.innerHTML = `
     <div class="post">
     <div class="news-card">
       <div class="card-image">
@@ -103,4 +106,5 @@ async function displayNewsDetails() {
     </div>
   </div>
     `;
-  }displayNewsDetails();
+}
+displayNewsDetails();
