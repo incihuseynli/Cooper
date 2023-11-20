@@ -4,7 +4,7 @@ async function displayNewsDetails() {
 
   // let res = await fetch(`http://localhost:3000/news/${id}`);
   let res = await fetch(
-    `https://my-json-server.typicode.com/incihuseynli/CooperData3/news/${id}`
+    `https://my-json-server.typicode.com/dbStoreForProjects/CooperData3/news/${id}`
   );
   let newsPost = await res.json();
   // console.log(newsPost);

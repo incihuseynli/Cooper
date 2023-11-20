@@ -7,7 +7,7 @@ let limitNewsPosts = 4;
 // Getting DATAS from db.json
 
 // const ALL_NEWS_URL = "http://localhost:3000/news";
-const ALL_NEWS_URL = "https://my-json-server.typicode.com/incihuseynli/CooperData3/news";
+const ALL_NEWS_URL = "https://my-json-server.typicode.com/dbStoreForProjects/CooperData3/news";
 
 const newsContainer = document.querySelector(".news");
 
@@ -49,4 +49,3 @@ fetch(ALL_NEWS_URL)
     });
   });
 
-console.log();

@@ -758,6 +758,10 @@ section {
   color: var(--secondary-gray);
   background: var(--white-clr);
   cursor: pointer;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
 }
 .page-numbers .active {
   background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
@@ -1024,4 +1028,10 @@ section {
   background: none;
   color: var(--primary-green);
   padding: 0;
+}
+
+
+
+.showMenu {
+  transform: translateY(0);
 }

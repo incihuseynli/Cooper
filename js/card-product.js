@@ -2,8 +2,8 @@ async function displayProductDetails() {
   const url = new URLSearchParams(document.location.search);
   let id = url.get("id");
 
-  // let res = await fetch(`http://localhost:3000/products/${id}`);
-  let res = await fetch(`https://my-json-server.typicode.com/incihuseynli/CooperData2/products/${id}`);
+  let res = await fetch(`
+  https://my-json-server.typicode.com/dbStoreForProjects/CooperData2/products/${id}`);
   let product = await res.json();
   // console.log(product);
   const productName = document.querySelector(".product-name");
